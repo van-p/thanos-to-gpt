@@ -1,0 +1,37 @@
+[
+  {
+    "uuid": "98f92c0d-ac9f-4d0e-a698-19c1aa3007d0",
+    "type": "charge",
+    "currency": {
+      "code": "SGD",
+      "name": "Singapore Dollar",
+      "symbol": "S$",
+      "is_active": true,
+      "fx_enabled": true,
+      "mca_enabled": true,
+      "advance_enabled": true,
+      "decimals": 2
+    },
+    "balance": 9999900,
+    "authorizations": {
+      "setup_advance_autopay": false,
+      "view": true,
+      "update": true,
+      "send_money": true,
+      "submit_transfer": false,
+      "create_fx_transfer": false,
+      "create_mca_transfer": true,
+      "create_mca_fx_transfer": false,
+      "create_debit_scheduled_payment": false,
+      "create_referral_conversion": false,
+      "create_budget": true,
+      "create_debit_card": true,
+      "request_debit_card": false,
+      "create_physical_debit_card": true,
+      "create_blue_physical_debit_card": true,
+      "create_business_partner": true,
+      "update_business_partner": true,
+      "delete_business_partner": true
+    }
+  }
+]

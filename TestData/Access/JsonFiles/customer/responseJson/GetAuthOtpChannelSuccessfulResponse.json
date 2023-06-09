@@ -1,0 +1,10 @@
+{
+  "otp_channel": {
+    "uuid": "97331ef6-33c0-49db-b0e7-edc662fe43b9",
+    "key": "email",
+    "name": "Email",
+    "details": [],
+    "position": 1,
+    "children": null
+  }
+}

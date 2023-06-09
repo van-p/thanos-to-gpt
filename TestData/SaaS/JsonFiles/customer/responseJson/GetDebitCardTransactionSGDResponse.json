@@ -1,0 +1,71 @@
+{
+  "uuid": "994bf795-3719-4dc4-a45f-bdb1c3916a5b",
+  "type": "debit",
+  "note": null,
+  "currency_code": "SGD",
+  "amount": -401,
+  "code": "45NDMBFUCVMT",
+  "description": "Upwork GaafVLLqfgkAUZDswJrm",
+  "fee_amount": 0,
+  "bank_type": "bank",
+  "is_fx_transfer_transaction": false,
+  "counterparty_name": "Upwork GaafVLLqfgkAUZDswJrm",
+  "counterparty_number": "479631000200812",
+  "counterparty_code": "479631000200812",
+  "counterparty_bank_code": "99999999",
+  "bank": null,
+  "is_debit_card_transaction": true,
+  "last_receipt_reminder_sent_at": null,
+  "last_receipt_reminder_type": null,
+  "files": [],
+  "person": {
+    "uuid": "993a07c6-acd0-4294-b78b-afbc75e3fc59",
+    "full_name": "Saas Automation Admin"
+  },
+  "debit_account": {
+    "uuid": "993a07cd-d478-45ab-a0ae-ed51fd5e0cb3",
+    "type": "current",
+    "currency_code": "SGD"
+  },
+  "debit_card": null,
+  "fx_transfer": null,
+  "category": null,
+  "debit_card_transaction": {
+    "from_currency": "SGD",
+    "to_currency": "SGD",
+    "fees": [],
+    "provider_transaction_amount": 500,
+    "debit_card": {
+      "uuid": "994bf78f-db57-4d50-bfa8-68e1408c8152",
+      "card_name": "Card Mo0 HTa rEQ k",
+      "last_digit": "5086",
+      "description": "Description mHB J6M fBY h",
+      "expects_receipt": false,
+      "holder_name": "Saas Automation Admin",
+      "person": {
+        "uuid": "993a07c6-acd0-4294-b78b-afbc75e3fc59"
+      },
+      "provider": "nium"
+    },
+    "origin_debit_card_transaction": null,
+    "reversal_debit_card_transaction": null
+  },
+  "provider_transaction": {
+    "created_at": "2023-05-31 14:45:53",
+    "state_code": "PTPN",
+    "details": [],
+    "state_logs": []
+  },
+  "expected_date": "2023-06-02",
+  "quarantined_transaction": null,
+  "swift_receipt": {
+    "path": "",
+    "available_at": "",
+    "is_available": false,
+    "message": "Invalid swift transaction."
+  },
+  "internal_notes": "",
+  "authorizations": {
+    "send_receipt_reminder": false
+  }
+}

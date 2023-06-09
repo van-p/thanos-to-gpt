@@ -1,0 +1,63 @@
+{
+  "token_type": "Bearer",
+  "expires_in": 7199,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiNDU1NTBiMGQzOThmZjc5YmFkZDE3NzNhNWNkYzc3MTM5NzZhNzllZDAyYTUyM2Q4YjdiNzQyODBiMDczNTY1YzI0MDMxYTkwMDY5ZGZmZDAiLCJpYXQiOjE2ODQxMjEyNzUuMDQzMjk1LCJuYmYiOjE2ODQxMjEyNzUuMDQzMywiZXhwIjoxNjg0MTI4NDc0Ljc4NjEzMSwic3ViIjoiODk4NSIsInNjb3BlcyI6W119.BoTyaha-GCWTyuDmaMPfECKfJPXC49GPi7TeKDqqpZjmuHOebmwriBqYRgV83O8vbSrOKwAlvLeyQuyqwjJzYwnkXj_4xonwqUw65MFvuZOpLPiaNAzS-K8wdbOPdnr_TahnluC1lvDp5asIbZQCZZLcTDVE9s8EzvQVjnfqlapX47Bjo22EoHqjtQnlTQLKyrrl-Z3E_PUIsEbIqij-wI6oTX5i9nVRfeekI257qt2B6zNzLtc1-FPMTwcIB8fZry4NPL0UV-Z2Y70q4nk5VOZ3HySn3qfTxXu-LBM1SfwD6kpzmAOnb5hGtte_7AtFhxWx0ClNRO8gAOUW5-a6_q0-D1xhQ-Bw5y_7O1GqG26bJHdW-N1EWgQKmNoaQYR-5oEysNynTFweKLgGKcKLZHnyVD3ciNQSslJhVdRharQXXZmpPEFr2CzdM9Wg4O2jxv61h8A5ld2SFZWTfXiAjy-WJcrLweB8bHunKz5HxKbq8ildXjfsKJNMB3DmEyKwjPekXDzc5GvpSC6tWrFvOeJP1ju1o2nkuGwtPY3p1R0tjGs92OE7_7R9BLpJDHZr39R1UpakgSUmiLXT4pLSvl03KDSqCbWFCblB_QRCzGI4abidAxSuZZMu6yf5b2CY5TodcUNSVGikhmqh6wpC1ilT_OaF_eQwBooN7ZvHzQg",
+  "refresh_token": "def50200343675480b04e16186857e2d5e5a0f4c8d993ad679fce4b4bae283f93c618550595166d6e26fde9faf68a46fdb1d2d24b9c255ad7843bee7e58da85fa3fc8b98124130c165e6524029d652e7adb193c128ace2b7fbbd824b62c01b12b66988d9929784710acf13d5bab81c5b36433ecfc5706f6de5f29c01b98bab5469023b671e7c30cf1aa6093354bf735f894ba3945778086f3abacff0db8d2a4645c4e2be9efbad2f52a2c912827eb25520176bf674a86f0b5d64da6ccffdb1aadecfd7e7108c7736a5ce40ea0a31cc5b0757c4c8a580bbb792294cb40d7d4353d0be7a8e2ea72326fa031c537992a557683bc8b8748caeb2b9645978b5f34f6d44f5d25e6b2059f2e331fbff23f2dc3025a722e1754e27f47eca7294d6647924b2e6b9bb14c280a6ce2d184218d4440e4ec3e82a337913dcc28cbde4596d7fa5070d960beccd7d5f7ef92de4bd57ad6432fe5cf13b60ae6d1df65a9679196ec7f615ad39",
+  "unique_device_id": "JLLgk3ERHjIATF40LItJcu7pO9Aeq4EC",
+  "person": {
+    "uuid": "99298328-1096-4b80-b66e-c72a929b21ad",
+    "full_name": "User To Test Missing File - Dont Update",
+    "state_code": "PEPE",
+    "reference_code": "TESMSS",
+    "customer_type": "director",
+    "has_pending_invitations": false,
+    "primary_email": {
+      "email": "test_missingfile@asp.com"
+    },
+    "primary_phone": {
+      "phone": "+6551255655"
+    },
+    "state": {
+      "reference_code": "PEPE",
+      "state": "pending"
+    },
+    "eligibility": {
+      "authorizations": {
+        "update_missing_info": true
+      }
+    },
+    "authorizations": {
+      "register_business": true
+    }
+  },
+  "business": {
+    "uuid": "99298365-f9eb-4b9d-bd7e-75db5ac20d09",
+    "name": "Biz to test Missing File - Dont update",
+    "reference_code": "SGTEM9",
+    "role": "Director",
+    "role_slug": "customers.director",
+    "state": {
+      "reference_code": "BUPE",
+      "state": "pending"
+    },
+    "application": {
+      "reference_code": "CNSING"
+    },
+    "debit_account": null,
+    "charge_account": null,
+    "eligibility": {
+      "authorizations": {
+        "update_missing_info": true
+      }
+    }
+  },
+  "ui_elements": {
+    "dashboard_sections": {
+      "debit_account_balance": true
+    },
+    "introduction_screens": {
+      "account_overview": true,
+      "home_page_introduction": false
+    }
+  }
+}

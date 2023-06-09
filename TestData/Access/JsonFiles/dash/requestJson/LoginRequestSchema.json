@@ -1,0 +1,4 @@
+{
+  "email": "{$dashUsername}",
+  "password": "{$dashPassword}"
+}

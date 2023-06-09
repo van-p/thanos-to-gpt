@@ -1,0 +1,77 @@
+{
+  "uuid": "9915860d-3c45-4122-b4cf-c397716b4270",
+  "npwp": null,
+  "nric": "1683177223177",
+  "full_name": "Automation People 1683177223177",
+  "mother_name": null,
+  "id_document_expiry_date": null,
+  "id_document_type": null,
+  "preferred_name": null,
+  "spouse_name": null,
+  "salutation": "",
+  "reference_code": "AUTPEK",
+  "requirements": {
+    "identity_documents": false,
+    "selfie": false,
+    "nric": true,
+    "date_of_birth": true,
+    "gender": true,
+    "proof_of_personal_address": false
+  },
+  "oauth_attempts_left": {
+    "password": 3,
+    "pin": 3,
+    "verify-secret-answers": 3,
+    "2fa": 3
+  },
+  "date_of_birth": "2005-01-01",
+  "has_enabled_2fa": false,
+  "npwp_ownership": null,
+  "marital_status": null,
+  "otp_channel": null,
+  "state": {
+    "uuid": "9752c00d-4417-4c70-9aaf-9a2b21c01f0f",
+    "state": "draft",
+    "label": "Draft",
+    "entity": "person",
+    "is_final": null,
+    "transition": null,
+    "is_initial": 0,
+    "reference_code": "PEDF"
+  },
+  "values": [],
+  "kyc": null,
+  "purposes": [
+    {
+      "name": "Debit Card"
+    }
+  ],
+  "businesses": [],
+  "nationality": {
+    "name": "Singapore"
+  },
+  "additional_roles": [],
+  "country_of_birth": null,
+  "language": "en",
+  "onboarding_source": null,
+  "replicable_file_collections": [
+    "admin-person",
+    "cbs-report",
+    "identity-documents",
+    "selfies",
+    "selfie-with-ktp",
+    "proof-of-address",
+    "proof-of-edd",
+    "maker-checker"
+  ],
+  "onboarded_by_affiliate_partner_admin_reason_visible": false,
+  "authorizations": {
+    "view": true,
+    "update": true,
+    "delete": true,
+    "create_referral_conversion": true,
+    "create_budget": false
+  },
+  "is_password_resettable": false,
+  "password_setup_link": "https:\/\/example.example.com\/passwords?password_setup=9915860e-d306-4b66-a93d-a84e5857225a&signature=17c67ce8b452dfe79af5c84ea7a3b91f7519744eb2b19fcc6cd798a7e8b99db1"
+}

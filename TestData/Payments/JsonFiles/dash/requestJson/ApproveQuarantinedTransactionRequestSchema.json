@@ -1,0 +1,13 @@
+{
+  "note": "approved",
+  "counterparty_relation": "94cb928d-77ef-449d-a44b-ac20e306d57d",
+  "counterparty_relation_other": null,
+  "purpose": "94cb928d-88c0-4680-ac66-f037c5c38635",
+  "purpose_other": null,
+  "info_sources": [
+    "959c224a-8281-4f15-b022-0d4864a65126"
+  ],
+  "details": {
+    "rule_violated": false
+  }
+}

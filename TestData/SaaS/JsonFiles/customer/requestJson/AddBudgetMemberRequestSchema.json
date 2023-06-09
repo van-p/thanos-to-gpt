@@ -1,0 +1,10 @@
+{
+  "accesses": [
+    {
+      "source_uuid": "{$newBudgetMemberUuid}",
+      "inviter_uuid": "{$inviterId}",
+      "type": "member",
+      "can_transfer": {$newMemberCanTransfer}
+    }
+  ]
+}

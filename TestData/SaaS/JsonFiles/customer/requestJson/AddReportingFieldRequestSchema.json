@@ -1,0 +1,9 @@
+{
+  "uuid": "",
+  "name": "{$reportingFieldName}",
+  "icon": "default",
+  "description": "Test 1 ",
+  "field_type": "text",
+  "options": [],
+  "type": "custom"
+}

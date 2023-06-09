@@ -1,0 +1,67 @@
+{
+  "grant_type": "2fa",
+  "client_id": "{$apiClientId}",
+  "client_secret": "{$apiClientSecret}",
+  "username": "{$username}",
+  "password": "{$password}",
+  "token": "1234",
+  "unique_device_id": null,
+  "_businesses_fields": [
+    "uuid",
+    "name",
+    "state",
+    "role",
+    "role_slug",
+    "reference_code",
+    "eligibility.authorizations.update_missing_info",
+    "application.reference_code",
+    "debit_account.uuid",
+    "charge_account.uuid"
+  ],
+  "_business_fields": [
+    "uuid",
+    "name",
+    "state",
+    "role",
+    "role_slug",
+    "reference_code",
+    "eligibility.authorizations.update_missing_info",
+    "application.reference_code",
+    "debit_account.uuid",
+    "charge_account.uuid"
+  ],
+  "_person_fields": [
+    "uuid",
+    "full_name",
+    "state",
+    "gender",
+    "customer_type",
+    "authorizations.register_business",
+    "state_code",
+    "has_pending_invitations",
+    "eligibility.authorizations.update_missing_info",
+    "reference_code",
+    "primary_email.email",
+    "primary_phone.phone"
+  ],
+  "_access_invitation_fields": [
+    "uuid"
+  ],
+  "_pending_approval_invitations_fields": [
+    "uuid",
+    "state_code",
+    "business.uuid",
+    "business.name",
+    "business.state",
+    "business.role",
+    "business.role_slug",
+    "business.reference_code",
+    "business.eligibility.authorizations.update_missing_info",
+    "business.application.reference_code"
+  ],
+  "_ui_elements_fields": [
+    "introduction_screens.account_overview",
+    "introduction_screens.home_page_introduction",
+    "dashboard_sections.debit_account_balance"
+  ]
+}

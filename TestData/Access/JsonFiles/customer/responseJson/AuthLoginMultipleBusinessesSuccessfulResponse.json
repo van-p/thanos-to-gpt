@@ -1,0 +1,78 @@
+{
+  "token_type": "Bearer",
+  "expires_in": 7200,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiOGVkYjU4MTFlOTRlNDkxOGYxYWU3NzUxOGRhNmEzMTczZTAwNjc0YzM4MDMyMGRlMTY5NmE4ZWRkZmMzOTlkMWVlN2RiYTA5ODc4NDY4ZTgiLCJpYXQiOjE2ODQ0MDUxNzUuMzE4ODI1LCJuYmYiOjE2ODQ0MDUxNzUuMzE4ODI4LCJleHAiOjE2ODQ0MTIzNzUuMTg3NjY4LCJzdWIiOiI5MTYwIiwic2NvcGVzIjpbXX0.MTmB2XmrwmmSu6IuWXDXLEdIkE_c7o5AnMUqA67c0sNf8oGWkuetZcZlKnrp1eHrSJNIUc4oofppoWbcJg4dLSSKb3sd6NWFLdoVfaabt2Xm_Kum-iwjy1vUB3Sa1TJRiXzUvEfJ0oFOP5boTIAynKzgVj764wwsTvscSkNl9k7iB9ElHTHJzwBHYV9CVhSlYziZ-iIXaf7ySRiDLhVTgkCkxhRHlDZrQcUUQA7JJB0wM8u6jxHga3bVoWOJpNtk0JXGM_Agtab93_S1xx8jtlF-ge1wtFSKXZNtdPO3bpa4wM7Fo4jya55t95LBMh1scEsRzAhEXcBqkvpj0XZch3qmA7uv9BwyuIL0FRclclga4HO7Z8XSgXf4ZYwu0tUPohSMx-0HGso_jxahDWE6WoHcONvUm0vffRXaXOYkZjbsPITv9RKy7q4bIYDxBVDn_Y4Ldvu0mczfzm_7aJW52olZtib-UBa5PLvLBGqht-cZzNyevCjuU8XUULflxixTgPZsPj4Q9Vhj6P6eStB_B504jfxQ6HF28q4ddsB97eOS3qqOqJYCo7DwIQgD-yub1K3DCxYbiXmS3oPSBnI4tDDlzVlE9bTOXKF4NVJ8s523kRJWiedB5Ayhz2w7788hv7b_8atHeSIeCd6kC7oMekovgkd8E65y8_fMFG08NBA",
+  "refresh_token": "def50200e2a755010a5dba8415a280bc1f5bd62c4d52be3ffc4379160a49141b0b82c25bcacff90fa12b193f2bb869d10e028a76affb8aa2eae4a7dbdc992a6ba4a3a331928dcf5ba737e6e58ead190dd37772571ba0f24f6bdbb2e3f75cc45b057ea08cdff26e41d4ac731128bbb814b2cf1bf4001e9939bac899ac279f24f8663617e8466c13e398c380029e006eb32904be5632a176f8ea2e4cd5cc17313b353754ce33086d2691ffd7b571841b15f365ed592c953798287923ed59f6c400342df43bffa0a89fb2ff65566cb0c4d9c340ce136a203b97952da80021a8ab3fb9d7534cd9ff625c5454d8f24b8b824e5c0aaa773ca3bee2453d55e6776ee9e1b84f02fac91e68a59bd4039737b07f37d004286ddf2654672c76d90e0032ffd9351f89f2ce707a45d0badbc30501504cf76f90f435e650d0f31fe98b434bdd6d43df0b1f3f4480dd98ed77bf007c77e58a71ab9e614171c2dac8ac9eac56a2b935806a7d",
+  "unique_device_id": "sqasHwF4lNfx7nquhySnvNf8U9tokFkk",
+  "person": {
+    "uuid": "992be21e-d16d-4fef-b4df-cdefed26f1d5",
+    "gender": "Female",
+    "full_name": "User Test Multiple Businesses - Dont Update",
+    "state_code": "PENE",
+    "reference_code": "KAEWZA",
+    "has_pending_invitations": false,
+    "primary_email": {
+      "email": "test_multiplebusinesses@asp.com"
+    },
+    "state": {
+      "reference_code": "PENE",
+      "state": "new"
+    },
+    "authorizations": {
+      "register_business": true
+    }
+  },
+  "businesses": [
+    {
+      "uuid": "99255fe9-82b0-4175-8568-51e87dd48da0",
+      "name": "Automation Business - Dont Update",
+      "reference_code": "SGTERY",
+      "role": "Director",
+      "role_slug": "customers.director",
+      "state": {
+        "reference_code": "BUNE",
+        "state": "new"
+      },
+      "application": {
+        "reference_code": "CNSING"
+      }
+    },
+    {
+      "uuid": "9921d484-5dd1-423f-8382-fca000fd7294",
+      "name": "Automation Business - Dont update",
+      "reference_code": "SGTESD",
+      "role": "Finance transfer only",
+      "role_slug": "customers.finance.transfer-only",
+      "state": {
+        "reference_code": "BUVE",
+        "state": "verified"
+      },
+      "application": {
+        "reference_code": "CNSING"
+      },
+      "debit_account": {
+        "uuid": "99319725-a524-4f6d-a2a1-ef0e0ff7a384"
+      },
+      "eligibility": {
+        "authorizations": {
+          "update_missing_info": false
+        }
+      }
+    },
+    {
+      "uuid": "99201911-71cd-4d8b-a3ac-f0a829462e9f",
+      "name": "Automation business - Dont update",
+      "reference_code": "SGTEBJ",
+      "role": "Director",
+      "role_slug": "customers.director",
+      "state": {
+        "reference_code": "BUNE",
+        "state": "new"
+      },
+      "application": {
+        "reference_code": "CNSING"
+      }
+    }
+  ],
+  "pending_approval_invitations": []
+}

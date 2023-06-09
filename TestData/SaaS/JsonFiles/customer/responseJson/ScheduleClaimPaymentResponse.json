@@ -1,0 +1,84 @@
+{
+  "uuid": "993cc49c-955b-4fb9-9745-68e7e10a2b21",
+  "person": {
+    "uuid": "98af0590-e41a-4c55-a005-d4962ff99062",
+    "reference_code": "ADM9VW",
+    "salutation": "Dr.",
+    "full_name": "Admin",
+    "nric": "1499282919",
+    "npwp": null,
+    "date_of_birth": "2001-04-30",
+    "gender": "Male",
+    "education": "High School",
+    "occupation": null,
+    "nationality": "SG",
+    "mother_name": null,
+    "spouse_name": null,
+    "accountants": null,
+    "authorizations": {
+      "create_debit_card": false
+    }
+  },
+  "business_partner": null,
+  "category": {
+    "name": "Entertainment",
+    "icon": "entertainment"
+  },
+  "amount": 38852,
+  "currency_code": "SGD",
+  "state": {
+    "reference_code": "DPAC",
+    "state": "active"
+  },
+  "frequency": "day",
+  "description": "Claim no. 279",
+  "internal_notes": "qqeqweqwweqwe",
+  "request_date": "2023-05-24",
+  "next_payment_date": "2023-05-27",
+  "created_at": "2023-05-24 01:25:56",
+  "paused_at": null,
+  "transactions_count": 0,
+  "is_send_notification_to_email": false,
+  "is_send_notification_to_phone": false,
+  "counterparty_email": null,
+  "counterparty_phone": null,
+  "counterparty_name": "Test",
+  "counterparty_code": "342124123211",
+  "counterparty_bank_code": "SCBLSG22XXX",
+  "counterparty_bank": {
+    "uuid": "98bf6dc1-47e2-42f1-a665-d826d4c0b54a",
+    "country": "SG",
+    "name": "ANI - animi odit animi",
+    "transfer_bank_code": "SCBLSG22XXX",
+    "processing_window_from": null,
+    "processing_window_to": null,
+    "high_value_mode": "allowed",
+    "high_value_threshold": null,
+    "currency_code": "SGD",
+    "external_services": [
+      "atque"
+    ],
+    "swift_code": "SCBLSG22XXX",
+    "is_common": false,
+    "type": "bank",
+    "acronym": "ANI",
+    "bank_code": "3810",
+    "iluma_bank_code": null,
+    "xendit_bank_code": null,
+    "salt_edge_bank_code": null,
+    "website_url": "http:\/\/damore.org\/tempora-inventore-aut-quisquam-corporis-repellendus-accusamus.html",
+    "android_url": "http:\/\/www.gusikowski.com\/inventore-ea-blanditiis-reprehenderit-voluptas.html",
+    "ios_url": "http:\/\/www.gulgowski.org\/ut-quo-occaecati-placeat-odio-nihil-quisquam",
+    "created_at": "2023-03-22T10:04:15.000000Z",
+    "updated_at": "2023-03-22T10:04:15.000000Z"
+  },
+  "transaction_events": [],
+  "pending_action": null,
+  "authorizations": {
+    "update": true,
+    "stop": true,
+    "resume": false,
+    "pause": true
+  },
+  "type": 0
+}

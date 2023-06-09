@@ -1,0 +1,13 @@
+sr.No,recipientUuid,recipientName,recipientCurrencyCode,recipientBankCode,recipientAccountNumber,recipientBankName,defaultAccountHolderName
+1,98ed958c-ad08-4536-bb43-19b88f2d8371,fx no doc,THB,,21321324
+2,9923a746-a0fe-40a9-9f3e-bb4b1b24831d,ufc no first,USD,026009593,121213
+3,98f9351f-33b7-4faf-acbd-29ec3d6ef853,Thanos Test recipient SGD,SGD,DBSSSGSGXXX,12345678
+4,99099e07-8f08-4b7f-9874-b2d15f391daf,SGD Local,SGD,CITISGSLXXX,34567654
+5,,Delete Recipient,SGD,CITISGSLXXX,12345678,CitiBank Singapore Limited (CSL)
+6,99480198-bead-4997-851a-49b18dbf0a92,USD EUR,EUR,ARMIAM22XXX,,ARMIAM22XXX
+7,,{randomString:5},IDR,014,8760673566,BANK CENTRAL ASIA,Test Account
+8,,nga only 1,IDR,014,8760673566,BANK CENTRAL ASIA,Test Account
+9,994a49a9-e883-45d8-980b-cfefe66e9194,Truyen Eur,EUR,DE58500105174743189541,,Truyen Eur
+10,994a384a-92cb-4143-9ae8-0a1b7a6afd40,ufc no first,USD,026009593,121213
+11,99483fed-9565-4efc-a6ee-19e76aa84dd0,Thanos Recipient SGD,SGD,DBSSSGSGXXX,1234567
+12,99501d59-26c7-4f93-a5c9-d8be17328670,Test Account IDR,IDR,014,8760673566,BANK CENTRAL ASIA

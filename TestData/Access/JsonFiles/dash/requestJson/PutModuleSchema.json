@@ -1,0 +1,12 @@
+{
+  "name": "{$name}",
+  "description": "Module description",
+  "country_uuids": ["{$countryUuids}"],
+  "key": "{$key}",
+  "is_add_on": true,
+  "plan_uuids": ["{$planUuids}"],
+  "price": "{$price}",
+  "currency_code":"{$currencyCode}",
+  "is_public": true,
+  "billing_frequency": "{$addOnBillingFrequency}"
+}

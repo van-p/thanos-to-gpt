@@ -1,0 +1,9 @@
+{
+  "uuid": "9939c600-cc16-4f4f-a625-7e91701019f2",
+  "phone": "+6567788777",
+  "state": "PHNE",
+  "is_primary": false,
+  "authorizations": {
+    "update": true
+  }
+}

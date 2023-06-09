@@ -1,0 +1,4 @@
+sr.No,invoiceItemDescription,invoiceItemUnitCost,invoiceItemQuantity,invoiceItemDiscountType,invoiceItemDiscountPercentage,invoiceItemTaxRate,invoiceItemTaxName,invoiceItemDiscountValue
+1,{randomAlphaNum:8},100,2,percentage,0.1,1,{randomAlphaNum:8},
+2,{randomAlphaNum:8},200,1,percentage,0.2,0.1,{randomAlphaNum:8},
+3,{randomAlphaNum:8},10,1,,,,,10

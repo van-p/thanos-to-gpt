@@ -1,0 +1,7 @@
+{
+  "password": "{$password}",
+  "grant_type": "pin",
+  "client_secret": "T2lElBx9nNaHYzJVkNgt7rC6aqrUUVVPTj8dBT59",
+  "client_id": "3",
+  "username": "{$username}"
+}

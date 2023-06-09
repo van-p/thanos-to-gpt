@@ -1,0 +1,11 @@
+{
+  "type": "transfer",
+  "details": {
+    "reference": null,
+    "transfer_purpose": "SMALL_VALUE_REMITTANCE"
+  },
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "target_currency_code": "{$recipientCurrencyCode}",
+  "fx_quote_uuid": "{$fxQuoteUuid}"
+}

@@ -1,0 +1,14 @@
+{
+  "subscription": {
+    "uuid": "98ddbef9-93fe-40e1-bb2f-782724ad5822",
+    "is_active": true
+  },
+  "plan": {
+    "uuid": "96b1df93-f7bf-429d-9146-db850d5fc272",
+    "key": "standard"
+  },
+  "user_cost": 1000,
+  "number_of_users_included": 5,
+  "number_of_active_users": 1,
+  "number_of_addition_users": 0
+}

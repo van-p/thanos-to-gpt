@@ -1,0 +1,17 @@
+{
+  "name": "{$budgetName}",
+  "description": "{$budgetDescription}",
+  "amount": {$amount},
+  "wants_limit_alert_notification": false,
+  "icon": "{$icon}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "frequency": "{$frequency}",
+  "accesses": [
+    {
+      "source_uuid": "{$inviteeId}",
+      "inviter_uuid": "{$inviterId}",
+      "type": "owner",
+      "can_transfer": false
+    }
+  ]
+}

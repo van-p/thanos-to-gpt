@@ -1,0 +1,471 @@
+{
+  "data": [
+    {
+      "uuid": "99075533-6366-4d14-bcae-fe780c7d76b3",
+      "currency_code": "IDR",
+      "display_currency_code": "IDR",
+      "bank_code": "113",
+      "bank_account_number": "8760673566",
+      "bank_account_type": "regular",
+      "international_bank_account_number": "8760673566",
+      "account_holder_name": "Other IDR Recipient",
+      "name": "Other IDR Recipient",
+      "type": "deprecated",
+      "types": [
+        "local"
+      ],
+      "transferred_at": "2023-05-04 12:12:21",
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "113",
+          "bank_account_number": "8760673566",
+          "reference_code": "8760673566",
+          "bank_account_type": "regular",
+          "international_bank_account_number": "8760673566",
+          "account_holder_name": "Other IDR Recipient",
+          "reference_name": "Other IDR Recipient",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 1000000
+      },
+      "display_currency": {
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "symbol": "Rp",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": true,
+        "nium_enabled": false,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 1000000,
+        "decimals": 0
+      },
+      "beneficiary_debit_account": {
+        "uuid": "9905a5d2-e13d-46d9-92a3-ace0029f0709",
+        "currency_code": "IDR",
+        "label": "IDR account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 2,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 0,
+        "transaction_fee_amount": 0,
+        "balance": 8999997999200,
+        "bank_code": "016",
+        "bank_account_number": "7828-7000-0001-9849",
+        "bank_account_holder_name": "Test Automation",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-06-01 00:00:00",
+        "total_non_credit_tx_number": 7,
+        "total_non_credit_tx_volume": 1071988,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "990f84c9-9dd1-46de-8cd8-f767bce7d8be",
+          "code": "FMPKZPZCCTP9",
+          "type": "credit",
+          "amount": 12811,
+          "presented_amount": "IDR 128",
+          "created_at": "2023-05-01 13:35:13",
+          "currency": "IDR",
+          "description": "Rollback of transaction UE4DRQLYMKQZ",
+          "counter_party_name": "IDR Test Account",
+          "counter_party_code": "8760673566",
+          "counter_party_bank_code": "013",
+          "transaction_date": "2023-05-01",
+          "transaction_time": "13:35:13",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "9905a5b7-cc2b-4ab2-8fe9-7f9d2bd5bd31",
+          "referral_code": "DA5FDKSP",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 8999997999200
+        },
+        "blue_card_issuance_fee": 0,
+        "has_enough_balance_to_issue_blue_card": true,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": false,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": true,
+          "request_debit_card": false,
+          "create_physical_debit_card": true,
+          "create_blue_physical_debit_card": true,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "9905a5d2-e13d-46d9-92a3-ace0029f0709": {
+          "provider_recipient_uuid": "99075533-59dc-46ac-b426-945f88106aaa",
+          "payment_type": "regular",
+          "is_swift_recipient": false,
+          "service": "local",
+          "can_transfer": true
+        },
+        "9905a604-3984-42a0-b925-c3790abfa2d5": {
+          "service": "mca",
+          "can_transfer": true
+        },
+        "9905a606-4abf-4f3d-bd82-342048d92af7": {
+          "service": "fx",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "9905a5d2-e13d-46d9-92a3-ace0029f0709"
+    },
+    {
+      "uuid": "9905dc2a-764f-4e9e-b71b-9facde9ee473",
+      "currency_code": "IDR",
+      "display_currency_code": "IDR",
+      "bank_code": "013",
+      "bank_account_number": "8760673566",
+      "bank_account_type": "regular",
+      "international_bank_account_number": "8760673566",
+      "account_holder_name": "IDR Test Account",
+      "name": "IDR Test Account",
+      "type": "deprecated",
+      "types": [
+        "local"
+      ],
+      "transferred_at": "2023-05-01 13:35:10",
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "013",
+          "bank_account_number": "8760673566",
+          "reference_code": "8760673566",
+          "bank_account_type": "regular",
+          "international_bank_account_number": "8760673566",
+          "account_holder_name": "IDR Test Account",
+          "reference_name": "IDR Test Account",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 1000000
+      },
+      "display_currency": {
+        "code": "IDR",
+        "name": "Indonesian Rupiah",
+        "symbol": "Rp",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": true,
+        "nium_enabled": false,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 1000000,
+        "decimals": 0
+      },
+      "beneficiary_debit_account": {
+        "uuid": "9905a5d2-e13d-46d9-92a3-ace0029f0709",
+        "currency_code": "IDR",
+        "label": "IDR account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 2,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 0,
+        "transaction_fee_amount": 0,
+        "balance": 8999997999200,
+        "bank_code": "016",
+        "bank_account_number": "7828-7000-0001-9849",
+        "bank_account_holder_name": "Test Automation",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-06-01 00:00:00",
+        "total_non_credit_tx_number": 7,
+        "total_non_credit_tx_volume": 1071988,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "990f84c9-9dd1-46de-8cd8-f767bce7d8be",
+          "code": "FMPKZPZCCTP9",
+          "type": "credit",
+          "amount": 12811,
+          "presented_amount": "IDR 128",
+          "created_at": "2023-05-01 13:35:13",
+          "currency": "IDR",
+          "description": "Rollback of transaction UE4DRQLYMKQZ",
+          "counter_party_name": "IDR Test Account",
+          "counter_party_code": "8760673566",
+          "counter_party_bank_code": "013",
+          "transaction_date": "2023-05-01",
+          "transaction_time": "13:35:13",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "9905a5b7-cc2b-4ab2-8fe9-7f9d2bd5bd31",
+          "referral_code": "DA5FDKSP",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 8999997999200
+        },
+        "blue_card_issuance_fee": 0,
+        "has_enough_balance_to_issue_blue_card": true,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": false,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": true,
+          "request_debit_card": false,
+          "create_physical_debit_card": true,
+          "create_blue_physical_debit_card": true,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "9905a5d2-e13d-46d9-92a3-ace0029f0709": {
+          "provider_recipient_uuid": "9905dc2a-6ce8-44f6-8898-f60ef4d77cac",
+          "payment_type": "regular",
+          "is_swift_recipient": false,
+          "service": "local",
+          "can_transfer": true
+        },
+        "9905a604-3984-42a0-b925-c3790abfa2d5": {
+          "service": "mca",
+          "can_transfer": true
+        },
+        "9905a606-4abf-4f3d-bd82-342048d92af7": {
+          "service": "fx",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "9905a5d2-e13d-46d9-92a3-ace0029f0709"
+    },
+    {
+      "uuid": "9905ac21-57f0-49c3-bae9-48b5e6a08f11",
+      "currency_code": "USD",
+      "display_currency_code": "USD",
+      "bank_code": "ACCNNZ2B",
+      "bank_account_number": "01233555312",
+      "bank_account_type": "priority",
+      "international_bank_account_number": "01233555312",
+      "account_holder_name": "Gustave Idan",
+      "name": "Gustave Idan",
+      "type": "deprecated",
+      "types": [
+        "mca"
+      ],
+      "transferred_at": "2023-04-26 16:09:07",
+      "payment_type": "priority",
+      "our_fee_amount": 2000,
+      "swift_fee_amount": 743,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "ACCNNZ2B",
+          "bank_account_number": "01233555312",
+          "reference_code": "01233555312",
+          "bank_account_type": "priority",
+          "international_bank_account_number": "01233555312",
+          "account_holder_name": "Gustave Idan",
+          "reference_name": "Gustave Idan",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "USD",
+        "name": "United States Dollar",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 2000000
+      },
+      "display_currency": {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": false,
+        "nium_enabled": false,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 2000000,
+        "decimals": 2
+      },
+      "country": {
+        "uuid": "9470e8a1-b53b-48de-a1b9-ae8f1b190016",
+        "code": "NZ",
+        "name": "New Zealand",
+        "dial_code": "+64",
+        "is_active": false,
+        "mca_enabled": true,
+        "mca_transfer_enabled": true,
+        "is_sanctioned_risk": false
+      },
+      "beneficiary_debit_account": {
+        "uuid": "9905a604-3984-42a0-b925-c3790abfa2d5",
+        "currency_code": "USD",
+        "label": "USD account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 0,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 35,
+        "transaction_fee_amount": 0,
+        "balance": 497757,
+        "bank_code": "026073150",
+        "bank_account_number": "0332-9431-35",
+        "bank_account_holder_name": "Test Automation",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-07-01 00:00:00",
+        "total_non_credit_tx_number": 1,
+        "total_non_credit_tx_volume": 500000,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "9905ab3a-1291-4d18-9cd8-6aac3570c870",
+          "code": "ZHW7E472WS3M",
+          "type": "credit",
+          "amount": 500000,
+          "presented_amount": "USD 5,000.00",
+          "created_at": "2023-05-17 00:00:00",
+          "currency": "USD",
+          "description": "Create transaction",
+          "counter_party_name": "Spinka, Osinski and Effertz",
+          "counter_party_code": "2125731168949",
+          "counter_party_bank_code": "BOTKSGSXXXX",
+          "transaction_date": "2023-05-17",
+          "transaction_time": "00:00:00",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "9905a5b7-cc2b-4ab2-8fe9-7f9d2bd5bd31",
+          "referral_code": "DA5FDKSP",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 497757
+        },
+        "blue_card_issuance_fee": 1142,
+        "has_enough_balance_to_issue_blue_card": true,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": true,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": false,
+          "request_debit_card": false,
+          "create_physical_debit_card": false,
+          "create_blue_physical_debit_card": false,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "9905a5d2-e13d-46d9-92a3-ace0029f0709": {
+          "service": "fx",
+          "can_transfer": false
+        },
+        "9905a604-3984-42a0-b925-c3790abfa2d5": {
+          "provider_recipient_uuid": "9905ac21-4f35-4ffa-b27e-d1b2f3923565",
+          "payment_type": "priority",
+          "is_swift_recipient": true,
+          "service": "mca",
+          "can_transfer": true
+        },
+        "9905a606-4abf-4f3d-bd82-342048d92af7": {
+          "service": "fx",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "9905a604-3984-42a0-b925-c3790abfa2d5"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/counterparties?page\u003d2"
+}

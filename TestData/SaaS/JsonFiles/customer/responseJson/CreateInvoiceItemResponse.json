@@ -1,0 +1,15 @@
+{
+  "invoice": {
+    "number": "INV-191",
+    "subtotal": 0,
+    "discount": 0,
+    "tax": 0,
+    "total_amount": 0,
+    "invoice_items_count": 1
+  },
+  "currency": {
+    "decimals": 2
+  },
+  "uuid": "9921a9b4-2def-42f5-ab8e-ec5ce7edd754",
+  "amount": 0
+}

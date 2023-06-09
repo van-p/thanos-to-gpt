@@ -1,0 +1,35 @@
+{
+  "target_amount": {$targetAmount},
+  "target_currency_code": "{$currencyCode}",
+  "merchant_name": "{$merchantName}",
+  "transaction_date": "{$transactionDate}",
+  "category_name": "{$categoryName}",
+  "purpose_of_spend": "{$purposeOfSpend}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "budget_uuid": "{$budgetUuid}",
+  "selected_item": {$claimSourceOfFund},
+  "files": [
+    {
+      "uuid": "{$fileUuid}",
+      "collection": "temporary",
+      "original": "{$fileName}",
+      "mime_type": "{$mimeType}",
+      "size": "78kB",
+      "position": 9,
+      "type": null,
+      "created_at": "{$fileCreatedAt}",
+      "url": "{$fileUrl}"
+    }
+  ],
+  "_fields": [
+    "uuid",
+    "merchant_name",
+    "transaction_date",
+    "amount",
+    "currency_code",
+    "purpose_of_spend",
+    "debit_account.uuid",
+    "target_amount",
+    "target_currency_code"
+  ]
+}

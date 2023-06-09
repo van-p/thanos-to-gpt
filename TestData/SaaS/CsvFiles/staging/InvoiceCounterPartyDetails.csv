@@ -1,0 +1,5 @@
+sr.No,sourceType,sourceUuid,counterPartyType,counterPartyName,contactPersonName,counterPartyEmail,updatedCounterPartyName,updatedCounterPartyEmail
+1,business,991f5f56-4a5a-458b-bcbe-79c04968ef78,person,{randomAlphaNum:8},,{randomAlphaNum:3}.{randomAlphaNum:6}@example.com,Updated {randomAlphaNum:8},update_{randomAlphaNum:2}.{randomAlphaNum:6}@example.com
+2,business,99172934-ec1f-4d75-97d5-75a786ca0c9d,person,{randomAlphaNum:8},,{randomAlphaNum:3}.{randomAlphaNum:6}@example.com,Updated {randomAlphaNum:8},update_{randomAlphaNum:2}.{randomAlphaNum:6}@example.com
+3,business,99172997-05e4-4169-8a4a-d9f19bf52d38,person,{randomAlphaNum:8},,{randomAlphaNum:3}.{randomAlphaNum:6}@example.com,Updated {randomAlphaNum:8},update_{randomAlphaNum:2}.{randomAlphaNum:6}@example.com
+4,business,991729ed-71ee-421f-a1e9-4ee1023a9a5c,person,{randomAlphaNum:8},,{randomAlphaNum:3}.{randomAlphaNum:6}@example.com,Updated {randomAlphaNum:8},update_{randomAlphaNum:2}.{randomAlphaNum:6}@example.com

@@ -1,0 +1,148 @@
+{
+  "items": [
+    {
+      "uuid": "98d91762-ad18-41df-8ed6-fc3af9a0a476",
+      "reference_code": "ELI234P5H64NBC7T",
+      "required_fields": null,
+      "confirmed_fields": null,
+      "state_uuid": "9470e8e6-8fd1-4425-8226-9925be2100ae",
+      "process_state_uuid": "9470e900-fc6a-494e-8917-1d2182275dd8",
+      "model_name": "Person",
+      "model_table_name": "people",
+      "model_uuid": "98d91620-dfc2-424d-8bcb-799df9508565",
+      "is_approved": false,
+      "eligibility_items_count": 8,
+      "eligibility_items_validated_count": 0,
+      "eligibility_items_not_validated_count": 8,
+      "eligibility_items": [
+        {
+          "uuid": "9470e8e3-d59e-401e-93c0-58ce141fb88d",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "Onfido Biometric check is passed",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": false,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-d46b-48e4-a08a-b81adf2a3896",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "Onfido ID check is passed",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": false,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-d346-4357-a0f0-65b21b78c81f",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "Email address name and domain matches applicant name and business",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": false,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-a954-4dc8-9499-2adae4ea517e",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "05. All KYC Documents are saved into Dash (Including AML results)",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": true,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-a80e-47ac-a901-580de8926678",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "04. All docs & data of this KYC are less then 3 months old",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": true,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-a6bd-4280-8888-485e6ccbad0d",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "03. AML, PEP & Sanction List tests are passed",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": true,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-a585-408f-8e41-e19dcfa17ad1",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "02. Address in Dash matches BRI or PoA",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": true,
+          "created_at": "2021-09-20 08:30:44"
+        },
+        {
+          "uuid": "9470e8e3-a3ff-4a29-8dec-d2e5fba5357f",
+          "is_validated": false,
+          "is_auto_checked": false,
+          "name": "01. ID is valid",
+          "check_key": null,
+          "entity": "person",
+          "type": "onboarding",
+          "position": null,
+          "is_primary": true,
+          "created_at": "2021-09-20 08:30:44"
+        }
+      ],
+      "state": {
+        "uuid": "9470e8e6-8fd1-4425-8226-9925be2100ae",
+        "reference_code": "ELNS",
+        "entity": "eligibility",
+        "state": "not-started",
+        "label": "Not started",
+        "transition": null,
+        "is_initial": 1,
+        "is_final": null
+      },
+      "process_state": {
+        "uuid": "9470e900-fc6a-494e-8917-1d2182275dd8",
+        "reference_code": "ELMR",
+        "entity": "eligibility",
+        "state": "maker-requested",
+        "label": "Maker requested",
+        "transition": null,
+        "is_initial": 1,
+        "is_final": null
+      },
+      "is_escalated": false,
+      "created_at": "2023-04-04 12:14:36",
+      "authorizations": {
+        "view": true,
+        "delete": false,
+        "update": true,
+        "set_ready_to_review": false,
+        "bulk_unassign": true
+      },
+      "business_type": null
+    }
+  ],
+  "rowsCount": 3
+}

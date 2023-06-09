@@ -1,0 +1,64 @@
+{
+  "token_type": "Bearer",
+  "expires_in": 7200,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiY2RiZjNkN2VhMzI2ZTlhNzM3MzM2Njk0NzgwZGUzOWFiZWU4ODNkMThjNGM5YWU1MjFkZjIxNmE5YWZhNWU1MGRhZWMwYmMwNmMzNzNhZTAiLCJpYXQiOjE2ODA1MTAzNjkuMTAyODM0LCJuYmYiOjE2ODA1MTAzNjkuMTAyODM3LCJleHAiOjE2ODA1MTc1NjkuMDUxMDE0LCJzdWIiOiIyMzY4Iiwic2NvcGVzIjpbXX0.cNaeNJSrDLlTmW_2W1Izc5iNW3FPlpDeTNu_VXDlVR2KqZ3_-I6XucIX6wLs0U8FDBMejVgXF-r_UFdG9JO8eyC7fLQw_kGT9rkFbJag6QI9JTP9gDCwC6E0gFM7SaKuS7qmpNOT-3LkHtWfq-GVnkflkhSYL1-RQnZ4Q4im6S4qEPjdVLtA9zjzFlLGn-1kRihfPLmjDrigykCdnSbwUsmok5gz27v3-L0GQ36lFlzqXaBp9-hAX_9zZnQ6GdlsnsHYgA3LvL3PN4ySSkQ2xP2jiiH4tUkhez9EIDKsNMP_aCDc9gCoUY0CWexB1LpDAaB5BH05Gthqq3q2dPG4VNCLp_WSXZCLsszZOFdLDzFAgCas48Zok8Ghp3tajvOzepnBZ03fzjGPPzFakJ6M8yRUOR3-NEHfoIx47Ni2nfhSnWBsM4iElrDiaEJ92CaIGpirbdrbR0is4z1PXGPmHjrvnYFDXX7GBTFjwCLN6eF2diame34HI2MDfSxAshuqmKykEPNPuspqaNYlCEL6h-nVtDhbg_8H6asscmB2gw35tBrkc4h2b1JeyUfzOPkCXJtL-s7ERqILjuQYo5tb5zfWF_5AAjNuCBsLeAEUOLChsrt5OAoQGHiysdXYkwY8F0jcNxA4I1BmewKu9gQvTGi_JdnkPB-mpW6h4yH4evg",
+  "refresh_token": "def50200da2757e0ce2f60833c8300c0f7b2fa146386e25425b441366c4a4a67034f8c178900bad891581b698e94b8ca9f57cdfbe6de1c7f7cb8b12d1fc6b862fc7b56464742abda1171c807ee36eeb156e410567ef38bfc644604c74b026815dc5cc6316e80d6b74bd2b92d68f2e430c727f918b8a522d2df9ab9c848aa4062115002709a9f5d332f35315df612ef3b1f125415fe30d4a846ae71732760b6413903d70c10c66b970ba1003d677714483e690417679e34cfaa9196a23296542d9fad790559db5d5636d452c5d49e5694ae20f0425d72afee566fb5e205d18acf2e45dbf3af1d8945f290cd4aed55c89d72d26e3dc9f9718a3c3829f980cf87c4c216b2a9db003a534f0eeb028d89e2a1b0cd5a7de56d646fea9d9428870886fabbaa8b02256c08b011988bf7f186883b15af9a1121c11f8ff8737579063a9f9e164b1738921f90ac8b6e3f87dd275a5f1705272f99f7fec789f7d02a27cc88562e62d951",
+  "unique_device_id": "fEPi0YsbigRZ9KJW2er0g16A7iIP0Lcc",
+  "person": {
+    "uuid": "98d188b2-4a11-4950-b54c-bccb7b10d614",
+    "gender": "Female",
+    "full_name": "Abraham Satterfield",
+    "state_code": "PEVE",
+    "reference_code": "ABRSAT",
+    "has_pending_invitations": false,
+    "primary_email": {
+      "email": "amarimorissette_4655499@example.com"
+    },
+    "primary_phone": {
+      "phone": "+6590802676"
+    },
+    "state": {
+      "reference_code": "PEVE",
+      "state": "verified"
+    },
+    "eligibility": {
+      "authorizations": {
+        "update_missing_info": false
+      }
+    },
+    "authorizations": {
+      "register_business": true
+    }
+  },
+  "business": {
+    "uuid": "98d188b3-fe6f-4ef4-a9aa-b5a44cf36230",
+    "name": "Stanton and Sons",
+    "reference_code": "SGSTAA",
+    "role": "Director",
+    "role_slug": "customers.director",
+    "state": {
+      "reference_code": "BUVE",
+      "state": "verified"
+    },
+    "application": {
+      "reference_code": "CNSING"
+    },
+    "debit_account": {
+      "uuid": "98d188b7-fde8-4f06-b0c6-983fec722be2"
+    },
+    "eligibility": {
+      "authorizations": {
+        "update_missing_info": false
+      }
+    }
+  },
+  "ui_elements": {
+    "dashboard_sections": {
+      "debit_account_balance": true
+    },
+    "introduction_screens": {
+      "account_overview": false,
+      "home_page_introduction": false
+    }
+  }
+}

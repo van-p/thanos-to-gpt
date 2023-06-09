@@ -1,0 +1,17 @@
+{
+  "to_emails": [
+    "{$toEmails}"
+  ],
+  "bcc_emails": [
+    "{$bccEmails}"
+  ],
+  "cc_emails": [
+    "{$ccEmails}"
+  ],
+  "from_email": "collections@example.com",
+  "subject": "randomLoremSentence",
+  "message": "randomLoremSentenceMessage",
+  "source_type": "payment-link",
+  "source_uuid": "{$paymentLinkUuid}",
+  "add_email_to_counterparty": false
+}

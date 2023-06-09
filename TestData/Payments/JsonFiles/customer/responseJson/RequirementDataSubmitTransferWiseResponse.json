@@ -1,0 +1,30 @@
+{
+  "requirements": [
+    {
+      "responseSuccess": true,
+      "responseMessage": "",
+      "endpoint": "",
+      "request": [],
+      "headers": [],
+      "tab": "transfer",
+      "title": "",
+      "fields": [
+        {
+          "responseSuccess": true,
+          "responseMessage": "",
+          "endpoint": "",
+          "request": [],
+          "headers": [],
+          "name": "Transfer reference",
+          "key": "reference",
+          "fieldType": "text",
+          "refresh": false,
+          "required": false,
+          "maxLength": 10,
+          "regex": "^[a-zA-Z0-9- ]*$"
+        }
+      ],
+      "refresh": false
+    }
+  ]
+}

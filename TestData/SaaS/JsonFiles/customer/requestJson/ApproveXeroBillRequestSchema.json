@@ -1,0 +1,6 @@
+{
+  "bill_pay_submission_uuids": [
+    "{$bill_uuid}"
+  ],
+  "type": "xero"
+}

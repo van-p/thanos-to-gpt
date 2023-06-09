@@ -1,0 +1,58 @@
+[
+  {
+    "uuid": "{$uuid1}",
+    "quantity": 1,
+    "unit_price": 2000,
+    "amount": 2000,
+    "amount_tax": 0,
+    "amount_pre_tax": 2000,
+    "description": null,
+    "tax_type": {
+      "name": "Tax Exempt",
+      "tax_rate": 0,
+      "tax_type": "NONE"
+    },
+    "tracking_categories": [],
+    "mapping_account": {
+      "name": "Owner A Drawings",
+      "account_id": "1b8bc6b0-ba49-4c77-ac64-5b76798dbbfe",
+      "code": "880",
+      "label": "880 - Owner A Drawings",
+      "tax": [
+        {
+          "name": "Tax Exempt",
+          "tax_rate": 0,
+          "tax_type": "NONE"
+        }
+      ]
+    }
+  },
+  {
+    "uuid": "{$uuid2}",
+    "quantity": 1,
+    "unit_price": 3000,
+    "amount": 3000,
+    "amount_tax": 0,
+    "amount_pre_tax": 3000,
+    "description": null,
+    "tax_type": {
+      "name": "Tax Exempt",
+      "tax_rate": 0,
+      "tax_type": "NONE"
+    },
+    "tracking_categories": [],
+    "mapping_account": {
+      "name": "Owner A Drawings",
+      "account_id": "1b8bc6b0-ba49-4c77-ac64-5b76798dbbfe",
+      "code": "880",
+      "label": "880 - Owner A Drawings",
+      "tax": [
+        {
+          "name": "Tax Exempt",
+          "tax_rate": 0,
+          "tax_type": "NONE"
+        }
+      ]
+    }
+  }
+]

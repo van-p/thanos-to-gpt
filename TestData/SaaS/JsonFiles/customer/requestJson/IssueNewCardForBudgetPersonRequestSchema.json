@@ -1,0 +1,13 @@
+{
+  "budget_uuid": "{$budgetUuid}",
+  "debit_account_uuid": null,
+  "person_uuid": "{$personUuid}",
+  "maximum_amount": {$cardAmount},
+  "spend_limit_frequency": "{$cardFrequency}",
+  "category_name": null,
+  "card_color": "{$cardColor}",
+  "expects_receipt": false,
+  "card_type": "{$cardType}",
+  "card_name": "{$cardName}",
+  "description": "{$cardDescription}"
+}

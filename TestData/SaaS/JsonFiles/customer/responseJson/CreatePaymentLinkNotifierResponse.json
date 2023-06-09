@@ -1,0 +1,13 @@
+{
+  "uuid": "9905f339-aedd-46eb-825c-db49f049a5d8",
+  "from_email": "collections@example.com",
+  "to_emails": [
+    "qa.business@example.com"
+  ],
+  "cc_emails": [
+    "cc.business@example.com"
+  ],
+  "bcc_emails": ["bcc.business@example.com"],
+  "subject": "randomLoremSentence",
+  "message": "randomLoremSentenceMessage"
+}

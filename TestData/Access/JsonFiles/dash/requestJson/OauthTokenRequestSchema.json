@@ -1,0 +1,9 @@
+{
+  "grant_type": "2fa",
+  "client_id": "{$apiClientId}",
+  "client_secret": "{$apiClientSecret}",
+  "username": "{$dashUsername}",
+  "password": "{$dashPassword}",
+  "token": "{$dashToken}",
+  "dashboard": true
+}

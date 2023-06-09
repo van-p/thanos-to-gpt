@@ -1,0 +1,33 @@
+{
+  "uuid": "98f9a934-4bab-4d74-a330-2394b448b148",
+  "state_code": "PLDU",
+  "number": "PL-0077",
+  "due_date": null,
+  "payable_amount": 1000,
+  "currency_code": "SGD",
+  "description": null,
+  "internal_notes": null,
+  "status": "Due",
+  "created_at": "2023-04-20 16:48:50",
+  "counterparty": {
+    "name": "1st Customer",
+    "email": null
+  },
+  "created_person": {
+    "full_name": "Carmen Champlin"
+  },
+  "currency": {
+    "code": "SGD",
+    "decimals": 2
+  },
+  "payment_link": {
+    "uuid": "98f9a934-5636-4af3-9955-6dfab3d14ed0",
+    "reference_code": "pl\/bb35cf2",
+    "link": "https:\/\/example.link\/pl\/bb35cf2",
+    "url": "https:\/\/example.example.com\/payment-links\/98f9a934-4bab-4d74-a330-2394b448b148\/payment?signature=dc6f245d6e831da66804558858f8d5b76facc8451b5f32dd02b030e5b7f8670f",
+    "counter": 0,
+    "created_at": "2023-04-20 16:48:50",
+    "updated_at": "2023-04-20 16:48:50",
+    "parameters": []
+  }
+}

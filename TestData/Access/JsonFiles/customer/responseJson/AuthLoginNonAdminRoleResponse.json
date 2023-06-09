@@ -1,0 +1,62 @@
+{
+  "token_type": "Bearer",
+  "expires_in": 7199,
+  "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIzIiwianRpIjoiYzY1ZjMzMDk5MmEzMjU2MzhmNDAzNmMxODMwNDQxNjdmM2U2MjMzZDBlNjk1MzNkODhhMzIxMjE0NTk5OGQyZjQyMzgyNTVjOTAxZmNlYzYiLCJpYXQiOjE2ODU0NDA4MDMuMDE5NTQsIm5iZiI6MTY4NTQ0MDgwMy4wMTk1NDIsImV4cCI6MTY4NTQ0ODAwMi45NjIxOTEsInN1YiI6IjEwMjAyIiwic2NvcGVzIjpbXX0.MWDtaN2eAWanWrojMYBY0eufSmX42OPavO5VolhCQDqGy6gwEJlsbEktBuH0h0tuuwLvKkfg0Tkm17jLUMyp0kPok4ImblyQJKxuq_IsgXi3H3Pw6h5JMSh8iFEmDmKdrqal5ktFGo-LMhzVM4VslxWJ9VR-mBqBEaGk7iAJLpZb8Gjm4ISPW005-9LqjZIE9z2EzVoqSh0S6l4vUKfqscnOmjr8lYMbcd5Q3IMVFHiqJlRnn1FzV4OhCLDgFNvEroG7RNMT6bjUA7o2DZp37fDrDmcEGeX-8bSTZ73hsectcbetzILpjLqrZtgc7JaombV4FuWcHZryNR7EZ6NoN11whorB2i8e7_bRrFTpiQ-j7OJtbRAyty5NHUcxXqu1gYzEIYJcKRvECUS8zpOxhAIJ_kG9BzlKp1XR_c32QsY7H5uCBqNBeq5Hdtd_ab_P84i_C_3TiP3laMLvlPOWG02Yq0UrqUVLXJZ3jM2flzbqzqYPFfxmXBDY9-Dp7fDJdpQitZcmdoP9TEXEed46Xu070jNsyna04TsvhiWE1DBiJV-N6iKexMDLDWvkTMDH-5Dldtk5vq12M-MZeGqvuI5XcTWBYDD2a5G7jFcp2sLNgSK4fouE1wxoM5HlSRwDwa6llV8fd8jPkkp3RdeqZ30mPaKUMffLBcpEIQY_6Uc",
+  "refresh_token": "def5020016daa2239c4350af285f04d70843119c71968fbf59f11e4191bbc89d45e7ef2d7d79f4d6aab2120d1184ac776d3a6fbefbb1b26c40f7bdb5accd6c06778b094b4127e2507ca29640d360572ecf670a35e4c0fd4aa4985d4b09f5027219e133c87f2809846faa0ed67619418692dd81eb07989732f41fc09f647add28992a2b3320b6af5da6c1171eb89ae2c00cb1ceb5905ff5c010858d4c8323017a426cd6bcb8dfea47eb85300919e9954f372adeaed5ff338777727edfe0fab29ba32968980c821ecd990230a9513030777ce3b17385ebbd8979726031b419d565fda7660c3cbef1aab160ed5b98d784b0bba10ce32509c3c046d3b023bcd1da691d43e21f8c81e147df5d9695d5835b6a11fc57cdbc6020090d6ffca63d0872e06c03dcd0e3772f5f1e4ff0783f4a2bffad79a647d0c3bbb9b07456677d2b5b68fab2c86fab788cf4a9bf01a782db2e96dbfd1d570a97179aef427f0a8c33d4ab87f33c2a0b",
+  "unique_device_id": "zAf1Bs4UMVVSqWbTU4yK9b2avcN5ZCcO",
+  "person": {
+    "uuid": "9947eff7-9eaf-405c-bee3-2fc7b0275ca1",
+    "gender": "Female",
+    "full_name": "Finance Transfer Only",
+    "state_code": "PEVE",
+    "reference_code": "FNATNA",
+    "customer_type": null,
+    "has_pending_invitations": false,
+    "primary_email": {
+      "email": "finance.transfer.only_6876539@example.com"
+    },
+    "primary_phone": {
+      "phone": "+6556258153"
+    },
+    "state": {
+      "reference_code": "PEVE",
+      "state": "verified"
+    },
+    "eligibility": null,
+    "authorizations": {
+      "register_business": false
+    }
+  },
+  "business": {
+    "uuid": "9947efea-a4d2-4517-b015-5fbb1df55677",
+    "name": "Beier Group",
+    "reference_code": "SGBEGT",
+    "role": "Finance transfer only",
+    "role_slug": "customers.finance.transfer-only",
+    "state": {
+      "reference_code": "BUVE",
+      "state": "verified"
+    },
+    "application": {
+      "reference_code": "CNSING"
+    },
+    "debit_account": {
+      "uuid": "9947f108-7c5b-475d-bda6-175ccdce945d"
+    },
+    "charge_account": null,
+    "eligibility": {
+      "authorizations": {
+        "update_missing_info": false
+      }
+    }
+  },
+  "ui_elements": {
+    "dashboard_sections": {
+      "debit_account_balance": true
+    },
+    "introduction_screens": {
+      "account_overview": false,
+      "home_page_introduction": false
+    }
+  }
+}

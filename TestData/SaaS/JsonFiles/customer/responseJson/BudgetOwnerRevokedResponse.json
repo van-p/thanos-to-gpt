@@ -1,0 +1,139 @@
+[
+  {
+    "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9",
+    "state_code": "PEVE",
+    "reference_code": "CHRPAU",
+    "salutation": "Mr.",
+    "full_name": "Christop Paucek",
+    "name": "Christop Paucek",
+    "nric": "54F79EAC-4AEF-3850-9948-AA460E5A120E",
+    "npwp": "c99d94cb-4b38-3178-879e-dbd3a064f629",
+    "date_of_birth": "1982-02-10",
+    "gender": "Female",
+    "education": "Diploma",
+    "mother_name": "Dayana Thiel",
+    "available_roles": [
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 19:05:05",
+    "budget_person_updated_at": "2023-04-05 19:05:05",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": false,
+      "modify_access": false,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "create_blue_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  },
+  {
+    "uuid": "98db67d2-9944-4434-b693-73dcd767cd23",
+    "state_code": "PEVE",
+    "reference_code": "KAUMQZ",
+    "salutation": "Prof.",
+    "full_name": "Lola Kautzer",
+    "name": "Lola Kautzer",
+    "nric": "286CC16E-5EC1-3021-A875-F15F3DFBF152",
+    "npwp": "02b48958-b48c-3681-babd-17d5b5d59f36",
+    "date_of_birth": "1980-07-27",
+    "gender": "Male",
+    "education": "High School",
+    "mother_name": "Ara Howell",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "member",
+    "budget_person_can_transfer": false,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 19:05:06",
+    "budget_person_updated_at": "2023-04-05 19:05:06",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "modify_access": true,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "create_blue_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  },
+  {
+    "uuid": "98db67ca-ee7a-4687-a73a-cdbd3f082c97",
+    "state_code": "PEVE",
+    "reference_code": "SAVC37",
+    "salutation": "Ms.",
+    "full_name": "Savanna Cartwright",
+    "name": "Savanna Cartwright",
+    "nric": "4713DE87-0903-3376-BD91-8B03E8403C9F",
+    "npwp": "3cb9b5d0-df08-3678-bd1b-c34246672f1b",
+    "date_of_birth": "1973-01-14",
+    "gender": "Female",
+    "education": "Middle School",
+    "mother_name": "Nelle Hettinger",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPRE",
+      "state": "revoked"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": false,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 19:05:05",
+    "budget_person_updated_at": "2023-04-05 19:05:06",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "modify_access": true,
+      "create_debit_card": false,
+      "create_physical_debit_card": false,
+      "create_blue_physical_debit_card": false,
+      "update_budget_access": true,
+      "revoke_budget_access": false
+    }
+  }
+]

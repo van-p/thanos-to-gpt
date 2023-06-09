@@ -1,0 +1,19 @@
+{
+  "uuid": "99097807-94c3-405e-a177-4d8296d8a1a5",
+  "code": "QUYSHXWWBVJE",
+  "type": "debit",
+  "amount": -278,
+  "presented_amount": "SGD 2.78",
+  "created_at": "2023-04-28 13:24:35",
+  "currency": "SGD",
+  "counter_party_name": "Thanos Test recipient SGD",
+  "counter_party_code": "12345678",
+  "counter_party_bank_code": "DBSSSGSGXXX",
+  "transaction_date": "2023-04-28",
+  "transaction_time": "13:24:35",
+  "miscellaneous": [],
+  "is_intrabank": false,
+  "authorizations": {
+    "rollback": true
+  }
+}

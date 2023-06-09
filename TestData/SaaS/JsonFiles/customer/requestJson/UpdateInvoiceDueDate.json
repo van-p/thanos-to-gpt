@@ -1,0 +1,45 @@
+{
+  "currency_code": "SGD",
+  "due_date": "2023-05-17",
+  "payment_method_uuids": [
+    "95c27961-4a6b-4227-b7eb-0cdc508a0465",
+    "95c27961-4a6e-4bd0-b61b-7f97dc8398ff"
+  ],
+  "terms_and_conditions": null,
+  "invoice_counterparty": {
+    "name": "e1NDeKZw",
+    "email": "scE.4U2Yl7@example.com"
+  },
+  "invoice_date": "2023-05-10",
+  "number": "INV-001",
+  "invoice_items": [
+    {
+      "invoice": {
+        "uuid": "9921ca88-3f36-4a39-9bf0-8ba0f12890a6"
+      },
+      "currency": {
+        "decimals": 2
+      },
+      "uuid": "9921e526-19bb-4167-acc7-8c3e9d213508",
+      "description": "1",
+      "hidden_at": null,
+      "unit_cost": 100,
+      "currency_code": "SGD",
+      "quantity": 1,
+      "tax_name": null,
+      "tax_rate": null,
+      "discount_percentage": 1,
+      "discount_amount": null,
+      "discount_type": "percentage",
+      "amount": 99,
+      "tax": {
+        "name": null,
+        "rate": null,
+        "label": "No tax"
+      }
+    }
+  ],
+  "_fields": [
+    "uuid"
+  ]
+}

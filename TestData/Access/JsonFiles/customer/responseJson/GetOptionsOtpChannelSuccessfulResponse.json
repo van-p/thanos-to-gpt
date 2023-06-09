@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "97331ef6-33c0-49db-b0e7-edc662fe43b9",
+    "key": "email",
+    "name": "Email",
+    "details": [],
+    "position": 1,
+    "children": null,
+    "translation": "Email"
+  },
+  {
+    "uuid": "97331ef6-3427-4565-b47f-022ffefdd4fb",
+    "key": "phone",
+    "name": "Phone",
+    "details": [],
+    "position": 2,
+    "children": null,
+    "translation": "Phone"
+  }
+]

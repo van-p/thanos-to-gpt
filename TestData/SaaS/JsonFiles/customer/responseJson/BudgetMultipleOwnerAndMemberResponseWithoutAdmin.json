@@ -1,0 +1,96 @@
+[
+  {
+    "uuid": "98d999b4-899c-4a5e-892b-5fedf65fc0af",
+    "state_code": "PEVE",
+    "reference_code": "CARFER",
+    "salutation": "Mr.",
+    "full_name": "Carter Feest",
+    "name": "Carter Feest",
+    "nric": "C44B2EAC-8387-36AC-BD41-5C562D459173",
+    "npwp": "d0f042bc-e6f9-3e49-a7ef-a0315a75f022",
+    "date_of_birth": "1970-04-15",
+    "gender": "Male",
+    "education": "Diploma",
+    "mother_name": "Miss Alivia Bergstrom",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "member",
+    "budget_person_can_transfer": false,
+    "budget_inviter": {
+      "uuid": "98d999a4-5cce-45bc-8e21-695ab029741c"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-06 13:10:40",
+    "budget_person_updated_at": "2023-04-06 13:10:40",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "modify_access": true,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "create_blue_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  },
+  {
+    "uuid": "98d999ae-bbd4-485a-a269-c6ab96b50df9",
+    "state_code": "PEVE",
+    "reference_code": "ENEMAN",
+    "salutation": "Ms.",
+    "full_name": "Ilene Mante",
+    "name": "Ilene Mante",
+    "nric": "4F429091-D83B-395C-8469-F7C0D1544734",
+    "npwp": "be175b8a-74db-3e3c-9754-e3bacc034f57",
+    "date_of_birth": "1975-11-07",
+    "gender": "Male",
+    "education": "High School",
+    "mother_name": "Dr. Brooke Weissnat",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": false,
+    "budget_inviter": {
+      "uuid": "98d999a4-5cce-45bc-8e21-695ab029741c"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-06 13:10:39",
+    "budget_person_updated_at": "2023-04-06 13:10:39",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "modify_access": true,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "create_blue_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  }
+]

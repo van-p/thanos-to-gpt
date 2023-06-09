@@ -1,0 +1,71 @@
+{
+  "uuid": "98ed796c-6b70-4a66-b4f5-650abebf5b86",
+  "state_code": "DCFA",
+  "maximum_over_consecutive_day": 2778,
+  "spend_limit_frequency": "one-time",
+  "card_name": "Card GP5 Vbu pip O",
+  "description": "Description zX1 j0g F8V L",
+  "card_color": "#01D167",
+  "card_type": "GPR_VIR",
+  "expects_receipt": false,
+  "created_at": "2023-04-14T07:25:18.000000Z",
+  "state": {
+    "reference_code": "DCFA",
+    "state": "failed"
+  },
+  "person": {
+    "uuid": "98d16b3f-e18f-46ac-9df1-2f3d1d6670e5",
+    "reference_code": "AREWYM",
+    "salutation": "Mrs.",
+    "full_name": "Arely Wyman",
+    "nric": "2E7B5AD7-6881-30C7-8C49-065B003A7502",
+    "npwp": "30382447-4d01-3fe0-8996-d3991306aee0",
+    "date_of_birth": "1976-02-01",
+    "gender": "Female",
+    "education": "Primary School",
+    "nationality": "SG",
+    "businesses": [
+      {
+        "uuid": "98d16b41-8ab9-4aa1-9655-a0bc908439ce",
+        "reference_code": "SGFRAP",
+        "name": "Frami, Parker and Nitzsche",
+        "province": "maiores",
+        "website_url": "http://altenwerth.com/possimus-iste-aut-quisquam-sed-alias-nemo-id.html",
+        "business_model": "soluta"
+      }
+    ],
+    "mother_name": "Lauren Rodriguez",
+    "authorizations": {
+      "create_debit_card": false
+    }
+  },
+  "category": {
+    "name": "Food \u0026 Beverages",
+    "icon": "food_and_beverages"
+  },
+  "holder_name": "Arely Wyman",
+  "holder_role": "Director",
+  "holder_role_slug": "customers.director",
+  "remaining_spending_limit": 2778,
+  "current_spending": 0,
+  "card_set_spend_limit_at": "2023-04-14T07:25:11.000000Z",
+  "physical_card_atm_withdrawals_daily_limit_amount": 20,
+  "physical_card_order_timeline": [],
+  "set_to_freeze_after_txn_count": 0,
+  "is_freezing_soon": false,
+  "authorizations": {
+    "cancel_public": true,
+    "replace_public": false,
+    "temporary_lock_public": false,
+    "unlock_public": false,
+    "update_maximum_amount": false,
+    "update_public": false,
+    "export_transactions": true,
+    "add_to_gpay": false,
+    "change_color": false,
+    "activate_card_public": false,
+    "set_pin_card_public": false,
+    "show_card_public": true,
+    "request_update_card": false
+  }
+}

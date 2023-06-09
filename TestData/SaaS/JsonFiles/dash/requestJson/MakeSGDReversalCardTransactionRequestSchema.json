@@ -1,0 +1,49 @@
+{
+  "payload": "{
+  \"transactionId\": \"{$transactionId}\",
+  \"transactionType\": \"{$transactionType}\",
+  \"cardHashId\": \"{$cardHashId}\",
+  \"processingCode\": \"000000\",
+  \"billingAmount\": {$billingAmount},
+  \"transactionAmount\": {$transactionAmount},
+  \"billingCurrencyCode\": \"{$billingCurrencyCode}\",
+  \"transactionCurrencyCode\": \"{$transactionCurrencyCode}\",
+  \"authCurrencyCode\": \"SGD\",
+  \"authAmount\": 2.45,
+  \"effectiveAuthAmount\": 2.46,
+  \"billingConversionRate\": \"1.346154000\",
+  \"dateOfTransaction\": \"0308022028\",
+  \"localTime\": null,
+  \"localDate\": null,
+  \"merchantCategoryCode\": \"7361\",
+  \"merchantTerminalId\": \"99999999\",
+  \"merchantTerminalIdCode\": \"479631000200812\",
+  \"merchantNameLocation\": \"{$merchantNameLocation}\",
+  \"posEntryMode\": \"0100\",
+  \"posConditionCode\": \"59\",
+  \"posEntryCapabilityCode\": \"01\",
+  \"retrievalReferenceNumber\": \"106702396057\",
+  \"systemTraceAuditNumber\": \"{$systemTraceAuditNumber}\",
+  \"acquiringInstitutionCountryCode\": \"528\",
+  \"acquiringInstitutionCode\": \"479631\",
+  \"paymentServiceFields\": null,
+  \"originalTransactionId\": \"{$originalTransactionId}\",
+  \"originalDateOfTransaction\": null,
+  \"originalSystemTraceAuditNumber\": \"{$originalSystemTraceAuditNumber}\",
+  \"originalAcquiringInstitutionCode\": null,
+  \"billingReplacementAmount\": 0,
+  \"transactionReplacementAmount\": 0,
+  \"transactionFees\": [
+{
+  \"name\": \"ECOM_FEE\",
+\"value\": 0,
+\"currencyCode\": \"SGD\"
+},
+{
+\"name\": \"TRANSACTION_MARKUP\",
+\"value\": 0.01,
+\"currencyCode\": \"SGD\"
+}
+]
+}"
+}

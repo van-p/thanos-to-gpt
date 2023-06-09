@@ -1,0 +1,121 @@
+{
+  "data": [
+    {
+      "uuid": "98f9351f-33b7-4faf-acbd-29ec3d6ef853",
+      "currency_code": "SGD",
+      "display_currency_code": "SGD",
+      "bank_code": "DBSSSGSGXXX",
+      "bank_account_number": "12345678",
+      "international_bank_account_number": "12345678",
+      "account_holder_name": "Thanos Test recipient SGD",
+      "name": "Thanos Test recipient SGD",
+      "type": "deprecated",
+      "types": [
+        "local"
+      ],
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "DBSSSGSGXXX",
+          "bank_account_number": "12345678",
+          "reference_code": "12345678",
+          "international_bank_account_number": "12345678",
+          "account_holder_name": "Thanos Test recipient SGD",
+          "reference_name": "Thanos Test recipient SGD",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true
+      },
+      "display_currency": {
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "S$",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": true,
+        "decimals": 2
+      },
+      "beneficiary_debit_account": {
+        "uuid": "98f92c0d-ac9f-4d0e-a698-19c1aa3007d0",
+        "currency_code": "SGD",
+        "label": "SGD account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "",
+        "has_transactions": false,
+        "transaction_no_fee_amount": 0,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 42,
+        "transaction_fee_amount": 0,
+        "balance": 0,
+        "bank_code": "N/A",
+        "bank_account_number": "N/A",
+        "bank_account_holder_name": "Olson Group",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-05-01 00:00:00",
+        "total_non_credit_tx_number": 0,
+        "total_non_credit_tx_volume": 0,
+        "cashback_credited_amount": 0,
+        "referral": {
+          "uuid": "98f92c00-336d-477c-af02-1d9829398f90",
+          "referral_code": "GMJGVVHY",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 0
+        },
+        "blue_card_issuance_fee": 1500,
+        "has_enough_balance_to_issue_blue_card": false,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": false,
+          "create_mca_transfer": false,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": true,
+          "request_debit_card": false,
+          "create_physical_debit_card": true,
+          "create_blue_physical_debit_card": true,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "99099d5f-191c-4542-b306-e0be8a2daf00": {
+          "provider_recipient_uuid": "99099e07-78a8-4cec-8b3b-209e54b8845c",
+          "payment_type": "regular",
+          "is_swift_recipient": true,
+          "service": "local",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "98f92c0d-ac9f-4d0e-a698-19c1aa3007d0"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/counterparties?page\u003d2"
+}

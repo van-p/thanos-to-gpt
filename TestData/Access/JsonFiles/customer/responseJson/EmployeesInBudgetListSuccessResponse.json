@@ -1,0 +1,389 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "uuid": "98d188c9-0044-409d-8ef6-c5029795a793",
+      "state_code": "PEVE",
+      "reference_code": "GEVNAN",
+      "salutation": "Mr.",
+      "full_name": "Geovanni Nolan",
+      "nric": "749F6681-43D0-3A60-970C-A422FC20627C",
+      "npwp": "5f4dd89a-2748-3066-967a-796e92f8ecad",
+      "date_of_birth": "1982-04-09",
+      "gender": "Male",
+      "education": "High School",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "98d188c9-66af-4579-b1da-9a59b509b391",
+          "email": "olivercorwin_3751137@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "98d188c9-66af-4579-b1da-9a59b509b391",
+        "email": "olivercorwin_3751137@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "98d188c9-6b67-4aad-934c-52dcb4d38f72",
+          "phone": "+6555807374",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "98d188c9-6b67-4aad-934c-52dcb4d38f72",
+        "phone": "+6555807374",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "mother_name": "Cathrine Pfannerstill IV",
+      "role": "Finance no transfer or submit rights",
+      "role_slug": "customers.finance.no-transfer-or-submit-right",
+      "registration_role": "Non Director",
+      "registration_role_slug": "non-director",
+      "has_active_card_for_current_business": true,
+      "available_roles": [
+        "customers.finance.transfer-only",
+        "customers.finance.submit-only",
+        "customers.finance.no-transfer-or-submit-right",
+        "customers.card-only",
+        "customers.director"
+      ],
+      "authorizations": {
+        "revoke": true,
+        "create_debit_card": true,
+        "create_physical_debit_card": true,
+        "update_budget_access": false,
+        "revoke_budget_access": false
+      }
+    },
+    {
+      "uuid": "98d188c1-3084-42da-b10d-500f0e985852",
+      "state_code": "PEVE",
+      "reference_code": "KRYBYE",
+      "salutation": "Ms.",
+      "full_name": "Krystina Boyle",
+      "nric": "2E011F45-37CF-3DFA-84B1-61E044C4831D",
+      "npwp": "4e22065d-9e51-3670-886c-591c91b9952e",
+      "date_of_birth": "1981-02-16",
+      "gender": "Male",
+      "education": "Master",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "98d188c1-9ac0-4b3f-8c91-11091ba03291",
+          "email": "brianabosco_6248869@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "98d188c1-9ac0-4b3f-8c91-11091ba03291",
+        "email": "brianabosco_6248869@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "98d188c1-9f8b-4cd1-a9ef-835829fe8360",
+          "phone": "+6580726209",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "98d188c1-9f8b-4cd1-a9ef-835829fe8360",
+        "phone": "+6580726209",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "mother_name": "Dr. Sophia Grimes",
+      "role": "Employee",
+      "role_slug": "customers.card-only",
+      "registration_role": "Non Director",
+      "registration_role_slug": "non-director",
+      "has_active_card_for_current_business": true,
+      "available_roles": [
+        "customers.finance.transfer-only",
+        "customers.finance.submit-only",
+        "customers.finance.no-transfer-or-submit-right",
+        "customers.card-only",
+        "customers.director"
+      ],
+      "authorizations": {
+        "revoke": true,
+        "create_debit_card": true,
+        "create_physical_debit_card": true,
+        "update_budget_access": false,
+        "revoke_budget_access": false
+      }
+    },
+    {
+      "uuid": "98d188c4-fe11-42f1-a501-68a210b3c8fc",
+      "state_code": "PEVE",
+      "reference_code": "NRMKBA",
+      "salutation": "Mrs.",
+      "full_name": "Norma Kilback",
+      "nric": "C98799FB-C0D5-3B38-A49B-5542AB55F18F",
+      "npwp": "3a2d47e0-768c-3a3e-8520-fc796e28405b",
+      "date_of_birth": "1977-04-16",
+      "gender": "Male",
+      "education": "Master",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "98d188c5-8da0-40a2-8d48-0aaed07b62eb",
+          "email": "wavahettinger_6845313@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "98d188c5-8da0-40a2-8d48-0aaed07b62eb",
+        "email": "wavahettinger_6845313@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "98d188c5-937d-43ba-9e0d-106818c32a4e",
+          "phone": "+6539026944",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "98d188c5-937d-43ba-9e0d-106818c32a4e",
+        "phone": "+6539026944",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "mother_name": "Marion Bauch",
+      "role": "Finance submit only",
+      "role_slug": "customers.finance.submit-only",
+      "registration_role": "Non Director",
+      "registration_role_slug": "non-director",
+      "has_active_card_for_current_business": true,
+      "available_roles": [
+        "customers.finance.transfer-only",
+        "customers.finance.submit-only",
+        "customers.finance.no-transfer-or-submit-right",
+        "customers.card-only",
+        "customers.director"
+      ],
+      "authorizations": {
+        "revoke": true,
+        "create_debit_card": true,
+        "create_physical_debit_card": true,
+        "update_budget_access": false,
+        "revoke_budget_access": false
+      }
+    },
+    {
+      "uuid": "98d188be-068f-4e7b-a181-b364b5b9a6d1",
+      "state_code": "PEVE",
+      "reference_code": "RSAKUN",
+      "salutation": "Mr.",
+      "full_name": "Rosalinda Okuneva",
+      "nric": "3C684B23-43CA-3CB7-A96F-7DE47A3BE402",
+      "npwp": "267f2de8-6ed1-3549-8a8b-8418ac216d03",
+      "date_of_birth": "1975-10-15",
+      "gender": "Female",
+      "education": "High School",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "98d188be-6e05-470c-bd78-4e82bda88566",
+          "email": "deontekuhlman_7092889@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "98d188be-6e05-470c-bd78-4e82bda88566",
+        "email": "deontekuhlman_7092889@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "98d188be-7371-4caa-9d89-2c5a5d285dad",
+          "phone": "+6549921330",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "98d188be-7371-4caa-9d89-2c5a5d285dad",
+        "phone": "+6549921330",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "mother_name": "Guadalupe Olson",
+      "role": "Finance transfer only",
+      "role_slug": "customers.finance.transfer-only",
+      "registration_role": "Non Director",
+      "registration_role_slug": "non-director",
+      "has_active_card_for_current_business": true,
+      "available_roles": [
+        "customers.finance.transfer-only",
+        "customers.finance.submit-only",
+        "customers.finance.no-transfer-or-submit-right",
+        "customers.card-only",
+        "customers.director"
+      ],
+      "authorizations": {
+        "revoke": true,
+        "create_debit_card": true,
+        "create_physical_debit_card": true,
+        "update_budget_access": false,
+        "revoke_budget_access": false
+      }
+    },
+    {
+      "uuid": "98d188cb-ad9e-4cc5-9867-3dba619a708f",
+      "state_code": "PEVE",
+      "reference_code": "SHRWFF",
+      "salutation": "Mr.",
+      "full_name": "Shirley Wolff",
+      "nric": "08FDFB8C-2B34-3790-AC8F-5443E53DEA94",
+      "npwp": "edbe2ce0-c827-3026-9db1-08c31e6e2b54",
+      "date_of_birth": "1980-12-08",
+      "gender": "Male",
+      "education": "Middle School",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "98d188cc-12cc-43aa-9211-f5f5f6ab30bb",
+          "email": "lavernaanderson_4155632@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "98d188cc-12cc-43aa-9211-f5f5f6ab30bb",
+        "email": "lavernaanderson_4155632@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "98d188cc-178f-448d-907e-934ffc7cb2d6",
+          "phone": "+6585577526",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "98d188cc-178f-448d-907e-934ffc7cb2d6",
+        "phone": "+6585577526",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "mother_name": "Tia VonRueden DDS",
+      "role": "Director",
+      "role_slug": "customers.director",
+      "registration_role": "Director",
+      "registration_role_slug": "company-director",
+      "has_active_card_for_current_business": true,
+      "available_roles": [
+        "customers.director"
+      ],
+      "authorizations": {
+        "revoke": false,
+        "create_debit_card": true,
+        "create_physical_debit_card": true,
+        "update_budget_access": false,
+        "revoke_budget_access": false
+      }
+    }
+  ],
+  "first_page_url": "https://example.com/v1/access?page\u003d1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://example.com/v1/access?page\u003d1",
+  "links": [
+    {
+      "label": "\u0026laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://example.com/v1/access?page\u003d1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "label": "Next \u0026raquo;",
+      "active": false
+    }
+  ],
+  "path": "https://example.com/v1/access",
+  "per_page": 10,
+  "to": 5,
+  "total": 5
+}

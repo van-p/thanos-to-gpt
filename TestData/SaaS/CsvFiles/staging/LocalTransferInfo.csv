@@ -1,0 +1,6 @@
+sr.No,amount,transferType,transferTitle,transferOverviewTitle,transferCurrency,transferCategory,reference,otp
+1,{randomNum:4},Initiated,{randomAlphaNum:6},{randomAlphaNum:6},SGD,{randomAlphaNum:6},{randomAlphaNum:6},1234
+2,{randomNum:2},Submitted,{randomAlphaNum:6},{randomAlphaNum:6},SGD,{randomAlphaNum:6},{randomAlphaNum:6},1234
+6,{randomNum:5},Completed,{randomAlphaNum:6},{randomAlphaNum:6},IDR,{randomAlphaNum:6},{randomAlphaNum:6},1234
+7,{randomNum:5},Scheduled,{randomAlphaNum:6},{randomAlphaNum:6},IDR,{randomAlphaNum:6},{randomAlphaNum:6},1234
+8,{randomNum:5},Recurring,{randomAlphaNum:6},{randomAlphaNum:6},IDR,{randomAlphaNum:6},{randomAlphaNum:6},1234

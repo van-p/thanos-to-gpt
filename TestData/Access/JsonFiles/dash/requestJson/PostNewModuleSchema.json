@@ -1,0 +1,26 @@
+{
+  "name": "{$name}",
+  "description": "Module description",
+  "country_uuids": ["{$countryUuids}"],
+  "key": "{$key}",
+  "is_add_on": true,
+  "plan_uuids": ["{$planUuids}"],
+  "price": "{$price}",
+  "currency_code": "{$currencyCode}",
+  "is_public": true,
+  "billing_frequency": "{$addOnBillingFrequency}",
+  "module_items": [
+    {
+      "type": "feature",
+      "model_uuids": ["{$modelUuids}"],
+      "billing_type": "{$billingType}",
+      "limit_type": "{$limitType}",
+      "limit": 10,
+      "expandable_limit": null,
+      "price": null,
+      "currency_code": null,
+      "billing_frequency": "{$moduleBillingFrequency}",
+      "banner_title": "{$bannerTitle}",
+      "banner_description": "{$bannerDescription}"
+    }]
+}

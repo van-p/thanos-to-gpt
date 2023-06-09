@@ -1,0 +1,4 @@
+sourceCurrencyCode,targetCurrencyCode,sourceAmount,targetAmount,rate,externalService,externalFeeAmount,isTemporary
+IDR,THB,8000000,6501,0.002318,neo,0,false
+SGD,USD,10000,7307,0.743937,transferwise,178,false
+USD,EUR,10000,7307,0.743937,transferwise,178,false

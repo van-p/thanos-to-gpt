@@ -1,0 +1,40 @@
+[
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KybVerified"
+    }
+  },
+  {
+    "name": "Business",
+    "value": {
+      "uuid": "992f8393-3f79-4d89-b7d3-2045c97ad948",
+      "reference_code": "SGRBWP",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "CreditAccount",
+    "value": {
+      "uuid": "992f8394-da87-4203-9023-693244f37fc5",
+      "reference_code": "SGRBWPH3AD",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "Director Access Token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZDRkYjFkNjdjYjQ4MmFmZmFhOTBiYWZlMjY1MjE1MzI3YjI5MjgwMjg4ZTEwNzliYWZmZWExMDg5MWUzMmZhNjdmZjYxYzc4MjY4NDEzZjIiLCJpYXQiOjE2ODQyOTM1MDMuMTMzMDgyLCJuYmYiOjE2ODQyOTM1MDMuMTMzMDg1LCJleHAiOjE2ODQzMDA3MDMuMTIzMjE1LCJzdWIiOiI5MjMzIiwic2NvcGVzIjpbXX0.L5cxEFIMals_C7BgKdWNzos1-kJmz11exViotjG2JKUT2KY24-y5yTJLjQPtmxa60hkcNqjckuCS_7KcEcrFGJIFa2EH-bvGRhXNGYuCQwEEtPNZDrYV8yQ9grI3lcqa63Wprt8K-optfniz6hE8tiGw722VwUReRuhFFNdGU5g7r6ejCzmeNHr9_x86PWw2Uylt0M373L460OcDaiGcw8v6oxuPNYiHBOURAds2VCqxCndGgRmr8gBR5jM8N8wG6nvDU54WmRQ2i016A1xkSKaS334HtipZSQPgGVRtxCNiNsc7YR-OYyZ9-8akKC-4DiVAba1Mag1FK68d-PvmNAInAWCtqV3pJSaXmwGiUZJoH0fzwU6RtSumrU0eOUV0yByvQqG7BJ552V-NEFfbA05ry0ELuJnE6hGTf-tg5Acx4xbF4vOmFq5irjj0fXY2bIsVV0eFez4jNTJo2Far9jTgpCC1_yvXhEnaBukSak0gD1PJ8zPTLHgipFJkREG4hhVonMTLGSGbbpIPAhkLxuS9ExXmfDxaRCika1DNvhe6oPfMEhPMbh__pf9c-Fnf4CFszufdXSR6BM_WjfPdI1Ufjb1jh6FiNI5rsTu5-9dsjdskZaQddW3RpHwPw02m0xl6Q41bDzwczJzUKnaGBHrmzs03Epu2zBoYznKv_B8"
+  },
+  {
+    "name": "Director",
+    "value": {
+      "uuid": "992f8393-e627-4f12-ac64-b9405d0c1320",
+      "reference_code": "JAMCNR",
+      "emailValue": "sammieboehm_7374877@example.org",
+      "tokenValue": "123456"
+    }
+  }
+]

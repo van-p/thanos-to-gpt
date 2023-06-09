@@ -1,0 +1,15 @@
+{
+  "uuid": "{$field_uuid}",
+  "name": "test4",
+  "icon": "default",
+  "type": "custom",
+  "code": null,
+  "description": "test3",
+  "field_type": "text",
+  "state": null,
+  "authorizations": {
+    "update": false,
+    "activate": true,
+    "deactivate": false
+  }
+}

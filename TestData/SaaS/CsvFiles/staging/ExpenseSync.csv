@@ -1,0 +1,2 @@
+sr.No,user,expenseAmount,merchantName,expenseTransferType,taxRate,attachmentCount,description
+1,Mr. Rocky Altenwerth,44,Hongkongtau,Bank Transfer,MISSING,0,Bank transfer for %s SGD to %s

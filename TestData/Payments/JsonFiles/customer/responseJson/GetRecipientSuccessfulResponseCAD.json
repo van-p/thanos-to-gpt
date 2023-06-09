@@ -1,0 +1,148 @@
+{
+  "data": [
+    {
+      "uuid": "9907ade7-bfa3-4f9f-a252-d764788decfb",
+      "currency_code": "CAD",
+      "display_currency_code": "CAD",
+      "bank_code": "98392",
+      "bank_account_number": "07023173",
+      "bank_account_type": "regular",
+      "international_bank_account_number": "07023173",
+      "account_holder_name": "Jim Lenon",
+      "name": "Jim Lenon",
+      "type": "deprecated",
+      "types": [
+        "fx"
+      ],
+      "transferred_at": "2023-04-27 16:12:16",
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "98392",
+          "bank_account_number": "07023173",
+          "reference_code": "07023173",
+          "bank_account_type": "regular",
+          "international_bank_account_number": "07023173",
+          "account_holder_name": "Jim Lenon",
+          "reference_name": "Jim Lenon",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true
+      },
+      "display_currency": {
+        "code": "CAD",
+        "name": "Canadian Dollar",
+        "symbol": "CA$",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": false,
+        "decimals": 2
+      },
+      "beneficiary_debit_account": {
+        "uuid": "99079852-dbc6-4171-823f-83af5ee408bc",
+        "currency_code": "SGD",
+        "label": "SGD account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "DBS Bank Ltd.",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 0,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 200,
+        "transaction_fee_amount": 0,
+        "balance": 27550000,
+        "bank_code": "DBSSSGSGXXX",
+        "bank_account_number": "8852-1509-4081",
+        "bank_account_holder_name": "Zulauf LLC",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-05-01 00:00:00",
+        "total_non_credit_tx_number": 17,
+        "total_non_credit_tx_volume": 27570000,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "9907b03e-f983-4749-8643-ee43716e2c3a",
+          "code": "HCUH3VCCTJZA",
+          "type": "credit",
+          "amount": 5000000,
+          "presented_amount": "SGD 50,000.00",
+          "created_at": "2023-04-23 06:41:44",
+          "currency": "SGD",
+          "description": "Create transaction",
+          "counter_party_name": "Ratke, Wintheiser and Schulist",
+          "counter_party_code": "3828604992513",
+          "counter_party_bank_code": "LIGPSGSGXXX",
+          "transaction_date": "2023-04-23",
+          "transaction_time": "06:41:44",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "99079846-b486-4933-afbd-3e270895f7ed",
+          "referral_code": "EXMXDCSR",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 27550000
+        },
+        "blue_card_issuance_fee": 1500,
+        "has_enough_balance_to_issue_blue_card": true,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": true,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": true,
+          "request_debit_card": false,
+          "create_physical_debit_card": true,
+          "create_blue_physical_debit_card": true,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "99079852-dbc6-4171-823f-83af5ee408bc": {
+          "provider_recipient_uuid": "9907ade7-ad4a-4823-be16-845c0555d740",
+          "payment_type": "regular",
+          "is_swift_recipient": false,
+          "service": "fx",
+          "can_transfer": true
+        },
+        "99079865-0939-44d3-b17b-8a9c241fdcf3": {
+          "service": "mca",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "99079852-dbc6-4171-823f-83af5ee408bc"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/counterparties?page\u003d2"
+}

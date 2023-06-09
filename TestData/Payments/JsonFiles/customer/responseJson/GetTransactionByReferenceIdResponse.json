@@ -1,0 +1,8 @@
+{
+  "data": [
+    {
+      "uuid": "9923e504-f5fb-4a5b-8192-05ced8ebb03b"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/debit-transactions?page\u003d2"
+}

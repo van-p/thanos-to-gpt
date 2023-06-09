@@ -1,0 +1,2 @@
+sr.No,username,password,budget,name,currentDateTime,currentDateTimeInSpecificFormat,dateTomorrow,dateYesterday,date4DaysBeforeToday,date4DaysAfterToday
+1,{randomAlphaNum:6}.{randomAlphaNum:5}@example.com,{randomNum:6},"{randomDecimalNum:5000,10000,2}",{randomString:12},{currentDateTime},{dateCurrent_yyyy-MM-dd'T'HH:mm:ssZ},{dateTomorrow_yyyy-MM-dd'T'HH:mm:ssZ},{dateYesterday_yyyy-MM-dd'T'HH:mm:ssZ},{date4DaysBeforeToday_yyyy-MM-dd'T'HH:mm:ssZ},{date4DaysAfterToday_yyyy-MM-dd'T'HH:mm:ssZ}

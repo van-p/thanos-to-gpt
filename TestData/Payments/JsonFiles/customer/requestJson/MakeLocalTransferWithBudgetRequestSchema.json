@@ -1,0 +1,22 @@
+{
+  "recipient_bank_code": "{$recipientBankCode}",
+  "recipient_account_number": "{$recipientBankAccountNumber}",
+  "recipient_account_name": "{$recipientName}",
+  "amount": "{$amount}",
+  "category_name": "{$categoryName}",
+  "category_icon": null,
+  "description": "",
+  "miscellaneous": {
+    "internal_notes": null
+  },
+  "next_payment_date": "",
+  "frequency": "",
+  "is_send_notification": false,
+  "email": "",
+  "phone": "",
+  "wants_referral": false,
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "budget_uuid": "{$budgetUuid}",
+  "counterparty_uuid": "{$counterpartyUuid}",
+  "ignore_duplicates": false
+}

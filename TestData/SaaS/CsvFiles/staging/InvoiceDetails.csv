@@ -1,0 +1,5 @@
+sr.No,invoiceItems,termsAndConditions,subtotal,discount,tax,totalAmount,currencyCode,invoiceItemsCount,invoiceFileType,authorizationsUpdate,authorizationsSubmit,authorizationsDelete,dueDate,customerEmail,customerName
+1,[],{empty},0,0,0,0,SGD,0,generated,true,false,true,,,
+2,[],{empty},0,0,0,0,SGD,0,generated,true,false,true,,,
+3,[],{empty},0,100,10,200,SGD,0,generated,true,false,true,,,
+4,[],{empty},SGD 10.00,- SGD 1.00,,SGD 9.00,SGD,0,,,,,+7 days,Clyde.Littel52@example.net,Merle Bergstrom DDS

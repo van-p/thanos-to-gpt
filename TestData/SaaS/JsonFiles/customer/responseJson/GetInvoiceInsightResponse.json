@@ -1,0 +1,23 @@
+{
+  "currency": {
+    "decimals": 2
+  },
+  "mini_insights": {
+    "total_overdue": {
+      "amount": 0,
+      "currency_code": "SGD"
+    },
+    "total_due": {
+      "amount": 0,
+      "currency_code": "SGD"
+    },
+    "total_collected": {
+      "amount": 0,
+      "currency_code": "SGD"
+    },
+    "total_outstanding": {
+      "amount": 0,
+      "currency_code": "SGD"
+    }
+  }
+}

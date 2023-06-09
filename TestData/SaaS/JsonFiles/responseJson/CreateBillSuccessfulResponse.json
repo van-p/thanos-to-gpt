@@ -1,0 +1,16 @@
+[
+  {
+    "uuid": "98f5c140-4128-4b90-9018-60f84044412c",
+    "quantity": 1,
+    "unit_price": 20,
+    "amount": 20,
+    "description": null
+  },
+  {
+    "uuid": "98f5c140-4bb5-4d41-8336-f5fc836298e3",
+    "quantity": 1,
+    "unit_price": 30,
+    "amount": 30,
+    "description": null
+  }
+]

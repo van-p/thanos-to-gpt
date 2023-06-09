@@ -1,0 +1,102 @@
+{
+  "uuid": "99502807-ee59-40c6-82af-a0f6dc80c7ad",
+  "state_code": "DCAC",
+  "last_digit": "8486",
+  "card_expiry": "06/2027",
+  "maximum_over_consecutive_day": 1935,
+  "spend_limit_frequency": "quarterly",
+  "account_number": null,
+  "card_name": "Card kZ7 2qn 1jc gtDsnpA",
+  "card_holder_name": "placeat",
+  "description": "Card kZ7 2qn 1jc gtDsnpAMZAxLR",
+  "card_color": "#536DFF",
+  "card_type": "GPR_VIR",
+  "is_subscription_card": false,
+  "is_pin_set": false,
+  "is_activated": null,
+  "expects_receipt": false,
+  "created_at": "2023-06-02T08:44:40.000000Z",
+  "deactivated_at": null,
+  "state": {
+    "reference_code": "DCAC",
+    "state": "active"
+  },
+  "person": {
+    "uuid": "994c2fa9-21fe-44fe-b4c3-a8cfc9301b34",
+    "reference_code": "HESVV5",
+    "salutation": "Test",
+    "full_name": "Lois Hessel",
+    "nric": "1675578148",
+    "npwp": "Test",
+    "date_of_birth": "1982-08-08",
+    "gender": "Male",
+    "education": "Primary School",
+    "occupation": null,
+    "nationality": "SG",
+    "businesses": [
+      {
+        "uuid": "994c2fa8-a165-4bc9-b297-9091cad691f0",
+        "reference_code": "SGDACK",
+        "name": "Dach, Klocko and Macejkovic",
+        "province": "dolorem",
+        "website_url": "http://harris.com/explicabo-animi-sit-delectus-sed",
+        "business_model": "consequatur"
+      }
+    ],
+    "mother_name": "Test",
+    "spouse_name": null,
+    "accountants": null,
+    "authorizations": {
+      "create_debit_card": false
+    }
+  },
+  "category": {
+    "name": "Entertainment",
+    "icon": "entertainment"
+  },
+  "integration": {
+    "uuid": "99502807-f7af-4dfd-8bce-99782e0013d5",
+    "service": "genie-card",
+    "state_code": "INTC",
+    "expires_in": null,
+    "expires_at": null,
+    "created_at": "2023-06-02 16:44:40",
+    "updated_at": "2023-06-02 16:44:40",
+    "customer_hash_id": "0e40383a-7396-38a4-953e-a332af0205f3",
+    "wallet_hash_id": "acd17445-b9d0-3c01-948c-1b3a5df6c358",
+    "external_id": "b13d4d8a-8985-3f2d-91e7-7c5288354dfb"
+  },
+  "holder_name": "Lois Hessel",
+  "holder_role": "Director",
+  "holder_role_slug": "customers.director",
+  "holder_is_budget_owner": null,
+  "remaining_spending_limit": 1935,
+  "current_spending": 0,
+  "card_set_spend_limit_at": "2023-06-02T08:44:41.512997Z",
+  "card_frozen_at": null,
+  "physical_card_transaction_limit_amount": 250,
+  "physical_card_atm_withdrawals_limit_amount": 10,
+  "physical_card_atm_withdrawals_daily_limit_amount": 20,
+  "physical_card_atm_withdrawals_fee_amount": 5,
+  "physical_card_order_timeline": [],
+  "auto_frozen": false,
+  "auto_freeze_date": null,
+  "auto_freeze_txn_count": null,
+  "set_to_freeze_after_txn_count": 0,
+  "is_freezing_soon": false,
+  "authorizations": {
+    "cancel_public": true,
+    "replace_public": true,
+    "temporary_lock_public": true,
+    "unlock_public": false,
+    "update_maximum_amount": true,
+    "update_public": true,
+    "export_transactions": true,
+    "add_to_gpay": true,
+    "change_color": true,
+    "activate_card_public": false,
+    "set_pin_card_public": false,
+    "show_card_public": true,
+    "request_update_card": false
+  }
+}

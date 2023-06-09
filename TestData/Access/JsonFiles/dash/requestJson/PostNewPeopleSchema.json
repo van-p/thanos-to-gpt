@@ -1,0 +1,29 @@
+{
+  "state_uuid": "9752c00d-4417-4c70-9aaf-9a2b21c01f0f",
+  "salutation": null,
+  "country_uuid": null,
+  "application_uuid": "9470e8c8-1ad1-4270-adc3-0528880cc0cd",
+  "country_of_birth_uuid": null,
+  "full_name": "{$fullName}",
+  "preferred_name": null,
+  "nric": "{$nric}",
+  "id_document_type": null,
+  "id_document_expiry_date": null,
+  "date_of_birth": "2005-01-01",
+  "gender": "Male",
+  "education": null,
+  "nationality_uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+  "businesses_uuids": [],
+  "businesses": [],
+  "values": [],
+  "additional_role_uuids": [],
+  "purposes_uuids": [
+    "9470e8c9-4d27-42e2-b1b4-fd5c90d8d659"
+  ],
+  "mother_name": null,
+  "marital_status": null,
+  "spouse_name": null,
+  "privacy": true,
+  "email": "{$email}",
+  "phone": "{$phone}"
+}

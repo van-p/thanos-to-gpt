@@ -1,0 +1,297 @@
+{
+  "uuid": "9927713c-70a6-4b49-a36f-e099590ad1be",
+  "name": "Automation Business 1683946824672",
+  "slug": "automationbusiness+sgaubl",
+  "bills_email": "automationbusiness+sgaubl@qa1.bills.staging.example.com",
+  "type": "FULL_FEATURE",
+  "province": null,
+  "description": null,
+  "website_url": null,
+  "business_model": null,
+  "reference_code": "SGAUBL",
+  "registration_number": "1683946824672",
+  "is_primarily_selling_online": false,
+  "spent_card_daily_transaction_amount": 0,
+  "spent_card_monthly_transaction_amount": 0,
+  "card_transaction_limit_currency_code": "SGD",
+  "registration_type": {
+    "uuid": "951e6d84-39b2-455f-828a-bade88eb6bd6",
+    "key": "private-limited-company",
+    "name": "Private Limited Company (PTE LTD)",
+    "parent": null,
+    "parent_uuid": null,
+    "countries_uuids": null,
+    "countries_str": null,
+    "translations": [
+      {
+        "locale": "en",
+        "name": "Private Limited Company (PTE LTD)"
+      }
+    ],
+    "fx_registration_type": null,
+    "fx_registration_type_uuid": null,
+    "business_groups": null,
+    "business_group_uuids": null,
+    "position": 0,
+    "activated_at": "2021-09-20 16:31:02",
+    "is_active": true,
+    "kyb_requirements": {
+      "officers_documents": {
+        "one_officers": [
+          "constitution"
+        ],
+        "many_officers": [
+          "pol-director",
+          "pol-ubo",
+          "constitution",
+          "board-resolution"
+        ]
+      }
+    }
+  },
+  "fx_integration_access": {
+    "type": "fx_integration_access",
+    "key": "default",
+    "uuid": "9470e8fe-90af-482a-8154-99ce2e61312e",
+    "name": "New",
+    "other_text": null,
+    "details": [],
+    "position": 0,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "itt_integration_access": {
+    "type": "itt_integration_access",
+    "key": "default",
+    "uuid": "9470e8ff-573c-461f-803f-ec0ed2c5b07a",
+    "name": "New",
+    "other_text": null,
+    "details": [],
+    "position": 0,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "robo_accountant_access": {
+    "type": "robo_accountant_access",
+    "key": "disallowed",
+    "uuid": "9470e901-0393-4659-80a5-940990401b84",
+    "name": "Disallow",
+    "other_text": null,
+    "details": [],
+    "position": 2,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "mca_integration_access": {
+    "type": "mca_integration_access",
+    "key": "allowed",
+    "uuid": "9470e901-5ccb-4aff-b308-0b3e8764f566",
+    "name": "Allowed",
+    "other_text": null,
+    "details": [],
+    "position": 1,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "pay_now_in_integration_access": {
+    "type": "pay_now_in_integration_access",
+    "key": "default",
+    "uuid": "954c510b-0d50-454a-a986-c23ed5f5b4c0",
+    "name": "New",
+    "other_text": null,
+    "details": [],
+    "position": 0,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "sgd_integration_access": {
+    "type": "sgd_integration_access",
+    "key": "default",
+    "uuid": "9700bb3f-7f32-49cc-9e62-a04d245e84dd",
+    "name": "New",
+    "other_text": null,
+    "details": [],
+    "position": 0,
+    "countries_uuids": null,
+    "countries_str": null,
+    "children": null,
+    "parent": null,
+    "fx_registration_type_uuid": null,
+    "fx_registration_type": null
+  },
+  "state": {
+    "uuid": "9470e8a1-d991-4cea-b357-d1ca46b173db",
+    "state": "new",
+    "label": "New",
+    "entity": "business",
+    "is_final": null,
+    "transition": null,
+    "is_initial": 1,
+    "reference_code": "BUNE"
+  },
+  "people": [
+    {
+      "uuid": "9925cf20-87e6-4164-a27e-dd9882f233c7",
+      "full_name": "Automation Admin",
+      "reference_code": "JAMSCA",
+      "role_slug": "customers.director",
+      "role_name": "Director",
+      "registration_role_name": "Director",
+      "department_name": null,
+      "designation_name": null,
+      "purposes": []
+    }
+  ],
+  "country": {
+    "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+    "code": "SG",
+    "name": "Singapore"
+  },
+  "accounts": [
+    {
+      "uuid": "9927713e-0efb-4601-8529-a5a9d63acb32",
+      "reference_code": "SGAUBLSFML",
+      "currency": {
+        "uuid": "9470e8a1-a52e-4b6c-ba72-ff7fa218ad03",
+        "code": "SGD",
+        "name": "Singapore Dollar",
+        "symbol": "S$",
+        "decimals": 2,
+        "decimal_separator": ".",
+        "thousands_separator": ",",
+        "space_after_symbol": false,
+        "is_active": true,
+        "fx_enabled": true,
+        "example_manual_enabled": false,
+        "mca_enabled": true,
+        "advance_enabled": true,
+        "nium_enabled": false,
+        "formatted_output": "SGD 100,000.00",
+        "mca_amount_min": null,
+        "mca_local_amount_max": null,
+        "mca_swift_amount_max": null,
+        "mca_amount_dps": null,
+        "countries_uuids": null,
+        "countries_str": null
+      }
+    }
+  ],
+  "industry_type": {
+    "type": "Aircon, Cleaning, Laundry & Pest Control",
+    "parent": {
+      "type": "Business Services"
+    }
+  },
+  "turnover_band": {
+    "range": "S$50,000 - S$500,000"
+  },
+  "debit_account": null,
+  "country_incorporation": {
+    "name": "Singapore"
+  },
+  "business_group": {
+    "uuid": "9552cda7-839f-42da-833a-2ea32e9b5d03",
+    "name": "Businesses in Singapore",
+    "business_type": "FULL_FEATURE",
+    "is_active": true,
+    "is_international": false,
+    "created_at": "2022-01-10 16:31:41",
+    "settings": {
+      "core": {
+        "credit_is_enabled": false,
+        "priority_jobs_enabled": "released"
+      },
+      "opening": {
+        "myinfo_required": true,
+        "credit_kyb_requirements": [
+          "registration_number",
+          "source_of_funds",
+          "operating_address",
+          "officers_documents",
+          "website_url",
+          "has_politically_exposed_person",
+          "has_ten_percent_shareholders",
+          "top_counterparties",
+          "transacting_on_behalf",
+          "account_purpose",
+          "board_resolution"
+        ],
+        "high_risk_kyb_requirements": [],
+        "credit_create_kyb_requirements": [
+          "registration_number",
+          "officers_documents",
+          "board_resolution"
+        ],
+        "high_risk_create_kyb_requirements": []
+      },
+      "features": {
+        "blue_cards_ordering_enabled": "released",
+        "green_cards_ordering_redirect_enabled": "released"
+      }
+    },
+    "application_name": null,
+    "application_uuid": null,
+    "application": null,
+    "country": null,
+    "country_uuid": null
+  },
+  "authorizations": {
+    "view": true,
+    "update": true,
+    "delete": true,
+    "create_referral_conversion": false,
+    "create_credit_account": true,
+    "create_charge_account": true,
+    "create_debit_account": true
+  },
+  "functional_currency": {
+    "uuid": "9470e8a1-a52e-4b6c-ba72-ff7fa218ad03",
+    "code": "SGD",
+    "name": "Singapore Dollar"
+  },
+  "is_affiliate_partner": false,
+  "affiliate_partner_business": null,
+  "affiliate_partner_onboarded_businesses": [],
+  "replicable_file_collections": [
+    "business-certificate",
+    "pol-director",
+    "pol-ubo",
+    "constitution",
+    "board-resolution",
+    "admin",
+    "proof-of-address",
+    "agreements",
+    "proof-of-edd",
+    "proof-of-sof",
+    "maker-checker",
+    "license",
+    "incorporation-certificate",
+    "company-certificate",
+    "tin",
+    "indo-constitution",
+    "indo-trade-license",
+    "indo-tax-registration",
+    "indo-justice-certificate",
+    "indo-nib"
+  ]
+}

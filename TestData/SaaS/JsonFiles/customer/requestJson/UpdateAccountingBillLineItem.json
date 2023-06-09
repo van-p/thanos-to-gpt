@@ -1,0 +1,25 @@
+{
+  "source_type": "bill-pay-submission",
+  "source_uuid": "{$source_uuid}",
+  "type": "xero",
+  "line_items": [
+    {
+      "account_id": "{$accounting_uuid1}",
+      "description": "",
+      "quantity": 1,
+      "tax_type": "NONE",
+      "unit_price": "2000",
+      "uuid": "{$uuid1}",
+      "tracking_categories": []
+    },
+    {
+      "account_id": "{$accounting_uuid2}",
+      "description": "",
+      "quantity": 1,
+      "tax_type": "NONE",
+      "unit_price": "3000",
+      "uuid": "{$uuid2}",
+      "tracking_categories": []
+    }
+  ]
+}

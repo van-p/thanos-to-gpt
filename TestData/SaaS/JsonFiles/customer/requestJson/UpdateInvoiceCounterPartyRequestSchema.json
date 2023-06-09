@@ -1,0 +1,10 @@
+{
+  "source_type": "business",
+  "source_uuid": "{$businessUuid}",
+  "address": null,
+  "uuid": "{$invoiceCounterPartyUuid}",
+  "type": "{$counterPartyType}",
+  "name": "{$updatedCounterPartyName}",
+  "contact_person_name": "",
+  "email": "{$updatedCounterPartyEmail}"
+}

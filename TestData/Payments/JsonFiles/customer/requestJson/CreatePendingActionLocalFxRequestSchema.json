@@ -1,0 +1,49 @@
+{
+  "recipient_account_number": "{$recipientAccountNumber}",
+  "recipient_account_name": "{$recipientName}",
+  "amount": {$sourceAmount},
+  "category_name": "Entertainment",
+  "category_icon": null,
+  "miscellaneous": {
+    "internal_notes": null
+  },
+  "next_payment_date": "",
+  "frequency": "day",
+  "is_send_notification": false,
+  "email": "",
+  "phone": "",
+  "wants_referral": false,
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "description": "{$reference}",
+  "details": {
+    "reference": "{$reference}"
+  },
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "ignore_duplicates": false,
+  "type": "fx",
+  "fx_quote_uuid": "{$fxQuoteUuid}",
+  "action": "LocalFxTransferAction",
+  "source_type": "business",
+  "source_uuid": "{$sourceUuid}",
+  "payment_type": "regular",
+  "fixed_currency": "USD",
+  "_fields": [
+    "action",
+    "authorizations",
+    "created_at",
+    "created_at_with_tz",
+    "files",
+    "first_approval_satisfied",
+    "has_enough_approvals",
+    "is_bill_pay_transaction",
+    "is_in_approval_policy_flow",
+    "maker",
+    "model",
+    "need_more_approvals",
+    "payload",
+    "quote",
+    "state_code",
+    "type",
+    "uuid"
+  ]
+}

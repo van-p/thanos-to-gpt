@@ -1,0 +1,70 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "uuid": "99059c19-f5f3-418c-805e-f32b22d0b10d",
+      "state_code": "PLDU",
+      "year": "2023",
+      "number": "PL-0001",
+      "code": "99059725-54c1-43b5-88ab-7a6a8eb91c32-99059c19-f5f3-418c-805e-f32b22d0b10d-1682493728",
+      "due_date": null,
+      "expiry_date": "2023-05-26",
+      "payable_amount": 100,
+      "currency_code": "SGD",
+      "description": null,
+      "internal_notes": null,
+      "status": "Due",
+      "paid_at": null,
+      "paid_note": null,
+      "created_at": "2023-04-26 15:22:08",
+      "updated_at": "2023-04-26 15:22:08",
+      "business": null,
+      "counterparty": null,
+      "created_person": null,
+      "updated_person": null,
+      "currency": null,
+      "state": null,
+      "timeline": null,
+      "debit_transactions": null,
+      "debit_scheduled_payment": null,
+      "debit_transactions_count": 0,
+      "next_settlement_date": null,
+      "payment_link": null,
+      "authorizations": {
+        "create": true,
+        "view": true,
+        "update": true,
+        "delete": true,
+        "mark_as_paid": true,
+        "mark_as_unpaid": false
+      }
+    }
+  ],
+  "first_page_url": "https://example.com/v1/payment-links?page=1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://example.com/v1/payment-links?page=1",
+  "links": [
+    {
+      "url": null,
+      "label": "&laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://example.com/v1/payment-links?page=1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "url": null,
+      "label": "Next &raquo;",
+      "active": false
+    }
+  ],
+  "next_page_url": null,
+  "path": "https://example.com/v1/payment-links",
+  "per_page": 10,
+  "prev_page_url": null,
+  "to": 1,
+  "total": 1
+}

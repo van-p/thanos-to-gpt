@@ -1,0 +1,40 @@
+[
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "BusinessSettings"
+    }
+  },
+  {
+    "name": "Business",
+    "value": {
+      "uuid": "992f84cd-b4c5-4757-a447-8be3d71e2363",
+      "reference_code": "SGCRWA",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "CreditAccount",
+    "value": {
+      "uuid": "992f84cf-3e3b-4215-9fd1-2da9c5a67096",
+      "reference_code": "SGCRWA3KGV",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "Director Access Token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiN2FmZGZkZThiY2FhNDllMjdmMDlhMDQ2NjIyYzk0NWJhZTg1MzFiMTYzMzkwYmFmMmQ0NjViMGUxZTk0YjI4Nzk1MDA2MmRiNzZmNGNkMDQiLCJpYXQiOjE2ODQyOTM3MTAuNzA5NDk3LCJuYmYiOjE2ODQyOTM3MTAuNzA5NDk5LCJleHAiOjE2ODQzMDA5MTAuNzAxNTA4LCJzdWIiOiI5MjQ1Iiwic2NvcGVzIjpbXX0.NOstIpz6XEpZE3NxbrlFXiT5kBIWkqpVA4nhj1oO5j6aJxkp18pKQvsynBVEf3YNazITPL3CNXzBfC_TmNbOsfFBTH-w_Dp12NVS7wZPLBOQvp68_Hw8FvpoCglY-Lcy2kqwBxpnIy5I5jwd18urNIpUBCT1tVd8ta62XluOQ9ywtJVB4Tqh8jCqzfDqD2dm9-Lo7WpWQ2cPv1s7FsFcAIPiSkqC7GlBMDnzS82TYcxK8cdNK2vJ3T1-gMJnO7J5ZHL_wP6znlp5X98khZzMEPO3aL2imO-jUBc5ptH4raMdaN9UpLS_-w4-svKl9W54AOVwamWcxjlVNgU27w7ADr4w4xCcW6o2DA5FcOPXuI1IRwyybvpNPbMH4kgI7TZtF6LsTvx2mMupD6RY26SCoCBXdFfbTR_N13kFGDlH9nJRenFGYR8qpLrQpikpLWSJNB8wRhaZvmvjlgCoudFXMCb7NZCMTzSYfTirJpmm1PlE4aDULz8l-FIQAAOVQ3PXZaHuKQyzdN-wijltTKo252csuEZ89nGEypjoISexBUNt1uo6soMfMdLXNgZVD4Qc-bsbDh42f_x0Xjul9TEeB-FTut8sbjSsW36dE9u1DWJdJJY9phTwD8krhp2ldMQNNFCA3zpmfKTrR9rJFdV5OG9qKzK85qsuHCpWcYavsx4"
+  },
+  {
+    "name": "Director",
+    "value": {
+      "uuid": "992f84ce-4ffe-4f15-bf70-c0f71e7e0e85",
+      "reference_code": "PRFADE",
+      "emailValue": "magnusstokes_5589371@example.org",
+      "tokenValue": "123456"
+    }
+  }
+]

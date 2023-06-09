@@ -1,0 +1,4 @@
+rowNo,fromEmail,toEmails,ccEmails,bccEmails,subject,message
+1,collections@example.com,qa.business@example.com,{randomAlphaNum:6}.{randomAlphaNum:6}@example.com,bcc.business@example.com,randomLoremSentence,randomLoremSentenceMessage
+2,collections@example.com,{randomAlphaNum:6}.{randomAlphaNum:6}@example.com,cc.business@example.com,bcc.business@example.com,randomLoremSentence,randomLoremSentenceMessage
+3,collections@example.com,qa.business@example.com,cc.business@example.com,{randomAlphaNum:6}.{randomAlphaNum:6}@example.com,randomLoremSentence,randomLoremSentenceMessage

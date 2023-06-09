@@ -1,0 +1,84 @@
+{
+  "uuid": "991de5a1-cbb9-4edf-9418-d3d6a2b30553",
+  "state_code": "DCTL",
+  "last_digit": "2567",
+  "card_expiry": "05/2027",
+  "maximum_over_consecutive_day": 2101,
+  "spend_limit_frequency": "monthly",
+  "card_name": "Card NGv y1P OBp d",
+  "description": "Description 9R0 yiI Zq6 m",
+  "card_color": "#01D167",
+  "card_type": "GPR_VIR",
+  "is_subscription_card": false,
+  "is_pin_set": false,
+  "expects_receipt": false,
+  "created_at": "2023-05-08T09:07:36.000000Z",
+  "state": {
+    "reference_code": "DCTL",
+    "state": "temporary-lock"
+  },
+  "person": {
+    "uuid": "98d16b3f-e18f-46ac-9df1-2f3d1d6670e5",
+    "reference_code": "AREWYM",
+    "salutation": "Mrs.",
+    "full_name": "Arely Wyman",
+    "nric": "2E7B5AD7-6881-30C7-8C49-065B003A7502",
+    "npwp": "30382447-4d01-3fe0-8996-d3991306aee0",
+    "date_of_birth": "1976-02-01",
+    "gender": "Female",
+    "education": "Primary School",
+    "nationality": "SG",
+    "businesses": [
+      {
+        "uuid": "98d16b41-8ab9-4aa1-9655-a0bc908439ce",
+        "reference_code": "SGFRAP",
+        "name": "Frami, Parker and Nitzsche",
+        "province": "maiores",
+        "website_url": "http://altenwerth.com/possimus-iste-aut-quisquam-sed-alias-nemo-id.html",
+        "business_model": "soluta"
+      }
+    ],
+    "mother_name": "Lauren Rodriguez",
+    "authorizations": {
+      "create_debit_card": false
+    }
+  },
+  "integration": {
+    "uuid": "991de5a1-deca-49bb-a824-684ad24c082e",
+    "service": "genie-card",
+    "state_code": "INTC",
+    "created_at": "2023-05-08 17:07:36",
+    "updated_at": "2023-05-08 17:07:36",
+    "customer_hash_id": "bef6eea3-c620-3efa-942e-d1feeadbfc2a",
+    "wallet_hash_id": "f50e9780-c44e-39b9-81f1-ab2c6df0b8bc",
+    "external_id": "4f548dd9-b7f8-3be6-90fd-0edd669b5613"
+  },
+  "holder_name": "Arely Wyman",
+  "holder_role": "Director",
+  "holder_role_slug": "customers.director",
+  "remaining_spending_limit": 2101,
+  "current_spending": 0,
+  "card_set_spend_limit_at": "2023-05-08T09:07:36.000000Z",
+  "card_frozen_at": "2023-05-08T09:51:09.134877Z",
+  "physical_card_transaction_limit_amount": 250,
+  "physical_card_atm_withdrawals_daily_limit_amount": 20,
+  "physical_card_order_timeline": [],
+  "auto_frozen": false,
+  "set_to_freeze_after_txn_count": 0,
+  "is_freezing_soon": false,
+  "authorizations": {
+    "cancel_public": true,
+    "replace_public": true,
+    "temporary_lock_public": false,
+    "unlock_public": true,
+    "update_maximum_amount": true,
+    "update_public": false,
+    "export_transactions": true,
+    "add_to_gpay": false,
+    "change_color": true,
+    "activate_card_public": false,
+    "set_pin_card_public": false,
+    "show_card_public": true,
+    "request_update_card": false
+  }
+}

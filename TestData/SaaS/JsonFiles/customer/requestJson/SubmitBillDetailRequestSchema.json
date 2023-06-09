@@ -1,0 +1,48 @@
+{
+  "source_type": "business",
+  "source_uuid": "{$source_uuid}",
+  "_fields": [
+    "uuid",
+    "currency.code",
+    "currency.countries.code",
+    "currency.decimals",
+    "currency.fx_enabled",
+    "currency.is_active",
+    "currency.mca_amount_dps",
+    "currency.mca_amount_min",
+    "currency.mca_enabled",
+    "currency.mca_local_amount_max",
+    "currency.mca_swift_amount_max",
+    "currency.name",
+    "authorizations.submit",
+    "authorizations.delete",
+    "authorizations.update",
+    "authorizations.attach_files",
+    "authorizations.remove_files"
+  ],
+  "amount": 5000,
+  "action": "SendMoneyOutsideAction",
+  "bill_date": "2023-04-05",
+  "due_date": "2023-04-30",
+  "currency_code": "SGD",
+  "line_items": [
+    {
+      "uuid": "",
+      "quantity": 1,
+      "unit_price": 2000,
+      "description": "",
+      "amount": 0,
+      "isLocal": true
+    },
+    {
+      "uuid": "",
+      "quantity": 1,
+      "unit_price": 3000,
+      "description": "",
+      "amount": 0,
+      "isLocal": true
+    }
+  ],
+  "bill_number": "{$bill_number}",
+  "files": []
+}

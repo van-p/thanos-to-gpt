@@ -1,0 +1,57 @@
+[
+  {
+    "uuid": "9537a993-842f-4bbe-96ee-bf490657f175",
+    "title": "Accounts",
+    "key": "CNSING.accounts",
+    "type": "space",
+    "badge": null,
+    "position": 0,
+    "web_destination": "/dashboard/debit/my-accounts",
+    "is_locked": false,
+    "icon_url": null
+  },
+  {
+    "uuid": "95c27961-7fec-4239-9c3d-c12a76d29f88",
+    "title": "Cards",
+    "key": "CNSING.debit_cards",
+    "type": "space",
+    "badge": null,
+    "position": 0,
+    "web_destination": "/dashboard/debit/cards/my-cards",
+    "is_locked": false,
+    "icon_url": null
+  },
+  {
+    "uuid": "9537a993-84b2-4c10-a99d-a3b9f7686fc6",
+    "title": "Users",
+    "key": "CNSING.users",
+    "type": "space",
+    "badge": null,
+    "position": 0,
+    "web_destination": "/dashboard/settings/multi-users-access",
+    "is_locked": false,
+    "icon_url": null
+  },
+  {
+    "uuid": "96de263b-f8f0-4601-99d5-108634f3d217",
+    "title": "Approval Policy",
+    "key": "CNSING.approval_policy",
+    "type": "space",
+    "badge": null,
+    "position": 1,
+    "web_destination": "/dashboard/debit/approval-policies",
+    "is_locked": false,
+    "icon_url": null
+  },
+  {
+    "uuid": "9537a993-8464-46eb-8cdd-54e18c9c95fc",
+    "title": "Transactions",
+    "key": "CNSING.transactions",
+    "type": "space",
+    "badge": null,
+    "position": 2,
+    "web_destination": "/dashboard/debit/transactions?type\u003dpast\u0026current_tab\u003daccount-transactions",
+    "is_locked": false,
+    "icon_url": null
+  }
+]

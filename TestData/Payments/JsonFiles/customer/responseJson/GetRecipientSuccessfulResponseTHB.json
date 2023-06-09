@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "uuid": "98ed958c-ad08-4536-bb43-19b88f2d8371",
+      "currency_code": "THB",
+      "display_currency_code": "THB",
+      "bank_code": "57",
+      "bank_account_number": "21321324",
+      "international_bank_account_number": "21321324",
+      "account_holder_name": "fx no doc",
+      "name": "fx no doc",
+      "type": "deprecated",
+      "types": [
+        "fx"
+      ],
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "57",
+          "bank_account_number": "21321324",
+          "reference_code": "21321324",
+          "international_bank_account_number": "21321324",
+          "account_holder_name": "fx no doc",
+          "reference_name": "fx no doc",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "THB",
+        "name": "Thai Baht",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true
+      },
+      "display_currency": {
+        "code": "THB",
+        "name": "Thai Baht",
+        "symbol": "฿",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": false,
+        "decimals": 2
+      },
+      "beneficiary_debit_account": {
+        "uuid": "98d78490-9365-4484-bb63-b17c548f5ba2",
+        "currency_code": "IDR",
+        "label": "IDR account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 0,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 0,
+        "minimum_transfer_amount_pin_required": 500000000,
+        "transaction_fee_amount": 0,
+        "balance": 110874900000,
+        "bank_code": "016",
+        "bank_account_number": "7828-7000-0001-9849",
+        "bank_account_holder_name": "Lowe, Erdman and Will",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-05-01 00:00:00",
+        "total_non_credit_tx_number": 15,
+        "total_non_credit_tx_volume": 101135100000,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "98f340a2-e2a3-4acd-a37c-202c83107eb9",
+          "code": "UQ7QGTEX6P2V",
+          "type": "credit",
+          "presented_amount": "IDR 99,500,000",
+          "created_at": "2023-05-10 00:00:00",
+          "currency": "IDR",
+          "description": "Create transaction",
+          "counter_party_name": "Lakin, Brekke and Flatley",
+          "counter_party_code": "748503572152",
+          "counter_party_bank_code": "CITISGSGXXX",
+          "transaction_date": "2023-05-10",
+          "transaction_time": "00:00:00",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "98d78486-ab21-4c26-9361-c3d1b3f5baa3",
+          "referral_code": "9YQ6KPXE",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 110874900000
+        },
+        "blue_card_issuance_fee": 0,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": true,
+          "submit_transfer": false,
+          "create_fx_transfer": true,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": true,
+          "create_debit_card": true,
+          "request_debit_card": false,
+          "create_physical_debit_card": true,
+          "create_blue_physical_debit_card": true,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "debit_account_provider_recipient_map": {
+        "98d7848f-5adf-4c67-aeab-0ffe22580f17": {
+          "provider_recipient_uuid": "98ed958c-a402-47a0-a0f9-d9e67fd577e3",
+          "is_swift_recipient": false,
+          "service": "fx",
+          "can_transfer": true
+        },
+        "98d78490-9365-4484-bb63-b17c548f5ba2": {
+          "provider_recipient_uuid": "98ed958c-a402-47a0-a0f9-d9e67fd577e3",
+          "is_swift_recipient": false,
+          "service": "fx",
+          "can_transfer": true
+        },
+        "98d784ab-2f78-4281-9f8e-780325bfd69f": {
+          "service": "mca",
+          "can_transfer": true
+        }
+      },
+      "preferred_source_debit_account_uuid": "98d78490-9365-4484-bb63-b17c548f5ba2"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/counterparties?page\u003d2"
+}

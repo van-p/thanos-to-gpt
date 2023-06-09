@@ -1,0 +1,660 @@
+[
+  {
+    "uuid": "9537a993-830e-4544-8a30-60277b97feec",
+    "title": "Overview",
+    "key": "CNSING.business_account",
+    "position": 1,
+    "spaces": [
+      {
+        "uuid": "9537a993-842f-4bbe-96ee-bf490657f175",
+        "title": "Accounts",
+        "key": "CNSING.accounts",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/debit/my-accounts",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-8437-43ff-a957-db4bb656f576",
+            "title": "Open an account",
+            "key": "CNSING.open_an_account",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/debit/create-new-account",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9752c00d-5b43-4ebf-84b6-399f25da38fd",
+            "title": "Make bulk transfers",
+            "key": "CNSING.bulk_payment",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/debit/bulk-bill-pay",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-843c-45e8-8795-223ef055059c",
+            "title": "Make a transfer",
+            "key": "CNSING.make_a_transfer",
+            "type": "action",
+            "position": 1,
+            "web_destination": "/dashboard/debit/transfer",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-8440-4a15-a89a-ab66c3c1081c",
+            "title": "Schedule a transfer",
+            "key": "CNSING.schedule_a_transfer",
+            "type": "action",
+            "position": 2,
+            "web_destination": "/dashboard/debit/transfer",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-8449-4f5a-a44e-d60f90afc63f",
+            "title": "Approve a transfer",
+            "key": "CNSING.approve_a_transfer",
+            "type": "action",
+            "position": 4,
+            "web_destination": "/dashboard/debit/transactions?type\u003dpending\u0026current_tab\u003daccount-transactions",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-844d-4855-a7f0-861055373e50",
+            "title": "View pending transfers",
+            "key": "CNSING.view_pending_transfers",
+            "type": "action",
+            "position": 5,
+            "web_destination": "/dashboard/debit/transactions?type\u003dpending\u0026current_tab\u003daccount-transactions",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-8509-460a-8e61-000eb9e43689",
+            "title": "Pay with PayNow",
+            "key": "CNSING.pay_with_paynow",
+            "type": "action",
+            "position": 6,
+            "web_destination": "Pay with PayNow",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "98ad61b9-7e58-4af7-8c3b-874a3e45116b",
+            "title": "Send via Paynow",
+            "key": "CNSING.paynow-out",
+            "type": "action",
+            "position": 6,
+            "web_destination": "PayNowOutOptionsModal",
+            "is_locked": false,
+            "icon_url": "https://weexamplestaging-bucket.s3.ap-southeast-1.amazonaws.com/public/2023-05-18/98b30ff1-e56b-422e-b899-d36df5a0707d/send_via_paynow.png?X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Security-Token\u003dIQoJb3JpZ2luX2VjEDIaDmFwLXNvdXRoZWFzdC0xIkYwRAIgXjkhHXZsZ%2BE%2Fid3X3osCvd%2F8LdfDugJPjLZNcklPuukCIGFKsZczAaqo98nYQL9fDxHhG3Kir3%2BUvyx8K792iMbBKsoFCFsQABoMMjM4NzIzNzM4MDg0IgxJksvvuvIvYEBmrl0qpwXjbllV6PMbDJN3hma93pNucoTGzsNF5JDnXSpwLhLjYotk3ISrjK7dlQrkAzUG7MIpueTt3idSWihd6qcOTmgpQXZr%2BOS3u7IeNmdA2vqFUARetMo0FCIrZwWD6XXbTxbNArORC%2FzLLYNyW5PgCVIdw9vLIC2P5GPXrCXRQZLcFonWsDUf9WaT9OEO8yTRMkpUOy%2FyxvC6FAvJ4vzkV9F8oimnKZo8efYqmQlb6Kc4S9Ri7TLhVHqqfB3jsOEjOhOJWf%2BDyKWRiJXVwxy4%2B4lQST72MCRxog3lrkVtQCm7VkH6PWFAnAGTi6mtataPcy5Bq3gtUaFHlBfuG8NsEkLLAUtKXRwIq2DcPAulltr0t%2B5rlrzEsx6NTPbh0bsmmhs5ErGWp7uiBRCYowxgdGHWBqek1861egiB4fvs9VdvGdungSxEEj9HrlqmLWi4rtoy25T7uNAN1QnsxEg3BR06FoT6gOKWa4Q%2B4pnZnFZuq0LwYTZib1lwRGNtFEWdBoj8TvSaQLaqdqCa76wZEG%2BLkdw8ifb7HvvaeHDCXQw3LJFBsveQ%2FO38iss%2FnmiopeunW6JnyYLdJxJM1%2BGP4%2BZagOFCd1lD4Zp3g%2BiXDtkoynGV%2F0yxyM7CrWon2fnXrZPLReUX2aGaeUojKDePLitzzkPn9bGXKqyRjZyyEipJhl7cHykrA%2BnEn9OVTC5v2z26jB9uvNNcMzofHVoRvW6UvVuBp7fQcvoqPSuiV%2Fyd1EGnxdwalnAXi0vgXRroO0YrOsN4w7EuzJdoqpCmvUeHanPE34zI%2FVNAmOSlcFOOC%2FcupJ15XQOCathIita7n%2FDshzAJ6ZlQCaYWRUx2K6x0MeSaSVPdFzsrkSUepceWjguH%2FN4RMtvTDSwGtcDwa0YX7RC2Ig%2BsMNrql6MGOrIBlbL9%2FowhWyYwBcdhkyqW9e7O7GW0UhsC8j%2FRRoHEnFNdup5ikD9Z3CpxFV3HhF4mClohSevdeDHkURxMx2xjVc%2FcF0lv8QmhtrqEl9KklciQJK%2FsZuhykrxf7PKG1brYBlXYJBWy6%2FWgkHD1v5M9ERRh91eAHWlEvpQTHBjWQ517uvw0Yd9d%2FFeAzDhf%2BfJ07tYF671u9qmq1HCgKwCJkAgF%2Bn5KPJJ8ceEHrmGZHCyY%2BQ%3D%3D\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Credential\u003dASIATPFILFHSNTGOEAE4%2F20230518%2Fap-southeast-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20230518T100241Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d3600\u0026X-Amz-Signature\u003d9481e57da1ffc723e9e11abe7eb3a39b50ceca87cc2a72d06e047ebd56987431",
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "98cbdf6e-1193-4d0f-8d29-649fcf1c0162",
+        "title": "Advance limit",
+        "key": "CNSING.advance_limit",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/credit/getting-started",
+        "is_locked": false,
+        "icon_url": "https://weexamplestaging-bucket.s3.ap-southeast-1.amazonaws.com/public/2023-05-18/98e7642a-ecc7-40f6-bf33-117031628bd6/Advance_limit_green.png?X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Security-Token\u003dIQoJb3JpZ2luX2VjEDIaDmFwLXNvdXRoZWFzdC0xIkYwRAIgXjkhHXZsZ%2BE%2Fid3X3osCvd%2F8LdfDugJPjLZNcklPuukCIGFKsZczAaqo98nYQL9fDxHhG3Kir3%2BUvyx8K792iMbBKsoFCFsQABoMMjM4NzIzNzM4MDg0IgxJksvvuvIvYEBmrl0qpwXjbllV6PMbDJN3hma93pNucoTGzsNF5JDnXSpwLhLjYotk3ISrjK7dlQrkAzUG7MIpueTt3idSWihd6qcOTmgpQXZr%2BOS3u7IeNmdA2vqFUARetMo0FCIrZwWD6XXbTxbNArORC%2FzLLYNyW5PgCVIdw9vLIC2P5GPXrCXRQZLcFonWsDUf9WaT9OEO8yTRMkpUOy%2FyxvC6FAvJ4vzkV9F8oimnKZo8efYqmQlb6Kc4S9Ri7TLhVHqqfB3jsOEjOhOJWf%2BDyKWRiJXVwxy4%2B4lQST72MCRxog3lrkVtQCm7VkH6PWFAnAGTi6mtataPcy5Bq3gtUaFHlBfuG8NsEkLLAUtKXRwIq2DcPAulltr0t%2B5rlrzEsx6NTPbh0bsmmhs5ErGWp7uiBRCYowxgdGHWBqek1861egiB4fvs9VdvGdungSxEEj9HrlqmLWi4rtoy25T7uNAN1QnsxEg3BR06FoT6gOKWa4Q%2B4pnZnFZuq0LwYTZib1lwRGNtFEWdBoj8TvSaQLaqdqCa76wZEG%2BLkdw8ifb7HvvaeHDCXQw3LJFBsveQ%2FO38iss%2FnmiopeunW6JnyYLdJxJM1%2BGP4%2BZagOFCd1lD4Zp3g%2BiXDtkoynGV%2F0yxyM7CrWon2fnXrZPLReUX2aGaeUojKDePLitzzkPn9bGXKqyRjZyyEipJhl7cHykrA%2BnEn9OVTC5v2z26jB9uvNNcMzofHVoRvW6UvVuBp7fQcvoqPSuiV%2Fyd1EGnxdwalnAXi0vgXRroO0YrOsN4w7EuzJdoqpCmvUeHanPE34zI%2FVNAmOSlcFOOC%2FcupJ15XQOCathIita7n%2FDshzAJ6ZlQCaYWRUx2K6x0MeSaSVPdFzsrkSUepceWjguH%2FN4RMtvTDSwGtcDwa0YX7RC2Ig%2BsMNrql6MGOrIBlbL9%2FowhWyYwBcdhkyqW9e7O7GW0UhsC8j%2FRRoHEnFNdup5ikD9Z3CpxFV3HhF4mClohSevdeDHkURxMx2xjVc%2FcF0lv8QmhtrqEl9KklciQJK%2FsZuhykrxf7PKG1brYBlXYJBWy6%2FWgkHD1v5M9ERRh91eAHWlEvpQTHBjWQ517uvw0Yd9d%2FFeAzDhf%2BfJ07tYF671u9qmq1HCgKwCJkAgF%2Bn5KPJJ8ceEHrmGZHCyY%2BQ%3D%3D\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Credential\u003dASIATPFILFHSNTGOEAE4%2F20230518%2Fap-southeast-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20230518T100241Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d3600\u0026X-Amz-Signature\u003d780b1cfcfbfe375c4bb3a969ccac34e414eb7dec8dd0191f37ee87b69c528007",
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8464-46eb-8cdd-54e18c9c95fc",
+        "title": "Transactions",
+        "key": "CNSING.transactions",
+        "type": "space",
+        "position": 2,
+        "web_destination": "/dashboard/debit/transactions?type\u003dpast\u0026current_tab\u003daccount-transactions",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-8451-4dbe-bc55-593a0d253105",
+            "title": "Get account statement",
+            "key": "CNSING.get_account_statement",
+            "type": "action",
+            "position": 6,
+            "web_destination": "/dashboard/debit/transactions/export",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "9537a993-846c-4047-8dd1-6f5911ffcd90",
+        "title": "Credit",
+        "key": "CNSING.credit",
+        "type": "space",
+        "position": 3,
+        "web_destination": "/dashboard/credit",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8470-4bb8-9328-bc75d6e506b5",
+        "title": "Analytics",
+        "key": "CNSING.analytics",
+        "type": "space",
+        "position": 4,
+        "web_destination": "/dashboard/debit/insights",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "970ed8fd-5d70-4e42-9a6a-ffd8f56ac5bd",
+    "title": "Spend",
+    "key": "CNSING.manage_expenses",
+    "position": 2,
+    "spaces": [
+      {
+        "uuid": "95c27961-7fec-4239-9c3d-c12a76d29f88",
+        "title": "Cards",
+        "key": "CNSING.debit_cards",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/debit/cards/my-cards",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-847d-4694-9ab1-6a6552e089ff",
+            "title": "Issue a card",
+            "key": "CNSING.i\u001dssue_a_card",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/debit/cards/company-cards?navigation_item_key\u003dissue_a_card",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "9537a993-8481-46ca-9dee-1051f4da9511",
+        "title": "Budgets",
+        "key": "CNSING.budgets",
+        "type": "space",
+        "position": 2,
+        "web_destination": "/dashboard/debit/budgets/home",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-8485-46c4-a34b-37f21c9dd837",
+            "title": "Create a budget",
+            "key": "CNSING.create_a_budget",
+            "type": "action",
+            "position": 0,
+            "web_destination": "dashboard/debit/budgets/home",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "970ed8fd-5dd7-4216-abf7-f877f1882c3d",
+        "title": "Bills",
+        "key": "CNSING.bills",
+        "type": "space",
+        "position": 3,
+        "web_destination": "/dashboard/debit/bill-pay",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8489-4457-a7fd-6cb218aa0a60",
+        "title": "Claims",
+        "key": "CNSING.claims",
+        "type": "space",
+        "position": 3,
+        "web_destination": "/dashboard/debit/claims/home",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-848d-40a5-ab84-c7e5a3205b8e",
+            "title": "Submit a claim",
+            "key": "CNSING.submit_a_claim",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/debit/claims/home",
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-8491-4fac-b22d-1f280e1cb531",
+            "title": "Approve a claim",
+            "key": "CNSING.approve_a_claim",
+            "type": "action",
+            "position": 1,
+            "is_locked": false,
+            "values": []
+          },
+          {
+            "uuid": "9537a993-8499-4669-834d-026fc8cf9a21",
+            "title": "Settle a claim",
+            "key": "CNSING.settle_a_claim",
+            "type": "action",
+            "position": 2,
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "9537a993-8319-4da0-be52-0854bd7ae3ae",
+    "title": "Receive",
+    "key": "CNSING.receive_payments",
+    "position": 3,
+    "spaces": [
+      {
+        "uuid": "9537a993-84a6-47cf-8286-2781179fae2c",
+        "title": "Invoices",
+        "key": "CNSING.invoicing",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/invoices",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-84ae-42b5-acce-1ba9544ee989",
+            "title": "Send an invoice",
+            "key": "CNSING.send_an_invoice",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/invoices",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "9537a993-853f-4a2b-acb9-28db7f5ecbff",
+        "title": "Payment links",
+        "key": "CNSING.payment_links",
+        "type": "space",
+        "position": 2,
+        "web_destination": "/dashboard/payment-links",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8538-49bd-9769-f839e6594110",
+        "title": "PayNow details",
+        "key": "CNSING.pay_now_details",
+        "type": "space",
+        "position": 3,
+        "web_destination": "PayNowEducationModal",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "9890fdf6-1197-4842-9cb1-13e7b1a4bd82",
+    "title": "Directory",
+    "key": "CNSING.directory",
+    "position": 6,
+    "spaces": [
+      {
+        "uuid": "9537a993-84aa-4ce3-a81d-424bcfaf04ff",
+        "title": "Customers",
+        "key": "CNSING.customers",
+        "type": "space",
+        "position": 4,
+        "web_destination": "/dashboard/invoices/customers",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8474-433c-ab80-f3fd2b1d13b8",
+        "title": "Recipients",
+        "key": "CNSING.transfer_recipients",
+        "type": "space",
+        "position": 5,
+        "web_destination": "/dashboard/settings/business-partners",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-8455-44a5-a055-2c37bdedabb2",
+            "title": "Add a recipient",
+            "key": "CNSING.add_a_recipient",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/debit/transfer/add-recipient",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uuid": "96535e9b-4e3a-4f51-87ef-643c7d8fe1de",
+    "title": "Accounting",
+    "key": "CNSING.integrations",
+    "position": 8,
+    "spaces": [
+      {
+        "uuid": "9537a993-84ca-4a51-bf2d-94f24423c9cd",
+        "title": "Xero",
+        "key": "CNSING.xero",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/debit/transactions/export/integration/xero",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84cd-407d-a8f9-4c8e5fca3e3c",
+        "title": "Quickbooks",
+        "key": "CNSING.quickbooks",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/debit/transactions/export/integration/quickbooks",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84d2-4277-b183-a0f7941b7ada",
+        "title": "ApplePay",
+        "key": "CNSING.applepay",
+        "type": "space",
+        "position": 4,
+        "web_destination": "/dashboard/settings/business-details",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84d5-446e-b055-10e4912e4727",
+        "title": "GooglePay",
+        "key": "CNSING.googlepay",
+        "type": "space",
+        "position": 5,
+        "web_destination": "/dashboard/debit/cards/add-card-google-pay",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "96535e9b-5f0d-462e-a38e-e814dbc56da4",
+        "title": "Export statement",
+        "key": "CNSING.export_statement",
+        "type": "space",
+        "position": 6,
+        "web_destination": "/dashboard/debit/transactions/export",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "97633b62-2c29-4558-a3c2-48d8ad50379e",
+    "title": "Users \u0026 Access",
+    "key": "CNSING.users",
+    "position": 9,
+    "spaces": [
+      {
+        "uuid": "9537a993-84b2-4c10-a99d-a3b9f7686fc6",
+        "title": "Users",
+        "key": "CNSING.users",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/settings/multi-users-access",
+        "is_locked": false,
+        "values": [],
+        "actions": [
+          {
+            "uuid": "9537a993-84b6-4457-986a-d1e1722c2aad",
+            "title": "Invite a user",
+            "key": "CNSING.invite_a_user",
+            "type": "action",
+            "position": 0,
+            "web_destination": "/dashboard/settings/multi-users-access",
+            "is_locked": false,
+            "values": []
+          }
+        ]
+      },
+      {
+        "uuid": "96de263b-f8f0-4601-99d5-108634f3d217",
+        "title": "Approval Policy",
+        "key": "CNSING.approval_policy",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/debit/approval-policies",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84ba-4324-9a63-def1e664d960",
+        "title": "Roles and permissions",
+        "key": "CNSING.roles_and_permissions",
+        "type": "space",
+        "position": 2,
+        "web_destination": "/dashboard/settings/multi-users-access",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "9537a993-8321-4968-a5f5-8bc801598859",
+    "title": "Rewards",
+    "key": "CNSING.rewards",
+    "position": -3,
+    "spaces": [
+      {
+        "uuid": "9537a993-84be-4754-818c-f1f061cf783d",
+        "title": "Card cashback",
+        "key": "CNSING.card_cashback",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/debit/cards/cashback/pending",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84c2-4c6e-8f1c-eeaaa5293cfa",
+        "title": "Referrals",
+        "key": "CNSING.referrals",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/debit/referrals/invite",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84c6-4a1b-8d6c-753f85ce6540",
+        "title": "Partner perks",
+        "key": "CNSING.partner_perks",
+        "type": "space",
+        "position": 2,
+        "web_destination": "https://example.com/member-only/redeem-reward",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "98b504d6-c70b-4989-b0c7-2d48eed93215",
+    "title": "Help",
+    "key": "CNSING.help_and_support",
+    "position": -2,
+    "spaces": [
+      {
+        "uuid": "98b505e7-9a37-44b8-a478-f37caf32a7f5",
+        "title": "Chat with us",
+        "key": "CNSING.talk_to_us",
+        "type": "space",
+        "position": 1,
+        "web_destination": "Talks",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "98e9c267-95fa-43e4-95d9-7351e24d6c05",
+        "title": "About example",
+        "key": "CNSING.about_example",
+        "type": "space",
+        "position": 5,
+        "web_destination": "/dashboard/account-safety",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "98e9c576-06ad-43a9-a993-8a0aec92c82e",
+        "title": "example Blog",
+        "key": "CNSING.example_blog",
+        "type": "space",
+        "position": 6,
+        "web_destination": "https://example.com/blog",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-8757-4cb3-981f-2c5262660503",
+        "title": "Acceptable use policies",
+        "key": "CNSING.acceptable_use_policies",
+        "type": "space",
+        "position": 7,
+        "web_destination": "https://app.example.com/sg/dashboard/settings/policies",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      }
+    ]
+  },
+  {
+    "uuid": "9537a993-8329-4af8-98cc-27dc0423de35",
+    "title": "Settings",
+    "key": "CNSING.settings",
+    "position": -1,
+    "spaces": [
+      {
+        "uuid": "9537a993-84d9-4bfa-ba41-72747441c730",
+        "title": "Business details",
+        "key": "CNSING.business_details",
+        "type": "space",
+        "position": 0,
+        "web_destination": "/dashboard/settings/business-details",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84dd-49c8-8ba2-575c5fb14aa3",
+        "title": "Personal details",
+        "key": "CNSING.person_details",
+        "type": "space",
+        "position": 1,
+        "web_destination": "/dashboard/settings/person-details",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84e1-4792-ab3d-8438cf5a881f",
+        "title": "Security",
+        "key": "CNSING.security",
+        "type": "space",
+        "position": 2,
+        "web_destination": "/dashboard/settings/security",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84e5-43ee-9703-e1714b149bdf",
+        "title": "Notifications",
+        "key": "CNSING.notifications",
+        "type": "space",
+        "position": 3,
+        "web_destination": "/dashboard/settings/notifications-management",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84e9-4c3e-bf53-3d8b1d32a916",
+        "title": "File uploader",
+        "key": "CNSING.file_uploader",
+        "type": "space",
+        "position": 5,
+        "web_destination": "/dashboard/settings/file-manager",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "9537a993-84ed-494b-b802-bfcc10636e46",
+        "title": "Contracts",
+        "key": "CNSING.contracts",
+        "type": "space",
+        "position": 6,
+        "web_destination": "/dashboard/settings/contracts",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "7324639d-9463-43da-84b7-14f9a36c1353",
+        "title": "Language",
+        "key": "CNSING.language",
+        "type": "space",
+        "position": 7,
+        "web_destination": "/dashboard/settings/language",
+        "is_locked": false,
+        "values": [],
+        "actions": []
+      },
+      {
+        "uuid": "992391c9-08fa-4812-9479-1cd126da6e8e",
+        "title": "Receipt management",
+        "key": "CNSING.receipt_management",
+        "type": "space",
+        "position": 10,
+        "web_destination": "/dashboard/settings/receipt-management",
+        "is_locked": false,
+        "icon_url": "https://weexamplestaging-bucket.s3.ap-southeast-1.amazonaws.com/public/2023-05-18/9923921b-1b4c-465b-be0d-2ed40ffe4d51/receipt_management_desktop.png?X-Amz-Content-Sha256\u003dUNSIGNED-PAYLOAD\u0026X-Amz-Security-Token\u003dIQoJb3JpZ2luX2VjEDIaDmFwLXNvdXRoZWFzdC0xIkYwRAIgXjkhHXZsZ%2BE%2Fid3X3osCvd%2F8LdfDugJPjLZNcklPuukCIGFKsZczAaqo98nYQL9fDxHhG3Kir3%2BUvyx8K792iMbBKsoFCFsQABoMMjM4NzIzNzM4MDg0IgxJksvvuvIvYEBmrl0qpwXjbllV6PMbDJN3hma93pNucoTGzsNF5JDnXSpwLhLjYotk3ISrjK7dlQrkAzUG7MIpueTt3idSWihd6qcOTmgpQXZr%2BOS3u7IeNmdA2vqFUARetMo0FCIrZwWD6XXbTxbNArORC%2FzLLYNyW5PgCVIdw9vLIC2P5GPXrCXRQZLcFonWsDUf9WaT9OEO8yTRMkpUOy%2FyxvC6FAvJ4vzkV9F8oimnKZo8efYqmQlb6Kc4S9Ri7TLhVHqqfB3jsOEjOhOJWf%2BDyKWRiJXVwxy4%2B4lQST72MCRxog3lrkVtQCm7VkH6PWFAnAGTi6mtataPcy5Bq3gtUaFHlBfuG8NsEkLLAUtKXRwIq2DcPAulltr0t%2B5rlrzEsx6NTPbh0bsmmhs5ErGWp7uiBRCYowxgdGHWBqek1861egiB4fvs9VdvGdungSxEEj9HrlqmLWi4rtoy25T7uNAN1QnsxEg3BR06FoT6gOKWa4Q%2B4pnZnFZuq0LwYTZib1lwRGNtFEWdBoj8TvSaQLaqdqCa76wZEG%2BLkdw8ifb7HvvaeHDCXQw3LJFBsveQ%2FO38iss%2FnmiopeunW6JnyYLdJxJM1%2BGP4%2BZagOFCd1lD4Zp3g%2BiXDtkoynGV%2F0yxyM7CrWon2fnXrZPLReUX2aGaeUojKDePLitzzkPn9bGXKqyRjZyyEipJhl7cHykrA%2BnEn9OVTC5v2z26jB9uvNNcMzofHVoRvW6UvVuBp7fQcvoqPSuiV%2Fyd1EGnxdwalnAXi0vgXRroO0YrOsN4w7EuzJdoqpCmvUeHanPE34zI%2FVNAmOSlcFOOC%2FcupJ15XQOCathIita7n%2FDshzAJ6ZlQCaYWRUx2K6x0MeSaSVPdFzsrkSUepceWjguH%2FN4RMtvTDSwGtcDwa0YX7RC2Ig%2BsMNrql6MGOrIBlbL9%2FowhWyYwBcdhkyqW9e7O7GW0UhsC8j%2FRRoHEnFNdup5ikD9Z3CpxFV3HhF4mClohSevdeDHkURxMx2xjVc%2FcF0lv8QmhtrqEl9KklciQJK%2FsZuhykrxf7PKG1brYBlXYJBWy6%2FWgkHD1v5M9ERRh91eAHWlEvpQTHBjWQ517uvw0Yd9d%2FFeAzDhf%2BfJ07tYF671u9qmq1HCgKwCJkAgF%2Bn5KPJJ8ceEHrmGZHCyY%2BQ%3D%3D\u0026X-Amz-Algorithm\u003dAWS4-HMAC-SHA256\u0026X-Amz-Credential\u003dASIATPFILFHSNTGOEAE4%2F20230518%2Fap-southeast-1%2Fs3%2Faws4_request\u0026X-Amz-Date\u003d20230518T100241Z\u0026X-Amz-SignedHeaders\u003dhost\u0026X-Amz-Expires\u003d3600\u0026X-Amz-Signature\u003dffcdfbb51e071c8fb58377cd8224e0a608c1c84a09b73eb9987ddf46fa258a6a",
+        "values": [],
+        "actions": []
+      }
+    ]
+  }
+]

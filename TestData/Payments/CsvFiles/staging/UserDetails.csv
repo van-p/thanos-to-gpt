@@ -1,0 +1,32 @@
+sr.No,username,password,businessReferenceCode,personReferenceCode,businessName,accountUuid,fullName,gender
+1,jordonbednar_71101@example.com,12345678Ac!,SGGECL,SERSKE,Gleichner LLC,9923a48b-f51f-4998-8b91-742e3b7cfbe7
+2,rosarioromaguera_1521639@example.org,12345678Ac!,SGGECL,VRGJHN,Gleichner LLC,9923a48b-f51f-4998-8b91-742e3b7cfbe7
+3,admin_sgd_local@example.com,12345678Ac!,SGWEBY,ETHSTE,"Weber Knock"
+4,nickolaslarson_8744194@example.net,12345678Ac!,SGBAEL,ADFLUE,"Bailey, Lynch and Wilkinson"
+5,orinkirlin_606591@example.com,12345678Ac!,SGLWEE,LNDFRT,"Lowe, Erdman and Will",98d78487-0751-4287-9b6e-88d20ff51792
+6,samsonwindler_2333491@example.net,12345678Ac!,SGHALT,CRDEFF,"Hagenes Ltd"
+7,madelynkohler_2907949@example.com,12345678Ac!,SGHALT,MCGCAM,"Hagenes Ltd"
+8,sandyoconnell_5851141@example.com,12345678Ac!,SGGRUW,ESAEFF,Olson Group,98f92c00-25ea-4e1a-a6a7-dd1abc50ddd5
+9,financetransferauto@example.com,12345678Ac!,SGHALT,"Hagenes Ltd"
+10,ellisgorczany_4143475@example.net,12345678Ac!,SGBSCS,MRSHAY,"Bosco, Spinka and Jast",99099d51-acc9-433f-80af-9ead3c0b8e94,Mrs. Haylie Morar,Female
+11,natali_auto_maker@mc.com,12345678Ac!,SGNAAB,FNAS2P,natali automation,98fa2f65-9b93-4fc9-b2b3-47cde7da2735
+12,natali_auto_checker@mc.com,12345678Ac!,SGNAAB,FNATJG,natali automation,98fa2f65-9b93-4fc9-b2b3-47cde7da2735
+13,finance.submit.only_5154567@example.com,12345678Ac!,SGGRUW,FNSCTR,Olson Group,98f92c00-25ea-4e1a-a6a7-dd1abc50ddd5
+14,laurasatterfield_2486849@example.net,12345678Ac!,SGBRE3,DEVKER,Breitenberg-Fisher,991ddfa5-1591-4d44-9577-bbc8849004ed,Devyn Kerluke Iv,Male
+15,finance.submit.only_4145258@example.com,12345678Ac!,SGBRE3,FNSVY9,Breitenberg-Fisher,991ddfa5-1591-4d44-9577-bbc8849004ed,Mrs. Finance Submit Only,Female
+16,sgd_weekend@example.org,12345678Ac!,SGBEGT,JERHAY,Beier Group,9947efea-a4d2-4517-b015-5fbb1df55677,Jerad Hayes,Male
+17,idronlyfull@example.com,123456,SGWAET,AVAMCA,"Nga IDR only",98aeee81-9af1-42b2-9d58-1e2b3743b92c
+18,finance.transfer.only_6876539@example.com,12345678Ac!,SGBEGT,FNATNA,Beier Group,9947efea-a4d2-4517-b015-5fbb1df55677,Finance Transfer Only,Female
+19,nonsg_admin_weekend@example.com,12345678Ac!,SGWATB,JAEFRA,Baumbach and Reilly,994a4659-404c-4e83-9da0-989f51b749ca,Mr. Jalen Franecki,Female
+20,finance.transfer.nonsgd_weeken@example.com,12345678Ac!,SGWATB,FNT7BG,Baumbach and Reilly,994a4659-404c-4e83-9da0-989f51b749ca,Finance Transfer Only,Female
+21,natali_auto_admin@mc.com,12345678Ac!,SGNAAB,VDABAR,natali automation,98fa2f65-9b93-4fc9-b2b3-47cde7da2735
+22,reinholdpowlowski_5495808@example.com,123456,SGTERH,FRESJN,Terry  Heller and Prosacco,994a36a7-03fd-4d90-aef3-9f4c5324ebd4
+23,parisdubuque_1382927@example.com,123456,SGTERH,MARLEU,Terry  Heller and Prosacco,994a36a7-03fd-4d90-aef3-9f4c5324ebd4
+24,anselflatley_5816692@example.com,123456,SGTERH,VANWUN,Terry  Heller and Prosacco,994a36a7-03fd-4d90-aef3-9f4c5324ebd4
+25,emilygusikowski_2951338@example.com,12345678Ac!,SGDUBJ,KERMHR,DuBuque-Barton,99483f4f-2573-4a68-8ebd-8891c524f7f5
+26,bulahkemmer_2157459@example.com,12345678Ac!,SGSCLR,WHEPAR,Schinner Inc,99501cb9-2f15-4c47-9ee8-ef2faced30e5
+27,henrigoyette_1689007@example.com,12345678Ac!,SGSCLR,WHEPAR,Schinner Inc,99501cb9-2f15-4c47-9ee8-ef2faced30e5
+28,brucelarson_4482680@example.org,12345678Ac!,SGDCKM,PRFJUS,Dickens, Murazik and Strosin,99503750-9d59-4e92-80ff-5b584e0d648a
+29,susandaugherty_363353@example.com,12345678Ac!,SGDCKM,PRFJUS,Dickens, Murazik and Strosin,99503750-9d59-4e92-80ff-5b584e0d648a
+30,lourodriguez_4827374@example.net,12345678Ac!,SGGREK,STEMAG,"Greenfelder, Kling and Harvey"
+31,baronpollich_8798875@example.com,12345678Ac!,SGGREK,STEMAG,"Greenfelder, Kling and Harvey"

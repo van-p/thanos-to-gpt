@@ -1,0 +1,35 @@
+{
+  "data": [
+    {
+      "uuid": "9907733d-0ea9-4c27-842d-1333ddec92dd"
+    },
+    {
+      "uuid": "990772dc-f32c-4838-a39e-5fbfb7722f72"
+    },
+    {
+      "uuid": "990772d7-b200-4412-b187-8fd361171c59"
+    },
+    {
+      "uuid": "99077199-3d9c-4e5d-84ba-f591465d7e05"
+    },
+    {
+      "uuid": "99077195-82d4-4edd-a420-424bc1855ef1"
+    },
+    {
+      "uuid": "990770fa-7cdb-4342-ba12-46db9b10504f"
+    },
+    {
+      "uuid": "990770f6-a461-4b02-875f-2f11b09fa960"
+    },
+    {
+      "uuid": "99076f7e-e779-4eaf-86f9-9210548e98ce"
+    },
+    {
+      "uuid": "99076f79-b354-4ec4-a6c8-4d9c26e2906c"
+    },
+    {
+      "uuid": "99076f21-da8a-47f5-9535-cf7ccd09370f"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/debit-transactions?page\u003d2"
+}

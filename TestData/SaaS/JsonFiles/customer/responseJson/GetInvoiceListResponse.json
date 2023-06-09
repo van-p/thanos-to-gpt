@@ -1,0 +1,100 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "uuid": "9925eae1-d2dc-4436-b222-7a4d7b6254ca",
+      "state_code": "IVDR",
+      "year": "2023",
+      "number": "INV-002",
+      "terms_and_conditions": "",
+      "subtotal": 0,
+      "discount": 0,
+      "tax": 0,
+      "total_amount": 0,
+      "currency_code": "SGD",
+      "invoice_items_count": 0,
+      "created_at": "2023-05-12 16:48:55",
+      "updated_at": "2023-05-12 16:48:55",
+      "step": "",
+      "invoice_file_type": "generated",
+      "timeline": [],
+      "payment_link": "https://example.example.com/invoices/9925eae1-d2dc-4436-b222-7a4d7b6254ca/payment?signature\u003db5ee4a0106023a8a9a13896f7a71c899573d72b689fdfc768a2cba644d2bcfc5",
+      "reminder_timeline": [],
+      "requirements": {
+        "invoice_items": true,
+        "invoice_details": false,
+        "invoice_payment_methods": true,
+        "first_message": false,
+        "invoice_counterparty_details": true
+      },
+      "debit_transactions_count": 0,
+      "document_name": "INV-002_hessel_llc.pdf",
+      "authorizations": {
+        "update": true,
+        "submit": false,
+        "mark_as_unpaid": false,
+        "mark_as_paid": false,
+        "delete": true
+      }
+    },
+    {
+      "uuid": "9925eaa6-f305-4bd2-b6a1-ee1ff94764d0",
+      "state_code": "IVDR",
+      "year": "2023",
+      "number": "INV-001",
+      "terms_and_conditions": "",
+      "subtotal": 0,
+      "discount": 0,
+      "tax": 0,
+      "total_amount": 0,
+      "currency_code": "SGD",
+      "invoice_items_count": 0,
+      "created_at": "2023-05-12 16:48:16",
+      "updated_at": "2023-05-12 16:48:16",
+      "step": "",
+      "invoice_file_type": "generated",
+      "timeline": [],
+      "payment_link": "https://example.example.com/invoices/9925eaa6-f305-4bd2-b6a1-ee1ff94764d0/payment?signature\u003d5adf839cfa33185db4bfcce593a8215b55664db90d1c0686915c5c74528f8a65",
+      "reminder_timeline": [],
+      "requirements": {
+        "invoice_items": true,
+        "invoice_details": false,
+        "invoice_payment_methods": true,
+        "first_message": false,
+        "invoice_counterparty_details": true
+      },
+      "debit_transactions_count": 0,
+      "document_name": "INV-001_hessel_llc.pdf",
+      "authorizations": {
+        "update": true,
+        "submit": false,
+        "mark_as_unpaid": false,
+        "mark_as_paid": false,
+        "delete": true
+      }
+    }
+  ],
+  "first_page_url": "https://example.com/v1/invoices?page\u003d1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://example.com/v1/invoices?page\u003d1",
+  "links": [
+    {
+      "label": "\u0026laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://example.com/v1/invoices?page\u003d1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "label": "Next \u0026raquo;",
+      "active": false
+    }
+  ],
+  "path": "https://example.com/v1/invoices",
+  "per_page": 10,
+  "to": 2,
+  "total": 2
+}

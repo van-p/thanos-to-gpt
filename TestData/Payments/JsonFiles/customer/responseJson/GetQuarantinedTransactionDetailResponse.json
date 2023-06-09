@@ -1,0 +1,51 @@
+{
+  "uuid": "9904857f-ba92-4848-acf8-1edd12b385b4",
+  "reference_code": "MYCCDUBNRWYQQX",
+  "type": "outbound",
+  "created_at": "2023-04-26 02:23:06",
+  "updated_at": "2023-04-26 02:23:06",
+  "source_amount": -170,
+  "source_currency_code": "SGD",
+  "target_amount": -170,
+  "target_currency_code": "SGD",
+  "counterparty_name": "Thanos Test recipient SGD",
+  "country_code": "SG",
+  "provider": "dbs",
+  "state_code": "QUPE",
+  "is_fx": false,
+  "debit_transaction_options": [
+    {
+      "type": "transaction_purpose_type",
+      "key": "salaries",
+      "uuid": "94cb928d-8964-48e0-a2db-0aee1f0478c7",
+      "name": "Salaries",
+      "details": [],
+      "position": 2
+    }
+  ],
+  "counterparty_options": [
+    {
+      "type": "transaction_counterparty_relation_type",
+      "key": "client",
+      "uuid": "94cb928d-77ef-449d-a44b-ac20e306d57d",
+      "name": "Client",
+      "details": [],
+      "position": 0
+    }
+  ],
+  "quarantined_transaction_options": [],
+  "intra_account": false,
+  "person_id": 5507,
+  "authorizations": {
+    "update": true,
+    "special": true
+  },
+  "related_provider_state": {
+    "uuid": "9470e8a0-9766-455e-82ee-e12faa99de3e",
+    "state": "transaction-status-pending-review",
+    "label": "Transaction status pending review",
+    "entity": "provider-transaction",
+    "is_initial": 0,
+    "reference_code": "PTPR"
+  }
+}

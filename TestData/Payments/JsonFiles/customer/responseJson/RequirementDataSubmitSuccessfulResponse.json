@@ -1,0 +1,94 @@
+{
+  "requirements": [
+    {
+      "fields": [
+        {
+          "refresh": false,
+          "required": false,
+          "fieldType": "text",
+          "key": "reference",
+          "regex": "^[\\x20-\\x7E]*$",
+          "example": "",
+          "name": "Reference",
+          "readonly": false
+        },
+        {
+          "refresh": false,
+          "required": true,
+          "fieldType": "select",
+          "key": "transfer_purpose",
+          "example": "",
+          "name": "Purpose of Transfer",
+          "values": [
+            {
+              "key": "construction",
+              "name": "Construction costs/expenses"
+            },
+            {
+              "key": "travel",
+              "name": "Travel"
+            },
+            {
+              "key": "other_fees",
+              "name": "Broker, front end, commitment, guarantee and custodian fees"
+            },
+            {
+              "key": "office",
+              "name": "Representative office expenses"
+            },
+            {
+              "key": "exports",
+              "name": "Payments for exported goods"
+            },
+            {
+              "key": "goods",
+              "name": "Trade settlement for goods and general goods trades"
+            },
+            {
+              "key": "transfer",
+              "name": "Transfer to own account"
+            },
+            {
+              "key": "advisor_fees",
+              "name": "Fees for advisory, technical, academic or specialist assistance"
+            },
+            {
+              "key": "services",
+              "name": "Information service charges"
+            },
+            {
+              "key": "royalties",
+              "name": "Royalty, trademark, patent and copyright fees"
+            },
+            {
+              "key": "insurance_claims",
+              "name": "Insurance claims payment"
+            },
+            {
+              "key": "transportation",
+              "name": "Transportation fees for goods"
+            },
+            {
+              "key": "advertising",
+              "name": "Advertising and public relations-related expenses"
+            },
+            {
+              "key": "family",
+              "name": "Family maintenance"
+            },
+            {
+              "key": "delivery",
+              "name": "Delivery fees for goods"
+            }
+          ],
+          "value": "transfer",
+          "readonly": false
+        }
+      ]
+    }
+  ],
+  "neo_requirements": {
+    "neo_remittance_transaction": "360d31a4-66a1-4185-a307-e59e168e50cb",
+    "documents": []
+  }
+}

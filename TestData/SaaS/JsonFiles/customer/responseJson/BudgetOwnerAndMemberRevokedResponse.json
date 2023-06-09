@@ -1,0 +1,53 @@
+[
+  {
+    "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9",
+    "state_code": "PEVE",
+    "full_name": "Christop Paucek",
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 18:47:29",
+    "budget_person_updated_at": "2023-04-05 18:47:29"
+  },
+  {
+    "uuid": "98db67d2-9944-4434-b693-73dcd767cd23",
+    "state_code": "PEVE",
+    "full_name": "Lola Kautzer",
+    "budget_person_state": {
+      "reference_code": "BPRE",
+      "state": "revoked"
+    },
+    "budget_person_type": "member",
+    "budget_person_can_transfer": false,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 18:47:39",
+    "budget_person_updated_at": "2023-04-05 18:49:18"
+  },
+  {
+    "uuid": "98db67cd-70a6-42b4-b56c-5d955fa562cf",
+    "state_code": "PEVE",
+    "full_name": "Jude Abbott",
+    "budget_person_state": {
+      "reference_code": "BPRE",
+      "state": "revoked"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "98db67bf-6ecf-4dc6-a62f-9fa02b3059e9"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-04-05 18:47:29",
+    "budget_person_updated_at": "2023-04-05 18:48:14"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "BusinessSettings"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KycVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KybVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": false,
+      "option": "Debit Accounts"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "Integrations"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "MultiRole"
+    }
+  },
+  {
+    "name": "Business",
+    "value": {
+      "uuid": "991b8bae-4863-4e68-b46e-bcf68dbd2492",
+      "reference_code": "SGHEGJ",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "CreditAccount",
+    "value": {
+      "uuid": "991b8bb0-36c5-4438-b31e-5ba616cd4b3b",
+      "reference_code": "SGHEGJW3ZT",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "Director Access Token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYTczNmYyNDEyZjRhOTIyZmFjOWU2MWNkYzYzZmM5ZmUzODk0ZjVhNzVkZDg2MGQxOWZlOThlMGVjNTU3N2UyZDA1N2E0NWIwMzYxOTliZDIiLCJpYXQiOjE2ODM0MzU5MjQuNTYyMzY1LCJuYmYiOjE2ODM0MzU5MjQuNTYyMzY5LCJleHAiOjE3MTUwNTgzMjQuNTE1NDczLCJzdWIiOiI3NDk1Iiwic2NvcGVzIjpbXX0.gifEVgaTAxnHeqcQc66TpHenzE6UB9wacLu2yphqa_xIrq1gzfgSPm0Kllzxfv_nmnsare3yIBZrVlHEwX9ecS15_4CUy0T3QyXIoPRTciSg7JKI8CLPBoRr6nvoE4wXug2t7WZ42tpssUzr3rxPO1Z4D2PhrtuZf1eT9h269O_UytlxXjN_M0etXUleCTRoTlH5tYQEy1BGi4aENdN2TKIqMn11--DN9y6tSUIt6dn70RLausXbHyzskUCHNiiOpUkLRI24_DPmyEqcssc28oauaxAY9Naohdz1gIS2kjA-0vdp0UWo16-TsaFRSs11yekcZnCHVZkYPyAY7c2WueMlTCiZir-XsoWdNNf_G1aCQmn5qNJqT12xZDowHMX4OcoJukOhIX_ktO_Y3TpPlO1Cs2_MfrEiAKG_gnV-1AN0972hlkBrta1-kI-sqmKuVe53z6xDWNCVEJICXEvCptMF5HqKjIsW1guC7D-QZpl8s6HMMHjjiGHaUT1eNVXitd9pMuoLTenfoBIWfd_o46PnJgplCHx-cafgGY9dsQFw0SqWlhHWuWmhz2uNCPJsn9aoBX8bExu9GeKwT83R2XiQJU49dFVSDwhAMGnFQAnwmPg69OEW2FU57pvuEuw9-a1j1Jpq6gXhyAbfEomI4onczg-NqifwJrFcB1WWgl8"
+  },
+  {
+    "name": "Director",
+    "value": {
+      "uuid": "991b8bae-ec94-4337-a09b-a2d93a47aa71",
+      "reference_code": "MAXBCP",
+      "emailValue": "minervapouros_774896@example.com",
+      "tokenValue": "123456"
+    }
+  },
+  {
+    "name": "Debit Account (SGD)",
+    "value": {
+      "uuid": "991b8bbb-8dd4-4ba6-abf6-c3059cd7d5f0",
+      "reference_code": "K7DVVGJ5LQ"
+    }
+  },
+  {
+    "name": "Debit Account (IDR)",
+    "value": {
+      "uuid": "991b8bce-e076-4153-aef4-a49e8cae2143",
+      "reference_code": "W9VREAQVN6"
+    }
+  },
+  {
+    "name": "Debit Account (USD)",
+    "value": {
+      "uuid": "991b8be7-e8e8-42e2-b18a-f7c006716440",
+      "reference_code": "FXJMJUHNU9"
+    }
+  },
+  {
+    "name": "Debit Account (Advance)",
+    "value": {
+      "uuid": "991b8bd0-1b80-4dbc-8d32-122257ef8f76",
+      "reference_code": "CAR6SSTQGL"
+    }
+  },
+  {
+    "name": "MultiRole",
+    "value": {
+      "Finance Submit Only": {
+        "full_name": "Finance Submit Only",
+        "emails": "finance.submit.only@example.com",
+        "reference_code": "FNASSA",
+        "uuid": "991b8bee-6f84-48c0-a9ee-2eaa6cf95b23"
+      },
+      "Finance Transfer Only": {
+        "full_name": "Finance Transfer Only",
+        "emails": "finance.transfer.only@example.com",
+        "reference_code": "FNAT3C",
+        "uuid": "991b8be9-bb55-4455-b893-71db9888d38d"
+      },
+      "Card Only": {
+        "full_name": "Card Only",
+        "emails": "card.only@example.com",
+        "reference_code": "CARWYU",
+        "uuid": "991b8bf8-6043-450e-8d4a-3de961744d1b"
+      },
+      "Finance No Transfer of Submit Right": {
+        "full_name": "Finance No Transfer Or Submit",
+        "emails": "finance.transfer.no.transfer.or.submit@example.com",
+        "reference_code": "FNT6N8",
+        "uuid": "991b8bf2-fb93-4462-9663-06b6a4117eea"
+      },
+      "BR Director": {
+        "full_name": "Mr. Norris Mccullough",
+        "emails": "stacyprosacco_8828389@example.com",
+        "reference_code": "NRRMCC",
+        "uuid": "991b8bfd-bbeb-40e5-ac73-bb28fb97f95a"
+      },
+      "Existing Person": "null",
+      "Non-existent person": "null"
+    }
+  }
+]

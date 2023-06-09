@@ -1,0 +1,8 @@
+{
+  "grant_type": "password",
+  "client_id": "{$apiClientId}",
+  "client_secret": "{$apiClientSecret}",
+  "username": "{$username}",
+  "password": "1234",
+  "scope": "debit-transaction.store"
+}

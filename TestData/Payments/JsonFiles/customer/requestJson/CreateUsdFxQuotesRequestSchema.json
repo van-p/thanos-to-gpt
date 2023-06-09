@@ -1,0 +1,11 @@
+{
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "focus": "source",
+  "fee_type": "shared",
+  "source_amount": "{$sourceAmount}",
+  "source_currency_code": "{$sourceCurrencyCode}",
+  "target_amount": 0,
+  "target_currency_code": "{$recipientCurrencyCode}",
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "type": "mca"
+}

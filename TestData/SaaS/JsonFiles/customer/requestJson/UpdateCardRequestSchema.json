@@ -1,0 +1,12 @@
+{
+  "card_name": "{$cardName}",
+  "description": "{$cardDescription}",
+  "category_name": "{$cardCategory}",
+  "expects_receipt": false,
+  "card_color": "{$cardColor}",
+  "maximum_amount": {$cardAmount},
+  "spend_limit_frequency": "{$cardFrequency}",
+  "auto_freeze": false,
+  "freeze_after_transactions": 0,
+  "merchant_locks_uuids": []
+}

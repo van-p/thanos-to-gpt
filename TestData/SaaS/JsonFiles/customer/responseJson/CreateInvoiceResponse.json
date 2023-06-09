@@ -1,0 +1,29 @@
+{
+  "invoice_counterparty": {
+    "name": "asdd",
+    "email": "adff@gmail.co"
+  },
+  "invoice_items": [],
+  "currency": {
+    "decimals": 2
+  },
+  "uuid": "99200c8b-171c-4673-8ea8-62ffe56fc5f6",
+  "number": "INV-002",
+  "invoice_date": null,
+  "due_date": null,
+  "terms_and_conditions": "",
+  "subtotal": 0,
+  "discount": 0,
+  "tax": 0,
+  "total_amount": 0,
+  "currency_code": "SGD",
+  "invoice_items_count": 0,
+  "invoice_file_type": "generated",
+  "payment_link": "https:\/\/example.example.com\/invoices\/99200c8b-171c-4673-8ea8-62ffe56fc5f6\/payment?signature=c630365c532ef2551f37369a402695027fe374d70de62498075b0ed092b64fc2",
+  "document_name": "INV-002_hansen_hackett.pdf",
+  "authorizations": {
+    "update": true,
+    "submit": false,
+    "delete": true
+  }
+}

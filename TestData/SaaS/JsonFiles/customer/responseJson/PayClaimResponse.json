@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "transaction_id": "3GJB6FSPC5EV",
+  "transaction": {
+    "uuid": "9933f2f6-9912-4b72-aeba-0cf7357b6c4e",
+    "fee_amount": 0,
+    "balance": {
+      "from_amount": 900000000,
+      "to_amount": 899997572
+    }
+  }
+}

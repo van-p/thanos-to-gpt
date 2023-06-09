@@ -1,0 +1,232 @@
+{
+  "id": 82,
+  "uuid": "c2aebe1b-ae8e-3c74-b1d0-c563f1196185",
+  "title": "QaOps_Sample",
+  "description": "This is Scenario builder for QAOps",
+  "options": [
+    "BusinessSettings",
+    "KybVerified",
+    "KycVerified",
+    "SGDDebitAccount",
+    "USDDebitAccount",
+    "Integrations",
+    "MultiRole"
+  ],
+  "inputs": {
+    "Base Configuration": [
+      {
+        "key": "businessReferenceCode",
+        "type": "input",
+        "question": "Business refence code (used for generating data for existing business)"
+      },
+      {
+        "key": "application",
+        "type": "select",
+        "question": "Which application that user belong to?",
+        "default": "CNSING",
+        "options": [
+          "CNSING",
+          "CNTHAI",
+          "CNIDSG",
+          "CNIDID",
+          "CNVNSG",
+          "CNVIET"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "countryIncorporation",
+        "type": "select",
+        "question": "Which business Country Incorporation?",
+        "default": "Singapore",
+        "options": [
+          "Hong Kong",
+          "Indonesia",
+          "Singapore",
+          "Thailand",
+          "Viet Nam"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "businessType",
+        "type": "select",
+        "question": "Which business type",
+        "default": "FULL_FEATURE",
+        "options": [
+          "FULL_FEATURE",
+          "ADVANCE_ONLY",
+          "CREDIT_ONLY"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "businessName",
+        "type": "input",
+        "question": "Business Name (Only support create new business now)"
+      },
+      {
+        "key": "directorEmail",
+        "type": "input",
+        "question": "Do you want custom email? (Your name part is enough, eg. `you` becomes `you+preset1@example.com`)",
+        "default": "no"
+      },
+      {
+        "key": "directorName",
+        "type": "input",
+        "question": "Name of Director (keep it blank for a random random name)",
+        "default": ""
+      }
+    ],
+    "BusinessSettings": [
+      {
+        "key": "businessSettings",
+        "type": "textarea",
+        "question": "Please input business settings in json format"
+      }
+    ],
+    "KybVerified": [],
+    "KycVerified": [],
+    "Integrations": [
+      {
+        "key": "ittService",
+        "type": "select",
+        "question": "ITT Integration (using wallex)",
+        "default": "allowed",
+        "options": [
+          "default",
+          "allowed",
+          "disallowed"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "fxService",
+        "type": "select",
+        "question": "FX Integration (using transferwise)",
+        "default": "allowed",
+        "options": [
+          "default",
+          "allowed",
+          "disallowed"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "mcaService",
+        "type": "select",
+        "question": "MCA Integration (using currency-cloud)",
+        "default": "allowed",
+        "options": [
+          "default",
+          "allowed",
+          "disallowed"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "payNowService",
+        "type": "select",
+        "question": "PayNow Integration (using liquid)",
+        "default": "allowed",
+        "options": [
+          "default",
+          "allowed",
+          "disallowed"
+        ],
+        "multiple": false
+      }
+    ],
+    "MultiRole": [
+      {
+        "key": "allowDeprecateExistentEmail",
+        "type": "select",
+        "question": "[Warning!] Allow to deprecate emails have same prefilled values:",
+        "default": "No",
+        "options": [
+          "No",
+          "Yes"
+        ],
+        "multiple": false
+      },
+      {
+        "key": "multiRoleCustomerFinanceTransferOnlyEmail",
+        "type": "input",
+        "question": "Email for Customer Finance Transfer Only role:",
+        "default": "finance.transfer.only@example.com"
+      },
+      {
+        "key": "multiRoleCustomerFinanceTransferOnlyName",
+        "type": "input",
+        "question": "Name for Customer Finance Transfer Only role:",
+        "default": "Finance transfer only"
+      },
+      {
+        "key": "multiRoleCustomerFinanceSubmitOnlyEmail",
+        "type": "input",
+        "question": "Email for Customer Finance Submit Only role:",
+        "default": "finance.submit.only@example.com"
+      },
+      {
+        "key": "multiRoleCustomerFinanceSubmitOnlyName",
+        "type": "input",
+        "question": "Name for Customer Finance Submit Only role:",
+        "default": "Finance submit only"
+      },
+      {
+        "key": "multiRoleCustomerFinanceNoTransferOrSubmitRightEmail",
+        "type": "input",
+        "question": "Email for Finance No Transfer or Submit Right role: ",
+        "default": "finance.transfer.no.transfer.or.submit@example.com"
+      },
+      {
+        "key": "multiRoleCustomerFinanceNoTransferOrSubmitRightName",
+        "type": "input",
+        "question": "Name for Finance No Transfer or Submit Right role: ",
+        "default": "Finance no transfer or submit"
+      },
+      {
+        "key": "multiRoleCustomerCardOnlyEmail",
+        "type": "input",
+        "question": "Email for Card Only role:",
+        "default": "card.only@example.com"
+      },
+      {
+        "key": "multiRoleCustomerCardOnlyName",
+        "type": "input",
+        "question": "Name for Card Only role:",
+        "default": "Card only"
+      },
+      {
+        "key": "multiRoleBRDirectorEmail",
+        "type": "input",
+        "question": "Email for BR Director Role:"
+      },
+      {
+        "key": "multiRoleBRDirectorName",
+        "type": "input",
+        "question": "Name for BR Director Role:"
+      },
+      {
+        "key": "multiRoleNonExistentPersonEmail",
+        "type": "input",
+        "question": "Email for inviting Non-Existent Person:"
+      },
+      {
+        "key": "multiRoleNonExistentPersonName",
+        "type": "input",
+        "question": "Name for inviting Non-Existent Person:"
+      },
+      {
+        "key": "multiRoleExistingPersonEmail",
+        "type": "input",
+        "question": "Email for inviting Existing Person:"
+      },
+      {
+        "key": "multiRoleExistingPersonName",
+        "type": "input",
+        "question": "Name for inviting Existing Person:"
+      }
+    ]
+  }
+}

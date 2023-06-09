@@ -1,0 +1,860 @@
+{
+  "Payments": {
+    "Prod Sanity": [
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      }
+    ],
+    "FCT": [
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 1 - ",
+        "projectId": "3",
+        "suiteId": "41",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 2 - ",
+        "projectId": "3",
+        "suiteId": "42",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 3 - ",
+        "projectId": "3",
+        "suiteId": "43",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Payments Team 4 - ",
+        "projectId": "3",
+        "suiteId": "44",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      }
+    ]
+  },
+  "Access": {
+    "Prod Sanity": [
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      }
+    ],
+    "FCT": [
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - MUA and Engagement - ",
+        "projectId": "1",
+        "suiteId": "6",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Onboarding + KYC - ",
+        "projectId": "1",
+        "suiteId": "9",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Subscription - ",
+        "projectId": "1",
+        "suiteId": "10",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - User Security - ",
+        "projectId": "1",
+        "suiteId": "8",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      }
+    ]
+  },
+  "SaaS": {
+    "Prod Sanity": [
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Prod Sanity"],
+        "platform": "WEB"
+      }
+    ],
+    "FCT": [
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - BookKeeping - Features - ",
+        "projectId": "2",
+        "suiteId": "12",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - BookKeeping - Integration - ",
+        "projectId": "2",
+        "suiteId": "40",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Budget - ",
+        "projectId": "2",
+        "suiteId": "30",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Cards - ",
+        "projectId": "2",
+        "suiteId": "31",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Expense - Claims - ",
+        "projectId": "2",
+        "suiteId": "7",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Invoices - Payables I - ",
+        "projectId": "2",
+        "suiteId": "11",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "Android"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "iOS"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "WEB"
+      },
+      {
+        "teamName": " - Invoices - Payables II - ",
+        "projectId": "2",
+        "suiteId": "33",
+        "priorityId": "Critical",
+        "typeId": ["Regression","Prod Sanity"],
+        "platform": "API"
+      }
+    ]
+  }
+}

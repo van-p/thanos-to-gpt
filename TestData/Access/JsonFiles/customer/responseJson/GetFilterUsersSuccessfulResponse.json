@@ -1,0 +1,16 @@
+{
+  "fields": [
+    {
+      "name": "Search",
+      "key": "search",
+      "conditions": [],
+      "icon": null,
+      "placeholder": "Search by name or email",
+      "tooltip": null,
+      "group": "search",
+      "visible": true,
+      "toggleValue": null,
+      "type": "text"
+    }
+  ]
+}

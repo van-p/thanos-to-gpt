@@ -1,0 +1,5 @@
+{
+  "type": "{$type}",
+  "can_transfer": {$canTransfer},
+  "person_uuid": "{$personUuid}"
+}

@@ -1,0 +1,69 @@
+{
+  "uuid": "99178111-e880-4727-bbed-d0f39b83d315",
+  "number": "CM#241",
+  "merchant_name": "Auto Merchant M2w6",
+  "source_amount": 80967,
+  "source_currency_code": "SGD",
+  "target_amount": 80967,
+  "target_currency_code": "SGD",
+  "exchange_rate": 1,
+  "transaction_date": "2023-05-05 00:00:00",
+  "purpose_of_spend": "VPPlPzdiWa",
+  "state_code": "CMPE",
+  "created_at": "2023-05-05 12:51:27",
+  "reject_reason": null,
+  "timeline": [
+    {
+      "event": "ClaimAwaitingApproval",
+      "event_name": "Awaiting approval",
+      "event_by": null,
+      "event_by_uuid": null,
+      "event_at": null,
+      "event_details": {}
+    },
+    {
+      "event": "ClaimSubmitted",
+      "event_name": "Submitted",
+      "event_by": "Admin",
+      "event_by_uuid": "98af0590-e41a-4c55-a005-d4962ff99062",
+      "event_at": "2023-05-05 12:53:34",
+      "event_details": {}
+    }
+  ],
+  "debit_account": {
+    "uuid": "98af0599-17ce-4367-9d35-1848bc96fdb6"
+  },
+  "create_person": {
+    "uuid": "98af0590-e41a-4c55-a005-d4962ff99062",
+    "full_name": "Admin"
+  },
+  "approve_person": null,
+  "reject_person": null,
+  "paid_person": null,
+  "budget": null,
+  "category": {
+    "uuid": "98b0fffd-d36f-407d-a371-9c829c5cd563",
+    "name": "Entertainment",
+    "icon": "entertainment"
+  },
+  "debit_transactions": [],
+  "authorizations": {
+    "view": true,
+    "update": true,
+    "delete": true,
+    "resubmit": false,
+    "approve": true,
+    "reject": true,
+    "pay": false
+  },
+  "approvers": [
+    {
+      "full_name": "Admin Apple",
+      "role": "customers.director"
+    },
+    {
+      "full_name": "Admin",
+      "role": "customers.director"
+    }
+  ]
+}

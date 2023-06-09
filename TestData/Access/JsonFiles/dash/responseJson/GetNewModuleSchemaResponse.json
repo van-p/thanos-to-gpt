@@ -1,0 +1,36 @@
+{
+  "uuid": "9941ef78-54e1-49f7-ba2c-f59615ddc347",
+  "name": "nrHkNoMdLV",
+  "description": "Module description",
+  "order": null,
+  "key": "rWqQmgoRRz",
+  "is_add_on": true,
+  "price": 4935,
+  "currency_code": "SGD",
+  "is_public": true,
+  "billing_frequency": "monthly",
+  "countries": [
+    {
+      "uuid": "9470e8a1-b19f-4c0a-8799-3068257b3d9c"
+    }
+  ],
+  "module_plans": [
+    {
+      "uuid": "98b0cfed-7d08-49a8-9f37-6c9bdc107003"
+    }
+  ],
+  "items": [
+    {
+      "uuid": "9941ef78-590a-4a72-879e-33c932262a91",
+      "type": "feature",
+      "billing_type": "access",
+      "limit_type": "unrestricted",
+      "billing_frequency": "monthly",
+      "banner_title": "Tbomg",
+      "banner_description": "XcGbyreNnM",
+      "model_uuid": "9752c00d-1532-4e68-a522-df91b8fa6e22",
+      "model_name": "Claims"
+    }
+  ],
+  "created_at": "2023-05-26 15:04:55"
+}

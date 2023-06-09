@@ -1,0 +1,32 @@
+{
+  "attributes": {
+    "businessReferenceCode": null,
+    "application": "CNSING",
+    "countryIncorporation": "Singapore",
+    "businessType": "FULL_FEATURE",
+    "businessName": null,
+    "directorEmail": "no",
+    "directorName": "",
+    "businessSettings": null,
+    "ittService": "allowed",
+    "fxService": "allowed",
+    "mcaService": "allowed",
+    "payNowService": "allowed",
+    "allowDeprecateExistentEmail": "No",
+    "multiRoleCustomerFinanceTransferOnlyEmail": "finance.transfer.only@example.com",
+    "multiRoleCustomerFinanceTransferOnlyName": "Finance transfer only",
+    "multiRoleCustomerFinanceSubmitOnlyEmail": "finance.submit.only@example.com",
+    "multiRoleCustomerFinanceSubmitOnlyName": "Finance submit only",
+    "multiRoleCustomerFinanceNoTransferOrSubmitRightEmail": "finance.transfer.no.transfer.or.submit@example.com",
+    "multiRoleCustomerFinanceNoTransferOrSubmitRightName": "Finance no transfer or submit",
+    "multiRoleCustomerCardOnlyEmail": "card.only@example.com",
+    "multiRoleCustomerCardOnlyName": "Card only",
+    "multiRoleBRDirectorEmail": null,
+    "multiRoleBRDirectorName": null,
+    "multiRoleNonExistentPersonEmail": null,
+    "multiRoleNonExistentPersonName": null,
+    "multiRoleExistingPersonEmail": null,
+    "multiRoleExistingPersonName": null
+  },
+  "scenario_uuid": "{$genieScenarioUuid}"
+}

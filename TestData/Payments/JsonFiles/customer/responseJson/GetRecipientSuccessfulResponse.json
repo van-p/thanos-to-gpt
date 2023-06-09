@@ -1,0 +1,142 @@
+{
+  "data": [
+    {
+      "uuid": "9923a746-a0fe-40a9-9f3e-bb4b1b24831d",
+      "currency_code": "USD",
+      "display_currency_code": "USD",
+      "bank_code": "026009593",
+      "bank_account_number": "121213",
+      "bank_account_type": "regular",
+      "international_bank_account_number": "121213",
+      "account_holder_name": "ufc no first",
+      "name": "ufc no first",
+      "type": "deprecated",
+      "types": [
+        "fx"
+      ],
+      "transferred_at": "2023-05-15 19:58:12",
+      "payment_type": "regular",
+      "our_fee_amount": 0,
+      "swift_fee_amount": 0,
+      "visible": true,
+      "counterparty_details": [
+        {
+          "bank_code": "026009593",
+          "bank_account_number": "121213",
+          "reference_code": "121213",
+          "bank_account_type": "regular",
+          "international_bank_account_number": "121213",
+          "account_holder_name": "ufc no first",
+          "reference_name": "ufc no first",
+          "type": "deprecated"
+        }
+      ],
+      "currency": {
+        "code": "USD",
+        "name": "United States Dollar",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 2000000
+      },
+      "display_currency": {
+        "code": "USD",
+        "name": "United States Dollar",
+        "symbol": "$",
+        "is_active": true,
+        "fx_enabled": true,
+        "mca_enabled": true,
+        "advance_enabled": false,
+        "nium_enabled": false,
+        "mca_local_amount_max": 1000000,
+        "mca_swift_amount_max": 2000000,
+        "decimals": 2
+      },
+      "beneficiary_debit_account": {
+        "uuid": "9923a4a5-e38a-4809-a2c2-9a36dbe3f029",
+        "currency_code": "SGD",
+        "label": "SGD account",
+        "is_primary_foreign_currency": false,
+        "bank_name": "DBS Bank Ltd.",
+        "has_transactions": true,
+        "transaction_no_fee_amount": 0,
+        "remaining_transaction_no_fee": 0,
+        "maximum_description_chars_length": 200,
+        "minimum_transfer_amount_pin_required": 100000000,
+        "transaction_fee_amount": 0,
+        "balance": 899997700,
+        "bank_code": "DBSSSGSGXXX",
+        "bank_account_number": "8852-1538-2403",
+        "bank_account_holder_name": "Gleichner LLC",
+        "range_tx_volume_tx_free": [],
+        "next_reset_day": "2023-06-01 00:00:00",
+        "total_non_credit_tx_number": 6,
+        "total_non_credit_tx_volume": 900042300,
+        "cashback_credited_amount": 0,
+        "last_credit_transaction": {
+          "uuid": "992c378b-e6d7-44de-a99f-d5a86e7f8b44",
+          "code": "3DXVQCJQXQWS",
+          "type": "credit",
+          "amount": 10000,
+          "presented_amount": "SGD 100.00",
+          "created_at": "2023-05-15 19:58:15",
+          "currency": "SGD",
+          "description": "Rollback of transaction VE583ESB3RKB",
+          "counter_party_name": "TransferWise Singapore PTE",
+          "counter_party_code": "0039349327",
+          "counter_party_bank_code": "DBSSSGSGXXX",
+          "transaction_date": "2023-05-15",
+          "transaction_time": "19:58:15",
+          "miscellaneous": [],
+          "is_intrabank": false,
+          "authorizations": {
+            "rollback": false
+          }
+        },
+        "referral": {
+          "uuid": "9923a489-2e2b-468a-8c4e-09a0f35a5298",
+          "referral_code": "JACQ4FPJ",
+          "rewards": {
+            "amount": 0,
+            "number_of_transactions": 0
+          }
+        },
+        "advance_limit_summary": {
+          "total_available": 0,
+          "remaining": 899997700
+        },
+        "blue_card_issuance_fee": 1500,
+        "has_enough_balance_to_issue_blue_card": true,
+        "debit_card_provider": "genie-card",
+        "frozen_details": {
+          "is_frozen": false
+        },
+        "authorizations": {
+          "setup_advance_autopay": false,
+          "view": true,
+          "update": true,
+          "send_money": false,
+          "submit_transfer": true,
+          "create_fx_transfer": true,
+          "create_mca_transfer": true,
+          "create_mca_fx_transfer": false,
+          "create_debit_scheduled_payment": false,
+          "create_referral_conversion": false,
+          "create_budget": false,
+          "allow_budget_can_transfer_role": false,
+          "create_debit_card": false,
+          "request_debit_card": false,
+          "create_physical_debit_card": false,
+          "create_blue_physical_debit_card": false,
+          "create_business_partner": true,
+          "update_business_partner": true,
+          "delete_business_partner": true
+        }
+      },
+      "auto_additional_info": false,
+      "preferred_source_debit_account_uuid": "9923a4a5-e38a-4809-a2c2-9a36dbe3f029"
+    }
+  ],
+  "next_page_url": "https://example.com/v1/counterparties?page\u003d2"
+}

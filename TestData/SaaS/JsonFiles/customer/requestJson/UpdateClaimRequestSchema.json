@@ -1,0 +1,22 @@
+{
+  "target_amount": {$targetAmount},
+  "target_currency_code": "{$currencyCode}",
+  "merchant_name": "{$merchantName}",
+  "transaction_date": "{$transactionDate}",
+  "category_name": "{$categoryName}",
+  "purpose_of_spend": "{$purposeOfSpend}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "budget_uuid": "{$budgetUuid}",
+  "selected_item": {$claimSourceOfFund},
+  "_fields": [
+    "uuid",
+    "merchant_name",
+    "transaction_date",
+    "amount",
+    "currency_code",
+    "purpose_of_spend",
+    "debit_account.uuid",
+    "target_amount",
+    "target_currency_code"
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "uuid": "98f36e86-1d1c-49a2-be94-ecc70c7a53e8",
+  "state_code": "DCVA",
+  "last_digit": "4996",
+  "card_expiry": "04/2027",
+  "maximum_over_consecutive_day": 28000,
+  "spend_limit_frequency": "monthly",
+  "account_number": null,
+  "card_name": "Card name 90879",
+  "card_holder_name": "Alexander Kush",
+  "description": "Purpose 87968tsgbf",
+  "card_color": "#01D167",
+  "card_type": "GPR_VIR_UP2PHY",
+  "is_subscription_card": true,
+  "is_pin_set": null,
+  "is_activated": null,
+  "expects_receipt": false,
+  "created_at": "2023-04-17T06:29:47.000000Z",
+  "deactivated_at": null,
+  "state": {
+    "reference_code": "DCVA",
+    "state": "virtual-active"
+  },
+  "person": {
+    "uuid": "98df84f9-278e-4825-a795-111bf2a81d1b",
+    "reference_code": "LBBWAS",
+    "salutation": "Mrs.",
+    "full_name": "Libby Walsh",
+    "nric": "7CDD2C5C-E263-38D6-83AE-7DF455739F6E",
+    "npwp": "0981001a-269f-3949-a7d1-391e80f41fee",
+    "date_of_birth": "1988-12-08",
+    "gender": "Female",
+    "education": "High School",
+    "occupation": null,
+    "nationality": "SG",
+    "businesses": [
+      {
+        "uuid": "98df84ec-2a3f-4c64-abd4-cb821aea162a",
+        "reference_code": "SGMCCE",
+        "name": "McCullough Inc",
+        "province": "dolorum",
+        "website_url": "http://leffler.com/ea-rerum-possimus-deserunt-et-et",
+        "business_model": "et"
+      }
+    ],
+    "mother_name": "Bulah Sporer",
+    "spouse_name": null,
+    "accountants": null,
+    "authorizations": {
+      "create_debit_card": false
+    }
+  },
+  "category": {
+    "name": "Food & Beverages",
+    "icon": "food_and_beverages"
+  },
+  "holder_name": "Libby Walsh",
+  "holder_role": "Employee",
+  "holder_role_slug": "customers.card-only",
+  "remaining_spending_limit": 28000,
+  "current_spending": 0,
+  "card_set_spend_limit_at": "2023-04-17T06:29:47.000000Z",
+  "card_frozen_at": null,
+  "physical_card_transaction_limit_amount": 250,
+  "physical_card_atm_withdrawals_limit_amount": 10,
+  "physical_card_atm_withdrawals_daily_limit_amount": 20,
+  "physical_card_atm_withdrawals_fee_amount": 5,
+  "delivery_address": {
+    "uuid": "98f36e86-5537-47f8-a5d9-8fdf1cf4f060",
+    "country": {
+      "id": 198,
+      "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+      "continent": "Asia",
+      "code": "SG",
+      "alpha3_code": "SGP",
+      "name": "Singapore",
+      "dial_code": "+65",
+      "DEPRECATED_currency_id": null,
+      "currency_code": "SGD",
+      "default_application_id": 3,
+      "is_active": true,
+      "mca_enabled": true,
+      "mca_transfer_enabled": false,
+      "mca_usd_country_tier_id": 4,
+      "risk_level": null,
+      "created_at": "2021-09-20T00:30:01.000000Z",
+      "updated_at": "2021-09-20T00:30:01.000000Z"
+    },
+    "administrative_area": "Singapore",
+    "locality": "Singapore",
+    "sub_locality": null,
+    "address": "123 Main Street",
+    "address_2": "",
+    "address_3": null,
+    "address_4": null,
+    "address_5": null,
+    "postcode": "775634",
+    "is_primary": false,
+    "is_expired": false
+  },
+  "physical_card_order_timeline": [
+    {
+      "type": "ordered",
+      "date": "2023-04-17T06:29:47.000000Z",
+      "completed": true
+    },
+    {
+      "type": "dispatched",
+      "date": "2023-04-19T06:29:47.000000Z",
+      "completed": false
+    },
+    {
+      "type": "delivered",
+      "date": "2023-04-24T06:29:47.000000Z",
+      "completed": false
+    }
+  ],
+  "auto_frozen": null,
+  "auto_freeze_date": null,
+  "auto_freeze_txn_count": null,
+  "set_to_freeze_after_txn_count": 0,
+  "is_freezing_soon": false,
+  "authorizations": {
+    "cancel_public": true,
+    "replace_public": false,
+    "temporary_lock_public": true,
+    "unlock_public": false,
+    "update_maximum_amount": true,
+    "update_public": true,
+    "export_transactions": true,
+    "add_to_gpay": true,
+    "change_color": false,
+    "activate_card_public": false,
+    "set_pin_card_public": false,
+    "show_card_public": true,
+    "request_update_card": false
+  }
+}

@@ -1,0 +1,11 @@
+sr.No,userRole,budgetName,purpose,icon,spendLimit,spentAlert,frequency,expiryDate,sourceOfFund,budgetOwnerAdmin,budgetOwnerTransfer,budgetOwnerNoTransfer,budgetMember
+1,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Create new budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,SGD account,Anabel Corkery,,,
+2,You%sre an Admin,Edit {dateCurrent_yyyyMMddHHmmssSSS},Edit {dateCurrent_yyyyMMddHHmmssSSS},Transport,{randomNum:7},false,One-time,,IDR account,Letitia Grimes,,,
+3,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Create new budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,IDR account,Jordyn Yost,,,
+4,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Create new budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,109.10,false,One-time,,SGD account,Halle Lesch Iv,,,
+5,You%sre an Admin,Edit {dateCurrent_yyyyMMddHHmmssSSS},Edit SGD budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,109.10,false,Quarterly,,SGD account,Jaeden Grady Dvm,,,
+6,You%sre an Admin,Edit {dateCurrent_yyyyMMddHHmmssSSS},Create IDR budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,109.10,false,Quarterly,,SGD account,Ken Trantow Md,Finance Transfer Only,Finance Submit Only,Finance No Transfer Or Submit/Card Only
+7,You%sre an Admin,Edit {dateCurrent_yyyyMMddHHmmssSSS},Edit SGD budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,109.10,false,Quarterly,,SGD account,Lysanne Skiles,Finance Transfer Only,Finance Submit Only,Finance No Transfer Or Submit/Card Only
+8,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Create new budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,IDR account,Sunmoon,,,
+9,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Freeze budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,IDR account,Prof. Kenny Hodkiewicz,,,
+10,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Freeze budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,SGD account,Prof. Dayana Skiles,,,

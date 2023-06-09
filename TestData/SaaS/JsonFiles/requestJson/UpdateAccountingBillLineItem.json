@@ -1,0 +1,25 @@
+{
+  "source_type": "bill-pay-submission",
+  "source_uuid": "{$source_uuid}",
+  "type": "xero",
+  "line_items": [
+    {
+      "account_id": "1b8bc6b0-ba49-4c77-ac64-5b76798dbbfe",
+      "description": "",
+      "quantity": 1,
+      "tax_type": "NONE",
+      "unit_price": 20,
+      "uuid": "{$uuid1}",
+      "tracking_categories": []
+    },
+    {
+      "account_id": "1b8bc6b0-ba49-4c77-ac64-5b76798dbbfe",
+      "description": "",
+      "quantity": 1,
+      "tax_type": "NONE",
+      "unit_price": 30,
+      "uuid": "{$uuid2}",
+      "tracking_categories": []
+    }
+  ]
+}

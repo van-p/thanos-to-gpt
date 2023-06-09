@@ -1,0 +1,4 @@
+uuid,stateCode,year,number,code,expiryDate,payableAmount,currencyCode,status,createdAt,updatedAt,debitTransactionsCount,authorizationsCreate,authorizationsView,authorizationsUpdate,authorizationsDelete,authorizationsMarkAsPaid,authorizationsMarkAsUnpaid
+9907a087-5272-4972-bd0f-49c6bc9db0c4,PLDU,2023,PL-0001,99079f1a-81c1-4337-9eaf-70600ee7e247-9907a087-5272-4972-bd0f-49c6bc9db0c4-1682580294,2023-05-27,10000,SGD,Due,2023-04-27 15:24:54,2023-04-27 15:24:54,0,true,true,true,true,true,false
+9907a087-5272-4972-bd0f-49c6bc9db0c4,PLDU,2023,PL-0001,99079f1a-81c1-4337-9eaf-70600ee7e247-9907a087-5272-4972-bd0f-49c6bc9db0c4-1682580294,2023-05-27,10000,SGD,Due,2023-04-27 15:24:54,2023-04-27 15:24:54,0,true,true,true,false,true,false
+9907a087-5272-4972-bd0f-49c6bc9db0c4,PLDU,2023,PL-0001,99079f1a-81c1-4337-9eaf-70600ee7e247-9907a087-5272-4972-bd0f-49c6bc9db0c4-1682580294,2023-05-27,10000,SGD,Due,2023-04-27 15:24:54,2023-04-27 15:24:54,0,true,true,true,true,true,false

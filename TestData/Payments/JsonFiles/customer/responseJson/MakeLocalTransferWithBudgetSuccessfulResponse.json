@@ -1,0 +1,12 @@
+{
+  "status": "OK",
+  "transaction_id": "ZR7ZALMHZRYM",
+  "transaction": {
+    "uuid": "990770f6-a461-4b02-875f-2f11b09fa960",
+    "fee_amount": 0,
+    "balance": {
+      "from_amount": 8999999000000,
+      "to_amount": 8999998985685
+    }
+  }
+}

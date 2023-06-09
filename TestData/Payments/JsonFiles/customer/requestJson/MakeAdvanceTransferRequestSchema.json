@@ -1,0 +1,31 @@
+{
+  "recipient_bank_code": "{$recipientBankCode}",
+  "recipient_account_number": "{$recipientAccountNumber}",
+  "recipient_account_name": "{$recipientName}",
+  "amount": "{$amount}",
+  "category_name": "Entertainment",
+  "category_icon": "entertainment",
+  "description": "",
+  "miscellaneous": {
+    "internal_notes": null
+  },
+  "next_payment_date": "",
+  "frequency": "day",
+  "is_send_notification": false,
+  "email": "",
+  "phone": "",
+  "wants_referral": false,
+  "debit_account_uuid": "{$chargeAccountUuid}",
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "ignore_duplicates": false,
+  "recipient_relationship": "{$recipientRelationship}",
+  "recipient_relationship_other": null,
+  "purpose_option": "{$transferPurposeOption}",
+  "purpose_option_child": null,
+  "purpose_option_other": null,
+  "auto_additional_info": true,
+  "purpose_option_label": "Salaries",
+  "additional_document_uuids": [
+    "{$additionalDocumentUuid}"
+  ]
+}

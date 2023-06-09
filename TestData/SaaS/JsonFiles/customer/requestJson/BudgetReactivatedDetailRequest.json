@@ -1,0 +1,10 @@
+{
+  "uuid": "{$reactivateBudgetUuid}",
+  "name": "{$reactivateBudgetBudgetName}",
+  "description": "{$reactivateBudgetDescription}",
+  "amount": "{$reactivateBudgetAmount}",
+  "wants_limit_alert_notification": {$isAlert},
+  "icon": "{$reactivateBudgetIcon}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "frequency": "{$reactivateBudgetFrequency}"
+}

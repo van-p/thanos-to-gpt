@@ -1,0 +1,7 @@
+{
+  "type": "transfer",
+  "details": {},
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "target_currency_code": "{$recipientCurrencyCode}"
+}

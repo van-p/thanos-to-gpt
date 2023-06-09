@@ -1,0 +1,10 @@
+{
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "focus": "source",
+  "source_amount": 10000,
+  "source_currency_code": "SGD",
+  "target_amount": 0,
+  "target_currency_code": "USD",
+  "counterparty_uuid": "{$counterPartyUuid}",
+  "type": "fx"
+}

@@ -1,0 +1,38 @@
+{
+  "uuid": "993b8fe2-050b-467a-9d0d-970573ecaca5",
+  "name": "Budget Name zxe N7b klX Q",
+  "description": "Budget Description f0D g6K YJn P",
+  "amount": 1203,
+  "frequency": "monthly",
+  "wants_limit_alert_notification": false,
+  "icon": "expense-category.utilities",
+  "state": "BDAC",
+  "created_at": "2023-05-23 11:02:40",
+  "updated_at": "2023-05-23 11:02:40",
+  "spent_amount": 0,
+  "remaining_limit": [
+    "SGD",
+    1203
+  ],
+  "is_transaction_on_current_life_cycle": false,
+  "authorizations": {
+    "view": true,
+    "update": true,
+    "update_limit": true,
+    "update_notification_alert": true,
+    "deactivate": true,
+    "reactivate": false,
+    "send_money": true,
+    "submit_transfer": false,
+    "invite_budget_members": true,
+    "invite_budget_owners": true,
+    "link_debit_card": false,
+    "view_all_budget_cards": true,
+    "issue_card": true,
+    "submit_claim": false,
+    "show_claims": false,
+    "reassign_transaction": false,
+    "request_card": false,
+    "request_edit": false
+  }
+}

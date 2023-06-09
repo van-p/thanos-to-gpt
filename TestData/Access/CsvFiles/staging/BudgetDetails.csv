@@ -1,0 +1,2 @@
+sr.No,userRole,budgetName,purpose,icon,spendLimit,spentAlert,frequency,expiryDate,sourceOfFund,budgetOwnerAdmin,budgetOwnerTransfer,budgetOwnerNoTransfer,budgetMember
+1,You%sre an Admin,Create {dateCurrent_yyyyMMddHHmmssSSS},Create new budget {dateCurrent_yyyyMMddHHmmssSSS},Marketing,100.10,false,One-time,,SGD account,Saas Admin Bo,,,

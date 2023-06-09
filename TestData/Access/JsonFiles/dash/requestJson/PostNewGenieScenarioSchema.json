@@ -1,0 +1,13 @@
+{
+  "title": "QaOps_Sample",
+  "description": "This is Scenario builder for QAOps",
+  "options": [
+    "BusinessSettings",
+    "KybVerified",
+    "KycVerified",
+    "SGDDebitAccount",
+    "USDDebitAccount",
+    "Integrations",
+    "MultiRole"
+  ]
+}

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KybVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KycVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "BusinessSettings"
+    }
+  },
+  {
+    "name": "Business",
+    "value": {
+      "uuid": "9939faa8-ffa3-48a8-b285-8187cc345e1d",
+      "reference_code": "SGBEDR",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "CreditAccount",
+    "value": {
+      "uuid": "9939faaa-6671-4ba2-bd0a-59e15c812548",
+      "reference_code": "SGBEDRTNN4",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "Director Access Token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiOWZhMDljY2QwOGQ4NTkyNzI3YjIwOWM2YmU4OWQ5NTgyZjVkMjkzMGZlZTNjMWI1ZDhiNDZlODhkNjcyM2ZlOWNhMTZjNWRiZDAyNmI2ZWYiLCJpYXQiOjE2ODQ3NDI5ODEuNDQzNDQsIm5iZiI6MTY4NDc0Mjk4MS40NDM0NDIsImV4cCI6MTY4NDc3MTc4MS40MzMyNzIsInN1YiI6Ijk1ODEiLCJzY29wZXMiOltdfQ.p2dMKlw0XQjm504fAtQOwvF3FORGCgGpkA-ECc9YNbpFbV3-IAFFnPx2r6oCsxTasXY2_dcf2dfkGxUPm0CLrMLeUcvLlLOGVXlzZ559cFgoyMR9s770NICx-kCNVK5Wqv5p_m8FravVTYRCZru3SAm4xOtfZ5ThaXx1o1_tGfk1hAQTH6YNmno4pbKfsZJARn60NtGuUCUKLPXhIFXrvCObih-Q26CfbuNMcb1m67xbIMU9B4WMdYnGkd2ulmhQfIZaQNmmEZmZg7BqTonsVQH0Gwgb_QoSiBoosgUVbXW5swssqpALa4UOV-8bqSKj6_ixdLAbA75bK7zkxR-fguYh_IRUSwBQGc14LWXVMbK_yXH6_HgZmdHG2nxIcR31Ej5yZVPn36n_SRAe1BTJWegK-29T1ftYdBmdWWG5tuOX1cMphpAj1UuII_UPI6-OraOwknjDttPRC64I0QHoeS_VEqmmQmH4Y92QtB6fVWRi7LQYwWcGU0J776avTfNz7XQPYcUkJZl9gtXlDF8d9-poGDAU5dwS4X-Qye0x_Ji9wKLQYfN_5LUw_7oE_gd8_2oGSff8W1LIkDUqBSLbj1tnKNPljyQ0wqeXyBibLh2iB7rXKmWDzOXYzJTFlGXUS9UFxvDJAtM1BSHY5f_IjRnvjOMl9BZwWpEF5V0ETVQ"
+  },
+  {
+    "name": "Director",
+    "value": {
+      "uuid": "9939faa9-9a6d-4fb5-8b03-90b9a20545ca",
+      "reference_code": "REUBAN",
+      "emailValue": "juleshessel_1237274@example.net",
+      "tokenValue": "123456"
+    }
+  }
+]

@@ -1,0 +1,43 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "uuid": "9905a931-49b4-4974-ba60-0da859d01afd",
+      "state": "BDAC",
+      "currency": {
+        "code": "IDR"
+      }
+    },
+    {
+      "uuid": "9905aca0-3bc1-40c7-a0f1-4a3aefd56ddc",
+      "state": "BDAC",
+      "currency": {
+        "code": "USD"
+      }
+    }
+  ],
+  "first_page_url": "https://example.com/v1/budgets?page\u003d1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://example.com/v1/budgets?page\u003d1",
+  "links": [
+    {
+      "label": "\u0026laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://example.com/v1/budgets?page\u003d1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "label": "Next \u0026raquo;",
+      "active": false
+    }
+  ],
+  "path": "https://example.com/v1/budgets",
+  "per_page": 10,
+  "to": 2,
+  "total": 2,
+  "total_pending_budget_requests": 0
+}

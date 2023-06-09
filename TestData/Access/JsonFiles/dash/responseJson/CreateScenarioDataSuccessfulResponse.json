@@ -1,0 +1,105 @@
+[
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "BusinessSettings"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KybVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "KycVerified"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "Integrations"
+    }
+  },
+  {
+    "name": "scenario_progress",
+    "value": {
+      "status": true,
+      "option": "MultiRole"
+    }
+  },
+  {
+    "name": "Business",
+    "value": {
+      "uuid": "9919ae04-e686-42ec-97f9-545d70cfb5ec",
+      "reference_code": "SGLYNP",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "CreditAccount",
+    "value": {
+      "uuid": "9919ae06-a62b-41fd-b872-19d108558cd2",
+      "reference_code": "SGLYNPTBGA",
+      "emailValue": "",
+      "tokenValue": ""
+    }
+  },
+  {
+    "name": "Director Access Token",
+    "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZThjYzY4N2NlN2UyODk4NjFjNmVjYTE2MmJiNjhjYWY2NTcyOGU3ZjZkYzYzZWUyMzAzODYxMTFiNzE3MDk5NWYyODU4Y2JiNmJlYWFjZmMiLCJpYXQiOjE2ODMzNTU3NjEuOTMxNjQzLCJuYmYiOjE2ODMzNTU3NjEuOTMxNjQ4LCJleHAiOjE2ODMzODQ1NjEuODgxNTM5LCJzdWIiOiI3MjgwIiwic2NvcGVzIjpbXX0.Mw4n9sR3TC3aQb7PvD0LWK0tP3yDWfL4WfSbrHm1nn2daLRzrfEvFIe4cXlGdy1bgrjYBCvc3jbp9_U0qi6TARq47shnz5Kb4O2K7_rWxzetUc1dCQ5_CL3HtuyiyS3huHP6fMt1hZjMUxAT19hN-YclGVmjuo0AYHmtrpOcTizqMPOslmYZP-5DnqpJ8nX5UezxRlraJqtdLTTInZ8SR28HoI7keY5HDDp9XxD2cAjArUUgRxeF_P7H-SALvt3P5GNpCVMpHcRptUDXjbGL7kFcAoPr9Xb7yTBwU_ECywMgARF88Zl306CFaZXljZk0M046ZiyAmRLPJp3UHIUokvdsjFax5j-4trXL0qCFZHf1ZgOhWseB3xkicqYFd1gNDv3OjBIz5-Q0coZ1uthxZcGkmIZWbllDa4qz3Qk38dds6hPIu_hDgF1BM6da8L3EexAO47SnC4HiXHVeIWWlBD8u5sJ3oW9M-OL-8pfNnsiMBPWnIwUmJze88pI0B9dm8YOl09C4Hh5RyrSCcB0wiQ9wMs9jVXGOLjnXCGq2z1vw3lNrUj_UPX0hQC3oipY208Oq5fA4XVAptbTCVUCAIvVShNDEdwYjLQCC52s22NyXn2o9OxboSxD2rJYAlYmoka8eXfJXkcx-qG7vtnGceMOuHutBNXqu13zLhMfhmtU"
+  },
+  {
+    "name": "Director",
+    "value": {
+      "uuid": "9919ae05-8d26-48af-bdff-ef1baffa4f45",
+      "reference_code": "LTTGVE",
+      "emailValue": "skylareilly_582154@example.com",
+      "tokenValue": "123456"
+    }
+  },
+  {
+    "name": "MultiRole",
+    "value": {
+      "Finance Submit Only": {
+        "full_name": "Finance Submit Only",
+        "emails": "finance.submit.only@example.com",
+        "reference_code": "FNASGD",
+        "uuid": "9919ae1f-1f7d-416f-a9e5-5d8fc54f1665"
+      },
+      "Finance Transfer Only": {
+        "full_name": "Finance Transfer Only",
+        "emails": "finance.transfer.only@example.com",
+        "reference_code": "FNATJ5",
+        "uuid": "9919ae19-68bd-4b02-b3dc-3bc03bc109ca"
+      },
+      "Card Only": {
+        "full_name": "Card Only",
+        "emails": "card.only@example.com",
+        "reference_code": "CAREBW",
+        "uuid": "9919ae2a-335f-461e-8dcf-5586faba1b87"
+      },
+      "Finance No Transfer of Submit Right": {
+        "full_name": "Finance No Transfer Or Submit",
+        "emails": "finance.transfer.no.transfer.or.submit@example.com",
+        "reference_code": "FNTPLC",
+        "uuid": "9919ae24-7d8a-4e7e-9d7a-dee50e4b5e07"
+      },
+      "BR Director": {
+        "full_name": "Madyson Rath",
+        "emails": "audreyrunolfsson_1440992@example.com",
+        "reference_code": "MADRAT",
+        "uuid": "9919ae2e-1629-4aaa-a1ff-e22bfc9c8ad3"
+      },
+      "Existing Person": "null",
+      "Non-existent person": "null"
+    }
+  }
+]

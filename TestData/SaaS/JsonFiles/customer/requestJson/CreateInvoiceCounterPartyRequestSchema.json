@@ -1,0 +1,8 @@
+{
+  "source_type": "business",
+  "source_uuid": "{$sourceUuid}",
+  "type": "{$counterPartyType}",
+  "name": "{$counterPartyName}",
+  "contact_person_name": null,
+  "email": "{$counterPartyEmail}"
+}

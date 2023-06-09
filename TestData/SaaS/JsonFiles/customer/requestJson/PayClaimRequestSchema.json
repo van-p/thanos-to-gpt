@@ -1,0 +1,21 @@
+{
+  "recipient_bank_code": "{$recipientBankCode}",
+  "recipient_account_number": "{$recipientAccountNumber}",
+  "recipient_account_name": "{$recipientAccountName}",
+  "amount": {$sourceAmount},
+  "category_name": "{$categoryName}",
+  "category_icon": null,
+  "description": "Claim no. {$claimNumber}",
+  "miscellaneous": {
+    "internal_notes": "{$internalNotes}"
+  },
+  "next_payment_date": "{$nextPaymentDate}",
+  "frequency": "day",
+  "is_send_notification": false,
+  "email": null,
+  "phone": "",
+  "wants_referral": false,
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "ignore_duplicates": false,
+  "claim_uuid": "{$claimUuid}"
+}

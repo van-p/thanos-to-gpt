@@ -1,0 +1,6 @@
+{
+  "otp_channel_uuid": "{$otpChannelUuid}",
+  "_fields": [
+    "uuid"
+  ]
+}

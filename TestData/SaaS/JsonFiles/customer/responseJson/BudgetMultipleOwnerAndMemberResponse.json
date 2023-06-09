@@ -1,0 +1,128 @@
+[
+  {
+    "uuid": "9896a3e0-693f-4d89-a776-0349d3600b0e",
+    "state_code": "PEVE",
+    "reference_code": "JANHEE",
+    "full_name": "Janelle Heller",
+    "name": "Janelle Heller",
+    "nric": "024DA9AA-B89D-3F60-A161-2FE357E156FD",
+    "npwp": "2f10ba66-8673-3abe-a3dd-f9728a57be41",
+    "date_of_birth": "1975-07-03",
+    "gender": "Female",
+    "education": "Diploma",
+    "mother_name": "Miss Margaret Lakin DVM",
+    "available_roles": [
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "9896a3e0-693f-4d89-a776-0349d3600b0e"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-03-08 19:04:09",
+    "budget_person_updated_at": "2023-03-08 19:04:09",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": false,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  },
+  {
+    "uuid": "9896a57d-12ef-426c-8fe6-53ae930a7297",
+    "state_code": "PEVE",
+    "reference_code": "ASHCAS",
+    "salutation": "Prof.",
+    "full_name": "Ashleigh Casper",
+    "name": "Ashleigh Casper",
+    "nric": "1C21C8C4-ECAB-35DC-BDA0-E6E43CDCDD74",
+    "date_of_birth": "1976-02-13",
+    "gender": "Male",
+    "education": "Primary School",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "owner",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "9896a3e0-693f-4d89-a776-0349d3600b0e"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-03-08 19:04:11",
+    "budget_person_updated_at": "2023-03-08 19:04:11",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  },
+  {
+    "uuid": "9896a57d-12ef-426c-8fe6-53ae930a7297",
+    "state_code": "PEVE",
+    "reference_code": "ASHCAS",
+    "salutation": "Prof.",
+    "full_name": "Ashleigh Casper",
+    "name": "Ashleigh Casper",
+    "nric": "1C21C8C4-ECAB-35DC-BDA0-E6E43CDCDD74",
+    "date_of_birth": "1976-02-13",
+    "gender": "Male",
+    "education": "Primary School",
+    "available_roles": [
+      "customers.finance.transfer-only",
+      "customers.finance.submit-only",
+      "customers.finance.no-transfer-or-submit-right",
+      "customers.card-only",
+      "customers.director"
+    ],
+    "has_active_card_for_current_business": true,
+    "eligible_for_free_physical_card": true,
+    "additional_roles": [],
+    "budget_person_state": {
+      "reference_code": "BPAC",
+      "state": "accepted"
+    },
+    "budget_person_type": "member",
+    "budget_person_can_transfer": true,
+    "budget_inviter": {
+      "uuid": "9896a3e0-693f-4d89-a776-0349d3600b0e"
+    },
+    "budget_cards_count": 0,
+    "budget_person_accepted_at": "2023-03-08 19:04:11",
+    "budget_person_updated_at": "2023-03-08 19:04:11",
+    "is_current_approval_policy_approver": false,
+    "is_approval_policy_approver": false,
+    "authorizations": {
+      "revoke": true,
+      "create_debit_card": true,
+      "create_physical_debit_card": true,
+      "update_budget_access": true,
+      "revoke_budget_access": true
+    }
+  }
+]

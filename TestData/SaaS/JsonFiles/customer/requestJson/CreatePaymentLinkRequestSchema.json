@@ -1,0 +1,32 @@
+{
+  "counterparty_uuid": "{$counterpartyUuid}",
+  "payable_amount": "{$amount}",
+  "description": "{$description}",
+  "currency_code": "SGD",
+  "due_date": null,
+  "expiry_date": "{$paymentLinkExpiryDate}",
+  "source_uuid": "{$businessUuid}",
+  "source_type": "business",
+  "payment_method_uuids": [
+    "95c27961-4a6b-4227-b7eb-0cdc508a0465",
+    "95c27961-4a6e-4bd0-b61b-7f97dc8398ff"
+  ],
+  "_fields": [
+    "uuid",
+    "currency_code",
+    "state_code",
+    "counterparty.name",
+    "status",
+    "payable_amount",
+    "number",
+    "created_person.full_name",
+    "due_date",
+    "created_at",
+    "internal_notes",
+    "description",
+    "counterparty.email",
+    "payment_link",
+    "currency.code",
+    "currency.decimals"
+  ]
+}

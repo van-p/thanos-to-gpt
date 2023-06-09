@@ -1,0 +1,633 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "uuid": "9896a3e0-693f-4d89-a776-0349d3600b0e",
+      "reference_code": "JANHEE",
+      "full_name": "Janelle Heller",
+      "nric": "024DA9AA-B89D-3F60-A161-2FE357E156FD",
+      "npwp": "2f10ba66-8673-3abe-a3dd-f9728a57be41",
+      "date_of_birth": "1975-07-03",
+      "gender": "Female",
+      "education": "Diploma",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "9896a3e0-a6e0-44d1-b409-1518d5398e72",
+          "email": "andersontorp_1325287@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "9896a3e0-a6e0-44d1-b409-1518d5398e72",
+        "email": "andersontorp_1325287@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "9896a3e0-a8f2-4200-995f-79c9468fdbb0",
+          "phone": "+6563284840",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "9896a3e0-a8f2-4200-995f-79c9468fdbb0",
+        "phone": "+6563284840",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "addresses": [
+        {
+          "uuid": "9896a3e0-ab32-495f-9901-5d9e40c6cf0c",
+          "country": {
+            "id": 198,
+            "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+            "continent": "Asia",
+            "code": "SG",
+            "alpha3_code": "SGP",
+            "name": "Singapore",
+            "dial_code": "+65",
+            "currency_code": "SGD",
+            "default_application_id": 3,
+            "is_active": true,
+            "mca_enabled": true,
+            "mca_transfer_enabled": false,
+            "mca_usd_country_tier_id": 4,
+            "created_at": "2021-09-20T00:30:01.000000Z",
+            "updated_at": "2021-09-20T00:30:01.000000Z"
+          },
+          "administrative_area": "Laborum",
+          "locality": "Sint",
+          "sub_locality": "Sit",
+          "address": "992 Considine Harbor\nSouth Alvaburgh, Or 58959",
+          "address_2": "",
+          "address_3": "",
+          "address_4": "",
+          "address_5": "",
+          "postcode": "35510-8247",
+          "is_primary": true,
+          "is_expired": false
+        }
+      ],
+      "primary_address": {
+        "uuid": "9896a3e0-ab32-495f-9901-5d9e40c6cf0c",
+        "country": {
+          "id": 198,
+          "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+          "continent": "Asia",
+          "code": "SG",
+          "alpha3_code": "SGP",
+          "name": "Singapore",
+          "dial_code": "+65",
+          "currency_code": "SGD",
+          "default_application_id": 3,
+          "is_active": true,
+          "mca_enabled": true,
+          "mca_transfer_enabled": false,
+          "mca_usd_country_tier_id": 4,
+          "created_at": "2021-09-20T00:30:01.000000Z",
+          "updated_at": "2021-09-20T00:30:01.000000Z"
+        },
+        "administrative_area": "Laborum",
+        "locality": "Sint",
+        "sub_locality": "Sit",
+        "address": "992 Considine Harbor\nSouth Alvaburgh, Or 58959",
+        "address_2": "",
+        "address_3": "",
+        "address_4": "",
+        "address_5": "",
+        "postcode": "35510-8247",
+        "is_primary": true,
+        "is_expired": false
+      },
+      "role": "Director",
+      "role_slug": "customers.director",
+      "registration_role": "Director",
+      "mother_name": "Miss Margaret Lakin DVM",
+      "authorizations": {
+        "create_debit_card": true
+      }
+    },
+    {
+      "uuid": "9896a57d-12ef-426c-8fe6-53ae930a7297",
+      "reference_code": "ASHCAS",
+      "salutation": "Prof.",
+      "full_name": "Ashleigh Casper",
+      "nric": "1C21C8C4-ECAB-35DC-BDA0-E6E43CDCDD74",
+      "date_of_birth": "1976-02-13",
+      "gender": "Male",
+      "education": "Primary School",
+      "nationality": "VN",
+      "emails": [
+        {
+          "uuid": "9896ea80-0de7-4827-ab45-31e9633eb8ad",
+          "email": "ashleigh.casper@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "9896ea80-0de7-4827-ab45-31e9633eb8ad",
+        "email": "ashleigh.casper@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "9896ea9c-e004-490e-bd68-103ca1200b1a",
+          "phone": "+6597823411",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "9896ea9c-e004-490e-bd68-103ca1200b1a",
+        "phone": "+6597823411",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "addresses": [
+        {
+          "uuid": "9896ea36-97eb-4b24-b04c-879ec56d4cd2",
+          "country": {
+            "id": 198,
+            "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+            "continent": "Asia",
+            "code": "SG",
+            "alpha3_code": "SGP",
+            "name": "Singapore",
+            "dial_code": "+65",
+            "currency_code": "SGD",
+            "default_application_id": 3,
+            "is_active": true,
+            "mca_enabled": true,
+            "mca_transfer_enabled": false,
+            "mca_usd_country_tier_id": 4,
+            "created_at": "2021-09-20T00:30:01.000000Z",
+            "updated_at": "2021-09-20T00:30:01.000000Z"
+          },
+          "administrative_area": "Singapore",
+          "locality": "Singapore",
+          "sub_locality": "Singapore",
+          "address": "1234 Main Street",
+          "address_2": "",
+          "address_3": "",
+          "address_4": "",
+          "address_5": "",
+          "postcode": "789231",
+          "is_primary": true,
+          "is_expired": false
+        }
+      ],
+      "primary_address": {
+        "uuid": "9896ea36-97eb-4b24-b04c-879ec56d4cd2",
+        "country": {
+          "id": 198,
+          "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+          "continent": "Asia",
+          "code": "SG",
+          "alpha3_code": "SGP",
+          "name": "Singapore",
+          "dial_code": "+65",
+          "currency_code": "SGD",
+          "default_application_id": 3,
+          "is_active": true,
+          "mca_enabled": true,
+          "mca_transfer_enabled": false,
+          "mca_usd_country_tier_id": 4,
+          "created_at": "2021-09-20T00:30:01.000000Z",
+          "updated_at": "2021-09-20T00:30:01.000000Z"
+        },
+        "administrative_area": "Singapore",
+        "locality": "Singapore",
+        "sub_locality": "Singapore",
+        "address": "1234 Main Street",
+        "address_2": "",
+        "address_3": "",
+        "address_4": "",
+        "address_5": "",
+        "postcode": "789231",
+        "is_primary": true,
+        "is_expired": false
+      },
+      "role": "Finance transfer only",
+      "role_slug": "customers.finance.transfer-only",
+      "registration_role": "Non Director",
+      "authorizations": {
+        "create_debit_card": true
+      }
+    },
+    {
+      "uuid": "9896a50b-5fca-4c2f-99b3-4f4f096e3238",
+      "reference_code": "EADZEM",
+      "full_name": "Eladio Zemlak",
+      "nric": "1933825034",
+      "date_of_birth": "1988-12-19",
+      "gender": "Female",
+      "education": "High School",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "9896a50b-94d5-451d-9d99-5f67acad393a",
+          "email": "damiankuvalis_5343389@example.org",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "9896a50b-94d5-451d-9d99-5f67acad393a",
+        "email": "damiankuvalis_5343389@example.org",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "9896a510-23cd-4af2-bfed-5203395c8254",
+          "phone": "+659338255380",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "9896a510-23cd-4af2-bfed-5203395c8254",
+        "phone": "+659338255380",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "addresses": [
+        {
+          "uuid": "9896a510-3037-499d-9512-2a425ac42f8c",
+          "country": {
+            "id": 198,
+            "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+            "continent": "Asia",
+            "code": "SG",
+            "alpha3_code": "SGP",
+            "name": "Singapore",
+            "dial_code": "+65",
+            "currency_code": "SGD",
+            "default_application_id": 3,
+            "is_active": true,
+            "mca_enabled": true,
+            "mca_transfer_enabled": false,
+            "mca_usd_country_tier_id": 4,
+            "created_at": "2021-09-20T00:30:01.000000Z",
+            "updated_at": "2021-09-20T00:30:01.000000Z"
+          },
+          "administrative_area": "ab",
+          "locality": "Rerum",
+          "sub_locality": "In",
+          "address": "1309 Beatrice Corners\nSouth Mariane, Vt 92545",
+          "address_2": "",
+          "address_3": "",
+          "address_4": "",
+          "address_5": "",
+          "postcode": "02658",
+          "is_primary": true,
+          "is_expired": false
+        }
+      ],
+      "primary_address": {
+        "uuid": "9896a510-3037-499d-9512-2a425ac42f8c",
+        "country": {
+          "id": 198,
+          "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+          "continent": "Asia",
+          "code": "SG",
+          "alpha3_code": "SGP",
+          "name": "Singapore",
+          "dial_code": "+65",
+          "currency_code": "SGD",
+          "default_application_id": 3,
+          "is_active": true,
+          "mca_enabled": true,
+          "mca_transfer_enabled": false,
+          "mca_usd_country_tier_id": 4,
+          "created_at": "2021-09-20T00:30:01.000000Z",
+          "updated_at": "2021-09-20T00:30:01.000000Z"
+        },
+        "administrative_area": "ab",
+        "locality": "Rerum",
+        "sub_locality": "In",
+        "address": "1309 Beatrice Corners\nSouth Mariane, Vt 92545",
+        "address_2": "",
+        "address_3": "",
+        "address_4": "",
+        "address_5": "",
+        "postcode": "02658",
+        "is_primary": true,
+        "is_expired": false
+      },
+      "role": "Finance no transfer or submit rights",
+      "role_slug": "customers.finance.no-transfer-or-submit-right",
+      "registration_role": "Non Director",
+      "authorizations": {
+        "create_debit_card": true
+      }
+    },
+    {
+      "uuid": "98969c07-6ac9-4cc9-ba0a-cf3e596a2e02",
+      "reference_code": "KAMMER",
+      "salutation": "Miss",
+      "full_name": "Kameron Miller",
+      "nric": "AAE16F60-4035-365F-BAFF-08B32F4CA9C3",
+      "date_of_birth": "1980-10-20",
+      "gender": "Male",
+      "education": "Primary School",
+      "nationality": "VN",
+      "emails": [
+        {
+          "uuid": "9896ee6b-bbed-4ad4-b36e-2d377829be15",
+          "email": "kameron.miller@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "9896ee6b-bbed-4ad4-b36e-2d377829be15",
+        "email": "kameron.miller@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "9896ee49-3ad8-4a26-b30f-88ff9aed5be1",
+          "phone": "+6507732314",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "9896ee49-3ad8-4a26-b30f-88ff9aed5be1",
+        "phone": "+6507732314",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "addresses": [
+        {
+          "uuid": "9896ee21-1eed-41e3-b9e8-d3fd8a6306ac",
+          "country": {
+            "id": 198,
+            "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+            "continent": "Asia",
+            "code": "SG",
+            "alpha3_code": "SGP",
+            "name": "Singapore",
+            "dial_code": "+65",
+            "currency_code": "SGD",
+            "default_application_id": 3,
+            "is_active": true,
+            "mca_enabled": true,
+            "mca_transfer_enabled": false,
+            "mca_usd_country_tier_id": 4,
+            "created_at": "2021-09-20T00:30:01.000000Z",
+            "updated_at": "2021-09-20T00:30:01.000000Z"
+          },
+          "administrative_area": "Singapore",
+          "locality": "Singapore",
+          "sub_locality": "Singapore",
+          "address": "1234 Main Street",
+          "address_2": "",
+          "address_3": "",
+          "address_4": "",
+          "address_5": "",
+          "postcode": "890721",
+          "is_primary": true,
+          "is_expired": false
+        }
+      ],
+      "primary_address": {
+        "uuid": "9896ee21-1eed-41e3-b9e8-d3fd8a6306ac",
+        "country": {
+          "id": 198,
+          "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+          "continent": "Asia",
+          "code": "SG",
+          "alpha3_code": "SGP",
+          "name": "Singapore",
+          "dial_code": "+65",
+          "currency_code": "SGD",
+          "default_application_id": 3,
+          "is_active": true,
+          "mca_enabled": true,
+          "mca_transfer_enabled": false,
+          "mca_usd_country_tier_id": 4,
+          "created_at": "2021-09-20T00:30:01.000000Z",
+          "updated_at": "2021-09-20T00:30:01.000000Z"
+        },
+        "administrative_area": "Singapore",
+        "locality": "Singapore",
+        "sub_locality": "Singapore",
+        "address": "1234 Main Street",
+        "address_2": "",
+        "address_3": "",
+        "address_4": "",
+        "address_5": "",
+        "postcode": "890721",
+        "is_primary": true,
+        "is_expired": false
+      },
+      "role": "Employee",
+      "role_slug": "customers.card-only",
+      "registration_role": "Non Director",
+      "authorizations": {
+        "create_debit_card": true
+      }
+    },
+    {
+      "uuid": "9896a58d-a071-48a3-8b11-add56c2f5f39",
+      "reference_code": "MNCGER",
+      "salutation": "Mr.",
+      "full_name": "Monica Gerlach",
+      "nric": "24DE08BC-5EC5-393E-AFF3-C808753E7CD3",
+      "date_of_birth": "1977-06-02",
+      "gender": "Female",
+      "education": "Middle School",
+      "nationality": "SG",
+      "emails": [
+        {
+          "uuid": "9896ebf7-fb7a-4300-ac00-4569f8d8713b",
+          "email": "monica.gerlach@example.com",
+          "state": "EMVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_email": {
+        "uuid": "9896ebf7-fb7a-4300-ac00-4569f8d8713b",
+        "email": "monica.gerlach@example.com",
+        "state": "EMVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "phones": [
+        {
+          "uuid": "9896ec5f-1c67-4619-ab93-81e423169ee0",
+          "phone": "+6582308745",
+          "state": "PHVE",
+          "is_primary": true,
+          "authorizations": {
+            "update": false
+          }
+        }
+      ],
+      "primary_phone": {
+        "uuid": "9896ec5f-1c67-4619-ab93-81e423169ee0",
+        "phone": "+6582308745",
+        "state": "PHVE",
+        "is_primary": true,
+        "authorizations": {
+          "update": false
+        }
+      },
+      "addresses": [
+        {
+          "uuid": "9896ec1e-0ac8-4c24-8bbd-70af673a5921",
+          "country": {
+            "id": 198,
+            "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+            "continent": "Asia",
+            "code": "SG",
+            "alpha3_code": "SGP",
+            "name": "Singapore",
+            "dial_code": "+65",
+            "currency_code": "SGD",
+            "default_application_id": 3,
+            "is_active": true,
+            "mca_enabled": true,
+            "mca_transfer_enabled": false,
+            "mca_usd_country_tier_id": 4,
+            "created_at": "2021-09-20T00:30:01.000000Z",
+            "updated_at": "2021-09-20T00:30:01.000000Z"
+          },
+          "administrative_area": "Singapore",
+          "locality": "Singapore",
+          "sub_locality": "Singapore",
+          "address": "1234 Main Street",
+          "address_2": "",
+          "address_3": "",
+          "address_4": "",
+          "address_5": "",
+          "postcode": "980823",
+          "is_primary": true,
+          "is_expired": false
+        }
+      ],
+      "primary_address": {
+        "uuid": "9896ec1e-0ac8-4c24-8bbd-70af673a5921",
+        "country": {
+          "id": 198,
+          "uuid": "9470e8a1-b676-45a1-8ca4-b233213e0160",
+          "continent": "Asia",
+          "code": "SG",
+          "alpha3_code": "SGP",
+          "name": "Singapore",
+          "dial_code": "+65",
+          "currency_code": "SGD",
+          "default_application_id": 3,
+          "is_active": true,
+          "mca_enabled": true,
+          "mca_transfer_enabled": false,
+          "mca_usd_country_tier_id": 4,
+          "created_at": "2021-09-20T00:30:01.000000Z",
+          "updated_at": "2021-09-20T00:30:01.000000Z"
+        },
+        "administrative_area": "Singapore",
+        "locality": "Singapore",
+        "sub_locality": "Singapore",
+        "address": "1234 Main Street",
+        "address_2": "",
+        "address_3": "",
+        "address_4": "",
+        "address_5": "",
+        "postcode": "980823",
+        "is_primary": true,
+        "is_expired": false
+      },
+      "role": "Finance submit only",
+      "role_slug": "customers.finance.submit-only",
+      "registration_role": "Non Director",
+      "authorizations": {
+        "create_debit_card": true
+      }
+    }
+  ],
+  "first_page_url": "https://example.com/v1/people/9896a3e1-75ad-428c-abb8-7e0c46707f15?page\u003d1",
+  "from": 1,
+  "last_page": 1,
+  "last_page_url": "https://example.com/v1/people/9896a3e1-75ad-428c-abb8-7e0c46707f15?page\u003d1",
+  "links": [
+    {
+      "label": "\u0026laquo; Previous",
+      "active": false
+    },
+    {
+      "url": "https://example.com/v1/people/9896a3e1-75ad-428c-abb8-7e0c46707f15?page\u003d1",
+      "label": "1",
+      "active": true
+    },
+    {
+      "label": "Next \u0026raquo;",
+      "active": false
+    }
+  ],
+  "path": "https://example.com/v1/people/9896a3e1-75ad-428c-abb8-7e0c46707f15",
+  "per_page": 10,
+  "to": 5,
+  "total": 5
+}

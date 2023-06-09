@@ -1,0 +1,13 @@
+{
+  "budget_uuid": "{$budgetUuid}",
+  "person_uuid": "{$personUuid}",
+  "debit_account_uuid": "{$debitAccountUuid}",
+  "maximum_amount": {$cardAmount},
+  "spend_limit_frequency": "{$cardFrequency}",
+  "category_name": "{$cardCategory}",
+  "card_color": "{$cardColor}",
+  "expects_receipt": false,
+  "card_type": "GPR_VIR",
+  "card_name": "{$cardName}",
+  "description": "{$cardDescription}"
+}

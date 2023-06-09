@@ -1,0 +1,23 @@
+{
+  "invoice_uuid": "{$invoiceUuid}",
+  "uuid": null,
+  "amount": "{$invoiceItemAmount}",
+  "description": "{$invoiceItemDescription}",
+  "discount_type": "{$invoiceItemDiscountType}",
+  "unit_cost": "{$invoiceItemUnitCost}",
+  "quantity": "{$invoiceItemQuantity}",
+  "discount_percentage": {$invoiceItemDiscountPercentage},
+  "tax_rate": "{$invoiceItemTaxRate}",
+  "tax_name": "{$invoiceItemTaxName}",
+  "_fields": [
+    "invoice.subtotal",
+    "invoice.total_amount",
+    "invoice.number",
+    "invoice.invoice_items_count",
+    "invoice.discount",
+    "currency.decimals",
+    "invoice.tax",
+    "amount",
+    "uuid"
+  ]
+}
